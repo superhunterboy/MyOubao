@@ -1,0 +1,20 @@
+<?php
+return array (
+  'available' => '可用余额',
+  'balance' => '余额',
+  'created_at' => '创建时间',
+  'deposit_amount' => '充值金额',
+  'figure' => '小写',
+  'frozen' => '冻结金额',
+  'fund' => '资金',
+  'id' => 'ID',
+  'locked' => '锁定',
+  'missing-account' => '账户不存在',
+  'status' => '状态',
+  'transaction_type' => '充值类型',
+  'updated_at' => '更新时间',
+  'username' => '用户',
+  'user_id' => '用户ID',
+  'withdrawable' => '可提现余额',
+  'withdrawal_amount' => '提现金额',
+);

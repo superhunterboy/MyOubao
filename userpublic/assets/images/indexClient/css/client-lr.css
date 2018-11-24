@@ -1,0 +1,402 @@
+html {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    color: #070707;
+    font-family: "Helvetica Neue","Hiragino Sans GB","Microsoft Yahei",sans-serif,arial; }
+
+body {
+    background: white;
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    color: #070707;
+    font-family: "Helvetica Neue","Hiragino Sans GB","Microsoft Yahei",sans-serif,arial;
+    margin: 0;
+    padding: 0; }
+
+ul, h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0; }
+
+h1, h2, h3, h4, h5 {
+    font-weight: normal;
+    font-size: 14px; }
+
+input {
+    border: none;
+    outline: none;
+    border: 0; }
+
+i {
+    /*display: block;*/
+    /*float: left;*/
+}
+
+ul {
+    list-style: none; }
+
+.focus-img {
+    width: 710px;
+    height: 310px; }
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #4e4e4e; }
+
+input, span, a {
+    outline: none; }
+.reg {
+    width: 100%;
+    /* border-bottom: 1px solid #dcdcdc; */
+    background: white;
+    /* margin-bottom: 32px; */
+    overflow: hidden;
+}
+.reg .a {
+    /*width: 920px;*/
+    /*!*display: none;*!*/
+    /*height: 314px;*/
+    /*margin: 115px auto 212px auto; */
+    height: 392px;
+    width: 920px;
+    /* display: none; */
+    /* height: auto; */
+    overflow: hidden;
+    margin: 50px auto 20px auto;
+}
+.reg .a .l {
+    width: 384px;
+    height: 314px;
+    float: left;
+    background: url(../icon/reg-in.png);
+
+}
+
+.reg .a .r {
+    position: relative;
+    width: 420px;
+    height: 314px;
+    float:right;
+
+}
+.reg .a .r li span, .reg .a .r li h5, .reg .a .r li i {
+    float: left; }
+.reg .a .r .r2 {
+    margin-bottom: 30px;
+    line-height: 48px; }
+
+.reg .a .r .r2-1 {
+    top: 140px;
+}
+.reg .a .r .r3-1 {
+    top: 217px;
+}
+.reg .a .r .r2-1,.reg .a .r .r3-1{
+    height: 30px;
+    position: absolute;
+    width: 290px;
+
+    text-indent: 79px;
+    line-height: 30px;
+}
+
+
+.reg .a .r .r3 {
+    line-height: 48px; }
+.reg .a .r .vcode {
+    margin-top: 30px;
+    overflow: hidden;
+    line-height: 48px; }
+.reg .a .r .vcode input {
+    padding: 0 25px;
+    height: 45px;
+    border: 1px solid #c0c0c0;
+    width: 165px;
+    float: left;
+
+ }
+.reg .a .r .vcode .vcode-img {
+    float: right;
+}
+
+
+
+.reg .a .r .r2 span, .reg .a .r .r3 span, .reg .a .r .vcode span {
+    color: #fa6d29;
+    font-size: 18px; }
+.reg .a .r .r2 h5, .reg .a .r .r3 h5, .reg .a .r .vcode h5 {
+    width: 72px;
+    font-size: 18px; }
+.reg .a .r .r2 input, .reg .a .r .r3 input {
+    padding: 0 25px;
+    height: 45px;
+    border: 1px solid #c0c0c0;
+    width: 286px; }
+.reg .a .r .r1 {
+    color: #070707;
+    height: 29px;
+    padding-left: 80px;
+    line-height: 29px;
+    font-size: 23px;
+    margin-bottom: 62px; }
+.reg .a .r .r4 {
+    width: 100%;
+    overflow: hidden;
+
+
+ }
+.reg .a .r .r4 .s1 {
+    display: block;
+    margin: 14px 0;
+    color: red;
+    /* float: right; */
+    /* font-size: 12px; */
+    width: 288px;
+    text-indent: 80px;
+    height: 21px;
+    float: left; }
+.reg .a .r .r4 .s2 {
+    margin: 14px 0;
+    color: #bebebe;
+    float: right; }
+.reg .a .r .r4 .s2 a {
+    color: #ff6823; }
+.reg .a .r .r5 input {
+    text-align: center;
+    line-height: 49px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    width: 338px;
+    height: 48px;
+    margin-left: 80px;
+    color: white;
+    background: url(../icon/reg/s4.png) no-repeat;
+    display: block; }
+.reg .a .r .r5 input:hover{
+    background: url(../icon/reg/s4-hover.png) -4px -3px no-repeat;
+}
+
+.reg .b {
+    width: 290px;
+    /*display: none;*/
+    height: 330px;
+    margin: 141px auto 174px auto;
+    position: relative; }
+.reg .b i {
+    width: 248px;
+    height: 127px;
+    background: url(../icon/suc-ico.png) no-repeat;
+    margin-left: 15px; }
+.reg .b .text {
+    color: #fa752c;
+    position: absolute;
+    top: 145px; }
+.reg .b .text h4 {
+    font-size: 35px; }
+.reg .b .text h5 {
+    color: #070707;
+    font-size: 14px;
+    text-align: center; }
+.reg .b input {
+    position: absolute;
+    width: 216px;
+    height: 43px;
+    left: 0;
+    cursor: pointer;
+    right: 0;
+    margin: auto;
+    bottom: 5px;
+    background: url(../icon/button3.png) no-repeat;
+    color: white; }
+.reg .c {
+    /*width: 920px;*/
+    /*!* height: 314px; *!*/
+    /*overflow: hidden;*/
+    /*margin: 115px auto 212px auto; */
+    width: 920px;
+    /* display: none; */
+    /* height: auto; */
+    overflow: hidden;
+    margin: 50px auto 20px auto;
+}
+.reg .c .l {
+    width: 415px;
+    height: 542px;
+    float: left;
+    background: url(../icon/0919.jpg);
+}
+.reg .c .l a{
+    display: inline-block;
+    width: 415px;
+    background: black;
+    opacity: 0;
+    line-height: 192px;
+    text-align: center;
+    font-size: 17px;
+    text-decoration: underline;
+    color: white;
+}
+.reg .c .l .l-1{
+    height: 180px;
+
+
+}
+.reg .c .l a:hover{
+    opacity: 0.7;
+    transition: opacity .5s;
+    -moz-transition: opacity .5s; /* Firefox 4 */
+    -webkit-transition: opacity .5s; /* Safari 和 Chrome */
+    -o-transition: opacity .5s; /* Opera */
+}
+.reg .c .l .l-2{
+    height: 178px;
+    margin-top: 2px;
+}
+.reg .c .l .l-3{
+    height: 181px;
+    margin-top: 1px;
+}
+
+.reg .c .r {
+    float: right;
+    position: relative;
+    width: 420px;
+    margin-top: 66px; }
+.reg .c .r .username-notice,.reg .c .r .password-notice,.reg .c .r .sj-notice{
+    width: 100%;
+    height: 30px;
+    /*background: red;*/
+    position: absolute;
+    text-indent: 79px;
+    line-height: 30px;
+    color:#ff6823;
+}
+.reg .c .r .username-notice{
+    top:140px;
+}
+.reg .c .r .password-notice{
+    top:217px;
+}
+.reg .c .r .sj-notice{
+    top:295px;
+}
+
+.reg .c .r li span, .reg .c .r li h5, .reg .c .r li i {
+    float: left; }
+.reg .c .r .r2, .reg .c .r .r3 {
+    margin-bottom: 30px; }
+.reg .c .r .r2, .reg .c .r .r3, .reg .c .r .sj {
+    line-height: 48px; }
+.reg .c .r .r2 span, .reg .c .r .r3 span, .reg .c .r .sj span, .reg .c .r .vcode span {
+    color: #fa6d29;
+    font-size: 18px; }
+.reg .c .r .r2 h5, .reg .c .r .r3 h5, .reg .c .r .sj h5, .reg .c .r .vcode h5 {
+    width: 72px;
+    font-size: 18px;
+    text-align: right; }
+.reg .c .r .r2 input, .reg .c .r .r3 input, .reg .c .r .sj input {
+    padding: 0 25px;
+    height: 45px;
+    border: 1px solid #c0c0c0;
+    width: 286px; }
+.reg .c .r .r1 {
+    color: #070707;
+    height: 29px;
+    padding-left: 80px;
+    line-height: 29px;
+    font-size: 23px;
+    margin-bottom: 62px; }
+.reg .c .r .r4 {
+    height: 20px;
+    width: 100%; }
+.reg .c .r .r4 .s1 {
+
+    float: left; }
+.reg .c .r .r4 .s2 {
+    margin: 14px 0;
+    color: #bebebe;
+    float: right; }
+.reg .c .r .r4 .s2 a {
+    color: #ff6823; }
+.reg .c .r .vcode {
+    margin-top: 30px;
+    overflow: hidden;
+    line-height: 48px; }
+.reg .c .r .vcode input {
+    padding: 0 25px;
+    height: 45px;
+    border: 1px solid #c0c0c0;
+    width: 165px;
+    float: left;
+
+}
+.reg .c .r .vcode .vcode-img {
+    float: right;
+}
+.reg .c .r .r5 input {
+    text-align: center;
+    line-height: 49px;
+    font-size: 16px;
+    width: 338px;
+    height: 48px;
+    margin-left: 80px;
+    color: white;
+    background: url(../icon/reg/s4.png);
+    display: block; }
+.reg .c .r .vcode-notice{
+    width: 100%;
+    display: block;
+    position: absolute;
+    height: 30px;
+    text-indent: 82px;
+    line-height: 30px;
+    color: #ff6842;
+}
+
+
+.reg .c .r .r5-notice {
+    text-indent: 81px;
+    color: #ff6823;
+    position: absolute;
+}
+
+.reg .c .r .login-r5{
+    margin-top: 31px;
+    padding-left: 80px;
+    /* margin: 31px 0 -1px 0; */
+    overflow: hidden;
+}
+
+.reg .c .r .login-r5 a{
+    color:#ff6823;
+}
+.reg .c .r .login-r5 input {
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin: 2px;
+}
+.reg .c .r .r6{
+    margin-top: 20px;
+}
+
+.reg .c .r .r6 input{
+    text-align: center;
+    line-height: 49px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    width: 338px;
+    height: 48px;
+    margin-left: 80px;
+    color: white;
+    background: url(../icon/reg/s4.png);
+    display: block;
+}
+
+.reg .c .r .r6 input:hover{
+    background: url(../icon/reg/s4-hover.png) -4px -3px no-repeat;
+}

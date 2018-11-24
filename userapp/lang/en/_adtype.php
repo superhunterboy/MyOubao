@@ -1,0 +1,1 @@
+../../../app/lang/en/_adtype.php

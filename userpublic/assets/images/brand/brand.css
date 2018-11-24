@@ -1,0 +1,129 @@
+/* S global-top */
+.global-top{height:66px;}
+/*.global-top .logo{background-image:url("logo.png");width:220px;height:60px;}*/
+.global-top .menu{float:right; font-weight:normal; }
+.global-top .menu li ,.global-top .chat{height:66px; line-height:66px; display: block; font-size:14px; text-align:center; }
+/*.global-top .menu li { background:url(bg-menu-list.png) right center no-repeat; width:91px; float:left;}*/
+.global-top .menu a,.global-top .menu a:link,.global-top .menu a:visited{ display:block;color:#fff; }
+.global-top .menu a:hover{ color:#c2bda1; }
+.global-top .menu .active a{background:url(bg-menu-a-hover.png) left center no-repeat;color:#c2bda1;}
+.global-top .chat{width:170px;height:40px;float:right;padding:12px 0 0 0;background:none;}
+/*.global-top .chat a {width:100%;height:100%;display:block;background:url(chart-ico.png) no-repeat 7px 0;text-indent:-10000px;}*/
+.global-top .chat a:hover{color:#d4cfb5;background-position:7px -40px;}
+
+
+
+
+.barnd-banner {height:361px;background:url(banner.jpg) no-repeat center 0;}
+
+.brand-content {height:2811px;background:url(content-bg.png) center 0;}
+.brand-content .g_33 {position:relative;}
+.brand-content .menu {width:212px;background:#F3F3F3;position:absolute;left:0;top:-45px;
+box-shadow: 3px 3px 3px #333;
+}
+.brand-content .menu .title {height:45px;background:url(menu-title-1.png) no-repeat;color:#28261d;font-size:21px;padding:0 0 0 65px;line-height:45px; font-family:Microsoft YaHei;}
+.brand-content .menu .ul-1 li a {display:block;height:48px;background:url(li-bg.png) no-repeat;font-size:14px;color:#FFF;line-height:48px;padding:0 0 0 65px;}
+.brand-content .menu .ul-1 li a:hover,.brand-content .menu .ul-1 li a.current {background-position:0 -48px;color:#e2dbbd;}
+.brand-content .menu .ul-2 li a {display:block;height:48px;background:#FFF url(li-sj.png) no-repeat 183px 17px;font-size:14px;color:#535353;line-height:48px;padding:0 0 0 65px;border-bottom:1px solid #D2D1CD;}
+.brand-content .menu .ul-2 li a:hover,.brand-content .menu .ul-2 li a.current {background-color:#EFEFEF;}
+
+.brand-content .introduce {padding:0 0 0 242px;font-family:Microsoft YaHei;}
+.brand-content .introduce .cont {padding:30px 0 0 0;}
+.brand-content .introduce .title {font-size:24px;color:#b9ac7e;height:42px;}
+.brand-content .introduce .text {font-size:14px;line-height:180%;color:#FFF;}
+.brand-content .introduce .text a {color:#9e9881; text-decoration:underline;}
+.brand-content .introduce .video {width:760px;height:430px;background:#4E4E4E;margin:50px 0 0 0;
+box-shadow: 10px 10px 10px #222227;
+}
+.brand-content .part {margin-top:50px;}
+.brand-content .part .title {height:200px;position:relative;}
+.brand-content .part .title .text {widht:578px;height:172px;background:url(title-1.png) no-repeat;}
+
+.brand-content .news .left {width:727px;height:481px;float:left;}
+.brand-content .news .left a {display:block;}
+.brand-content .news .right {width:253px;height:481px;overflow:hidden;float:right;background:#F5F5F5;}
+.brand-content .news .info {border-bottom:1px solid #DEDEDE;padding:0 0 5px 0;}
+.brand-content .news .info .logo {float:left;width:100px;padding:10px 0 0 10px;}
+.brand-content .news .info .text {float:right;width:130px;}
+.brand-content .news .info .text .first {height:42px;line-height:42px;font-size:24px;font-family:Microsoft YaHei;}
+.brand-content .news .text-long {padding:10px;}
+.brand-content .news .text-long .button {display:inline-block;padding:5px 10px;background:#B9B5A2;margin:10px 0 0 0;font-size:14px;color:#FFF;
+border-radius:2px;
+}
+.brand-content .news .text-long .button:hover {background:#A19C82;}
+
+
+.brand-content .part-2 .title .text {widht:431px;height:172px;background:url(title-2.png) no-repeat;}
+
+.brand-content .row-more {width:310px;height:34px;margin:50px auto;background:url(link-bg.png) no-repeat;line-height:34px;text-align:center;font-size:14px;color:#FFF;}
+
+.list-logo ul {padding:0 0 0 25px;}
+.list-logo li {width:125px;height:61px;float:left;background:#EEE;margin:0 10px 10px 0;}
+.list-logo li a {display:block;width:100%;height:100%;background:url(list-logo-1.png) no-repeat 0 0;}
+.list-logo-type-1 .list-logo-2 a {background-position:-125px 0;}
+.list-logo-type-1 .list-logo-3 a {background-position:-250px 0;}
+.list-logo-type-1 .list-logo-4 a {background-position:-375px 0;}
+.list-logo-type-1 .list-logo-5 a {background-position:-500px 0;}
+.list-logo-type-1 .list-logo-6 a {background-position:-625px 0;}
+.list-logo-type-1 .list-logo-7 a {background-position:-750px 0;}
+.list-logo-type-1 .list-logo-8 a {background-position:0 -61px;}
+.list-logo-type-1 .list-logo-9 a {background-position:-125px -61px;}
+.list-logo-type-1 .list-logo-10 a {background-position:-250px -61px;}
+.list-logo-type-1 .list-logo-11 a {background-position:-375px -61px;}
+.list-logo-type-1 .list-logo-12 a {background-position:-500px -61px;}
+.list-logo-type-1 .list-logo-13 a {background-position:-625px -61px;}
+.list-logo-type-1 .list-logo-14 a {background-position:-750px -61px;}
+
+.list-logo-type-2 li a {background-image:url(list-logo-2.png);}
+.list-logo-type-2 .list-logo-1 a {background-position:0 0;}
+.list-logo-type-2 .list-logo-2 a {background-position:-125px 0;}
+.list-logo-type-2 .list-logo-3 a {background-position:-250px 0;}
+.list-logo-type-2 .list-logo-4 a {background-position:-375px 0;}
+.list-logo-type-2 .list-logo-5 a {background-position:-500px 0;}
+.list-logo-type-2 .list-logo-6 a {background-position:-625px 0;}
+.list-logo-type-2 .list-logo-7 a {background-position:-750px 0;}
+.list-logo-type-2 .list-logo-8 a {background-position:0 -61px;}
+.list-logo-type-2 .list-logo-9 a {background-position:-125px -61px;}
+.list-logo-type-2 .list-logo-10 a {background-position:-250px -61px;}
+.list-logo-type-2 .list-logo-11 a {background-position:-375px -61px;}
+.list-logo-type-2 .list-logo-12 a {background-position:-500px -61px;}
+.list-logo-type-2 .list-logo-13 a {background-position:-625px -61px;}
+.list-logo-type-2 .list-logo-14 a {background-position:-750px -61px;}
+
+
+.brand-content-bottom {height:933px;background:url(content-bg-bottom.png) center 0;}
+.brand-content-bottom .text {width: 820px;padding: 245px 80px 0 80px;font-size: 14px;color: #FFF;text-indent:2em;}
+.brand-content-bottom .slider {height:514px;margin:60px;position:relative;overflow:visible;}
+.brand-content-bottom .slider .inner {width:856px;height:510px;overflow:hidden;background:#EEE;border:2px solid #4F4937;}
+.brand-content-bottom .slider .inner a {width:856px;height:510px;float:left;}
+.brand-content-bottom .slider .control {position:absolute;top:50%;margin-top:-33px;width:38px;height:65px;background:url(control-pre.png) no-repeat;cursor:pointer;}
+.brand-content-bottom .slider .control-pre {left:-60px;}
+.brand-content-bottom .slider .control-next {right:-60px;background-image:url(control-next.png);}
+
+
+
+
+/** 联系我们 **/
+.brand-content-contact {height:1000px;}
+.c-introduce {padding:0 0 0 242px;font-family:Microsoft YaHei;background:url(c-map.png) no-repeat 30px 460px;height:1000px;}
+.title-contact {font-size:24px;padding:30px 0 0 0;color:#b9ac7e;}
+.c-introduce .link {position:relative;height:290px;}
+.c-introduce .link-online {position:absolute;width:192px;height:174px;background:url(c-online.png) no-repeat;text-indent:-10000px;left:90px;top:60px;}
+.c-introduce .link-online:hover {background-position:0 -174px;}
+.c-introduce .link-email {position:absolute;width:150px;height:152px;background:url(c-email.png) no-repeat;text-indent:-10000px;left:470px;top:60px;}
+.c-introduce .link-email:hover {background-position:0 -152px;}
+
+
+
+/*footer*/
+/*.footer{ font-family:microsoft yahei; background:url(bg-foot.gif) center no-repeat; height:115px;}
+.footer .cell{ float:left; padding-top:20px; width:210px; font-size:14px;}
+.footer .cell-a{ padding-left:25px;}
+.footer .footer-cont{padding-top:20px; float:right; margin-right:40px; text-align:right;}
+
+.footer .footer-cont .foot-link{ color:#cacaca; height:20px; line-height:20px;}
+.footer .footer-cont .copy{height:30px; line-height:30px;}
+.footer .footer-cont .copy font{color:#b8af9b; font-size:12px;}
+.footer .footer-cont .foot-warning { color:#999;}*/
+
+

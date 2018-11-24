@@ -1,0 +1,152 @@
+
+
+(function(host, GameMethod, undefined){
+	var defConfig = {
+		name:'hezhi.wuxing.bsde'
+		
+	},
+	Games = host.Games,
+	SSC = Games.SSC.getInstance();
+	
+	
+	//定义方法
+	var pros = {
+		init:function(cfg){
+			var me = this;
+			
+		},
+		//时时彩复式结构为5行10列
+		//复位选球数据
+		rebuildData:function(){
+			var me = this;
+			me.balls = [
+						[-1,-1,-1,-1]
+						];
+		},
+		buildUI:function(){
+			var me = this;
+			me.container.html(html_all.join(''));
+		},
+		formatViewBalls:function(original){
+			var me = this,
+				result = [],
+				len = original.length,
+				i = 0,
+				tempArr = [],
+				names = ['大', '小', '单', '双'];
+			for (; i < len; i++) {
+				tempArr = [];
+				$.each(original[i], function(j){
+					tempArr[j] = names[Number(original[i][j] )];
+				});
+				result = result.concat(tempArr.join(''));
+			}
+			return result.join('|');
+		},
+		//data 该玩法的单注信息
+		editSubmitData:function(data){
+			var ball_num = {'0':'1','1':'0','2':'3','3':'2'},
+				numArr = data['ball'].split(''),
+				result = [];
+			$.each(numArr, function(){
+				ball_num['' + this] ? result.push(ball_num['' + this]) : result.push(this);
+			});
+			data['ball'] = result.join('');
+		},
+
+
+
+		miniTrend_createHeadHtml:function(){
+			var me = this,
+				html = [];
+			html.push('<table width="100%" class="bet-table-trend" id="J-minitrend-trendtable-'+ me.getId() +'">');
+				html.push('<thead><tr>');
+				html.push('<th><span class="number">奖期</span></th>');
+				html.push('<th><span class="balls">开奖</th>');
+				html.push('<th><span>和值</span></th>');
+				html.push('<th><span>形态</span></th>');
+				html.push('</tr></thead>');
+				html.push('<tbody>');
+			return html.join('');
+		},
+		miniTrend_createRowHtml:function(){
+			var me = this,
+				data = me.miniTrend_getBallsData(),
+				dataLen = data.length,
+				trcls = '',
+				currCls = 'curr',
+				item,
+				html = [],
+				xtText = '',
+				xtCn = [];
+
+			$.each(data, function(i){
+				item = this;
+				trcls = '';
+				trcls = i == 0 ? 'first' : trcls;
+				trcls = i == dataLen - 1 ? 'last' : trcls;
+				html.push('<tr class="'+ trcls +'">');
+					xtCn = [];
+					html.push('<td><span class="number">'+ item['number'].substr(2) +'</span></td>');
+					html.push('<td><span class="balls">');
+					$.each(item['balls'], function(j){
+						currCls = 'curr';
+						html.push('<i class='+ currCls +'>' + this + '</i>');
+					});
+					html.push('</span></td>');
+					xtText = item['balls'][0] + item['balls'][1] + item['balls'][2] + item['balls'][3] + item['balls'][4];
+					html.push('<td>'+ xtText +'</td>');
+					xtCn.push(xtText >= 23 ? '大' : '小');
+					xtCn.push(xtText%2 == 0 ? '双' : '单');
+					html.push('<td>'+ xtCn.join('') +'</td>');
+				html.push('</tr>');
+			});
+			return html.join('');
+		}
+
+
+
+
+		
+	};
+	
+
+	//html模板
+	var html_head = [];
+		//头部
+		html_head.push('<div class="number-select-title balls-type-title clearfix"><div class="number-select-link"><a href="#" class="pick-rule">选号规则</a><a href="#" class="win-info">中奖说明</a></div><div class="function-select-title"></div></div>');
+		html_head.push('<div class="number-select-content">');
+		html_head.push('<ul class="ball-section">');
+		//每行
+	var html_row = [];
+		html_row.push('<li style="background-image:none;">');
+		html_row.push('<div class="ball-title"><strong><#=title#></strong><span></span></div>');
+		html_row.push('<ul class="ball-content">');
+			$.each(['大','小','单','双'], function(i){
+				html_row.push('<li><a class="ball-number" style="font-size:16px;text-indent:-6px;" data-param="action=ball&value='+ i +'&row=<#=row#>" href="javascript:void(0);">'+ this +'</a></li>');
+			});
+		html_row.push('</ul>');
+		html_row.push('</li>');
+			
+	var html_bottom = [];
+		html_bottom.push('</ul>');
+		html_bottom.push('</div>');
+		//拼接所有
+	var html_all = [],rowStr = html_row.join('');
+		html_all.push(html_head.join(''));
+		$.each([''], function(i){
+			html_all.push(rowStr.replace(/<#=title#>/g, this).replace(/<#=row#>/g, i));
+		});
+		html_all.push(html_bottom.join(''));
+		
+		
+	
+	
+	//继承GameMethod
+	var Main = host.Class(pros, GameMethod);
+		Main.defConfig = defConfig;
+	//将实例挂在游戏管理器实例上
+	SSC.setLoadedHas(defConfig.name, new Main());
+	
+})(bomao, bomao.GameMethod);
+

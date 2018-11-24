@@ -1,0 +1,20 @@
+<?php
+return array (
+  'classic_prize' => '经典奖金',
+  'created_at' => '创建时间',
+  'group_id' => '组',
+  'id' => 'ID',
+  'is_agent' => '0: 普通用户, 1: 代理',
+  'less-than-exist-prize-group' => '不能设置低于之前的奖金组',
+  'lottery_id' => '游戏',
+  'more-than-parent-prize-group' => '不能设置高于你的奖金组',
+  'no-available-bound-prize-group' => '没有可用的配额奖金组',
+  'no-available-prize-group' => '没有可用的奖金组',
+  'not-your-user' => '不是你的下级用户',
+  'parent_id' => '上级',
+  'prize_group' => '奖金组',
+  'updated_at' => '更新时间',
+  'username' => '用户名',
+  'user_id' => '用户ID',
+  'valid' => '有效',
+);

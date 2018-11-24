@@ -1,0 +1,144 @@
+
+
+
+html body {
+	background: #f7e8d1 url(bg.jpg) repeat-x 0 61px;
+}
+
+.global-footer {
+	margin-top: 0;
+}
+
+
+.sp-cont {
+	width: 1420px;
+	margin: 0 auto;
+	font-size: 16px;
+	line-height: 23px;
+	color: #4b4343;
+}
+.sp-cont ol {
+	padding-left: 25px;
+}
+.sp-cont ol li {
+	list-style:decimal;
+	padding: 5px 0;
+}
+.sp-cont .buttons {
+	padding: 10px 0;
+	text-align: center;
+	border-top: 1px solid #d0a38d;
+	margin-top: 70px;
+}
+.sp-cont .buttons .button {
+    display: inline-block;
+    width: 263px;
+    height: 73px;
+    background: url(button.png) no-repeat;
+    margin-top: -45px;
+}
+.sp-cont .buttons .button:hover {
+	background-position: 0 -73px;
+}
+.sp-cont .buttons .button:active {
+	background-position: 0 0;
+}
+
+
+.sp-cont .hl {
+	color: #b51b17;
+}
+.sp-cont .part-1 {
+	position: relative;
+	height: 1163px;
+	background: url(p1.jpg) no-repeat;
+}
+.sp-cont .part-1 .text {
+    width: 970px;
+    padding: 640px 0 0 230px;
+}
+.sp-cont .part-1 .text .rule {
+	padding-top: 30px;
+}
+.sp-cont .part-1 .fw-1 {
+    position: absolute;
+    width: 569px;
+    height: 472px;
+    top: 170px;
+    left: -220px;
+    background: url(fw-1.png) no-repeat;
+}
+.sp-cont .part-1 .fw-2 {
+    position: absolute;
+    width: 761px;
+    height: 531px;
+    top: 110px;
+    right: -420px;
+    background: url(fw-2.png) no-repeat;
+}
+
+
+
+
+.sp-cont .part-2 {
+	height: 970px;
+	background: url(p2.jpg) no-repeat;
+	line-height: 30px;
+}
+.sp-cont .part-2 .text {
+    width: 970px;
+    padding: 290px 0 0 230px;
+}
+.sp-cont .part-2 .text .info {
+	padding-bottom: 40px;
+}
+.sp-cont .part-2 .text .info p {
+	text-indent: 80px;
+}
+
+
+
+
+
+.sp-cont .part-3 {
+	height: 1268px;
+	background: url(p3.jpg) no-repeat;
+}
+.sp-cont .part-3 .text {
+    width: 970px;
+    padding: 340px 0 0 230px;
+}
+.sp-cont .part-3 .text .info {
+	padding-bottom: 40px;
+}
+.sp-cont .part-3 .datatable {
+	margin: 5px auto 0 auto;
+	border-left: 1px solid #981a1a;
+	border-top: 1px solid #981a1a;
+}
+.sp-cont .part-3 .datatable th,
+.sp-cont .part-3 .datatable td {
+	padding: 10px;
+	border: 1px solid #981a1a;
+	border-left: 0;
+	border-top: 0;
+	background: #FFF;
+}
+.sp-cont .part-3 .datatable th {
+	background: #eb5026;
+	color: #FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

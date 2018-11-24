@@ -1,0 +1,296 @@
+html{
+    width:100%;
+    height:100%;
+}
+body {
+    background: url(bg.jpg) no-repeat center 0
+}
+.r-zc{
+    background: url(bg_bak.jpg) no-repeat center 0
+}
+.r-qm{
+    background: url(qm0705.jpg) no-repeat center 0;
+    width:100%;
+    height:100%;
+}
+.r-xiaomi{
+    background: url(0719.jpg) no-repeat center 0;
+    width:100%;
+    height:100%;
+}
+.container-main-spo {
+    /*background: none;*/
+    height: 1600px;
+}
+
+
+
+
+.float-chart {
+    position: fixed;
+    top: 50%;
+    margin-top: -120px;
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    border-radius: 5px;
+    padding: 5px 0;
+}
+.float-chart p {
+    display: block;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.float-chart p a {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: underline;
+}
+.float-chart p a:hover {
+    color: #FFF;
+}
+
+#J-spo-header{
+    width: 1080px;
+    margin: 0 auto;
+    margin-top: 341px;
+}
+
+.account-wrapper {
+    background: none;
+    box-shadow: none;
+}
+.bcontainer-main-login .form-horizontal .control-label {
+    display: none;
+}
+.account-body .has-error .text-tip {
+    color: #FFC00D;
+    background: rgba(38, 39, 50, 0.64);
+    padding: 2px 10px;
+    border-radius: 0;
+    margin: 0 2px;
+}
+
+.form-control {
+    border-color: #30877F;
+    border-radius: 3px;
+}
+.has-error .form-control:focus {
+    border-width: 1px;
+    border-color: #000;
+}
+
+.account-body .btn-form-submit {
+    background: #EE3047;
+    width: 355px;
+}
+.account-body .btn-form-submit:hover {
+    background: #FF586B;
+}
+.col-sm-10 {
+    width: 99%;
+}
+
+.account-wrapper {
+    width: 1080px;
+    background-color: #000;
+    filter:alpha(opacity=63);
+    background: rgba(0,0,0,0.53);
+}
+.account-left {
+    width: 545px;
+    height: 376px;
+    background: url(a-left.png) no-repeat;
+    margin: 20px 0 20px 30px;
+    float: left;
+}
+.left0719{
+    width: 545px;
+    height: 303px;
+    background: url(0719-left.png) no-repeat;
+    margin: 20px 0 20px 30px;
+    float: left;
+}
+
+.container-main-spo-dg .account-left {
+    background: url(a-left-2.png) no-repeat;
+}
+
+.account-body {
+    width: 420px;
+    float: right;
+}
+.form0719{
+    margin-top: 20px;
+}
+.reg-title {
+    float:left;
+    display: inline-block;
+    font-size: 24px;
+    color: #FFF;
+    padding: 0 0 15px 0;
+    font-weight: normal;
+}
+.cont-submit .tologin {
+    position: absolute;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+    background: #FFF;
+    opacity: 0.87;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    color: #30877F;
+    font-size: 14px;
+    margin-left: 10px;
+    display: none;
+}
+
+
+
+.f-username {
+    background: #FFF url(ico-username-d.png) no-repeat 15px center;
+    padding-left: 45px;
+}
+.f-username:focus {
+    background-image: url(ico-username.png);
+}
+.f-password {
+    background: #FFF url(ico-password-d.png) no-repeat 15px center;
+    padding-left: 45px;
+}
+.f-password:focus {
+    background-image: url(ico-password.png);
+}
+.f-password2 {
+    background: #FFF url(ico-password2-d.png) no-repeat 15px center;
+    padding-left: 45px;
+}
+.f-password2:focus {
+    background-image: url(ico-password2.png);
+}
+
+
+
+.qq-panel {
+    padding: 10px 0 0 0;
+    color: #FFF;
+}
+.qq-panel a {
+    color: #FFF;
+}
+.qq-panel .aa {
+    position: absolute;
+    left: 15px;
+    top: 20px;
+    font-size: 14px;
+}
+.qq-panel .kf-1 {    position: absolute;
+    left: 15px;
+    top: 40px;
+    font-size: 14px;}
+.qq-panel .kf-2 {    position: absolute;
+    left: 15px;
+    top: 60px;
+    font-size: 14px;}
+.qq-panel .kf-3 {    position: absolute;
+    left: 15px;
+    top: 80px;
+    font-size: 14px;}
+.qq-panel .aa-2 {left: 200px;width: 135px;}
+.qq-panel .aa-3 {left: 200px;top: 50px;width: 135px;}
+
+.spo-text-1{
+    height:226px;
+}
+.spo-text-1 li{
+    width:345px;
+    height:160px;
+    float:left;
+    cursor: pointer;
+}
+.spo-text-1 .a{
+    margin: 65px 0 0 63px;
+}
+.r-xiaomi .spo-text-1 .a{
+    margin: 139px 0 0 63px;
+}
+.spo-text-1 .b{
+    margin: 65px 0 0 25px;
+}
+.r-xiaomi .spo-text-1 .b{
+    margin: 139px 0 0 63px;
+}
+
+.spo-text-1 .c{
+    margin: 65px 0 0 25px;
+}
+.spo-text-2 {
+    height: 407px;
+    margin-top: 73px;
+}
+.spo-text-2 .inner {
+    padding: 63px 0 0 68px;
+}
+.r-xiaomi .spo-text-2 .inner {
+    padding: 136px 0 0 62px;
+    display: block;
+    overflow: hidden;
+}
+.spo-text-2 a {
+    width: 123px;
+    height: 60px;
+    float: left;
+    margin: 1px 13px 10px 0;
+}
+
+
+
+
+.c-2 {
+    height: 160px;
+    background: #F5A623 url(footer.png) no-repeat center center;
+}
+
+
+.r-title{
+    color: #FFC00D;
+    float: left;
+    padding: 14px 0 0 4px;
+    font-weight: bold;
+}
+
+
+/*atcive*/
+.r-active{
+    position: absolute;
+    width:100%;
+    height:1488px;
+    top:0;
+    background: rgba(0,0,0,0.8);
+    display:none;
+
+}
+.r-active .a{
+    width:1080px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    /*background: url('/assets/images/spo/qm01.jpg');*/
+}
+.r-active .a span{
+    width: 33px;
+    height: 33px;
+    display: block;
+    /* float: right; */
+    right: 0;
+    top: 33px;
+    position: absolute;
+    /* background: gray; */
+    margin: -17px 16px 0 0;
+    /* z-index: 999; */
+    cursor: pointer;
+}
+.r-active .a img{
+    display: block;
+}

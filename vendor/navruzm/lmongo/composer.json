@@ -1,0 +1,29 @@
+{
+    "name": "navruzm/lmongo",
+    "type": "library",
+    "description": "MongoDB Package for Laravel 4.",
+    "keywords": ["MongoDB", "Mongo", "Laravel 4", "database"],
+    "homepage": "http://github.com/navruzm/lmongo/",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "~4",
+        "illuminate/events": "~4",
+        "nesbot/carbon": "1.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*",
+        "mockery/mockery": "0.7.2",
+        "illuminate/cache": "4.0.x"
+    },
+    "authors": [
+        {
+            "name": "Mustafa Navruz",
+            "email": "mustafanavruz@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "LMongo": "src/" }
+    },
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,189 @@
+
+
+
+body {
+
+}
+
+
+.banner {
+    height: 1039px;
+    padding: 140px 0 0 0px;
+    background: #000 url(v2/banner.jpg) no-repeat center -184px;
+    background-size: cover;
+}
+/**
+.banner {
+	height: 1095px;
+	background: url(../login/bg-dy.jpg) no-repeat center bottom;
+	background-size: cover;
+}**/
+.banner .row {
+    text-align: center;
+    /* 海纳百川，财富源泉。十年扬帆，一驾入海，: ; */
+    font-family: FZLTXHK--GBK1-0;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 24px;
+    text-shadow: 0px 2px 2px rgba(0,0,0,0.77);
+    width: 800px;
+    margin: 0 auto;
+}
+.banner .logo {
+	height: 163px;
+	padding-top: 60px;
+	background: url(v2/logo.png) no-repeat center 0;
+}
+.banner .title {
+/* 浪里淘金 年年有鱼: */
+font-family: STHeitiSC-Light;
+font-size: 48px;
+color: #FFFFFF;
+line-height: 49px;
+text-shadow: 0px 2px 4px rgba(0,0,0,0.50);
+padding: 0 0 25px 0;
+}
+
+
+
+
+.introduce {
+	text-align: center;
+	margin-top: -540px;
+}
+.introduce .list {
+	float: left;
+	width: 256px;
+	margin: 0 27px;
+	background: #EEE;
+	color: #FFF;
+
+}
+.introduce .list .title {
+	font-size: 18px;
+	color: #FFF;
+	line-height: 24px;
+	text-shadow: 0px 1px 2px rgba(0,0,0,0.72);
+	height: 100px;
+	line-height: 100px;
+}
+.introduce .list .text {
+    font-size: 14px;
+    color: #BDBDBD;
+    line-height: 24px;
+    text-align: left;
+    padding-top: 15px;
+    background-color: rgba(0, 0, 0, 0.44);
+    padding: 20px;
+}
+.introduce .list-1 {
+	background: url(v2/intro-img-1.jpg) no-repeat;
+}
+.introduce .list-2 {
+	background: url(v2/intro-img-2.jpg) no-repeat;
+}
+.introduce .list-3 {
+	background: url(v2/intro-img-3.jpg) no-repeat;
+}
+.introduce .list-4 {
+	background: url(v2/intro-img-4.jpg) no-repeat;
+}
+
+
+
+.introduce2 {
+	padding:120px 0 0 0;
+}
+.introduce2 .title {
+	font-size: 22px;
+	color: #E0DAB7;
+	line-height: 23px;
+	text-align: center;
+	height: 60px;
+}
+.introduce2 table {
+    background: rgba(66, 66, 66, 0.2);
+    border: 1px solid #515151;
+}
+.introduce2 table th {
+    height: 44px;
+    line-height: 44px;
+    background: rgba(51, 51, 51, 0.37);
+    font-size: 16px;
+    color: #E0DAB7;
+    padding: 0 20px;
+}
+.introduce2 table td {
+	padding: 10px 20px;
+	line-height: 200%;
+font-size: 12px;
+color: #AFAFAF;
+line-height: 27px;
+    border: 1px solid #515151;
+}
+
+
+
+.introduce3 {
+	font-size: 14px;
+	padding:30px 0 100px 0;
+}
+.introduce3 .title {
+	text-align: center;
+	font-size: 22px;
+	color: #E0DAB7;
+	line-height: 23px;
+	padding: 80px 0 50px 0;
+}
+.introduce3 .list .cell {
+    float: left;
+    width: 260px;
+    margin: 0px 25px;
+    padding-top: 150px;
+}
+.introduce3 .list .cell-1 {background: url(v2/intro3-img-1.png) no-repeat center 0;}
+.introduce3 .list .cell-2 {background: url(v2/intro3-img-2.png) no-repeat center 0;}
+.introduce3 .list .cell-3 {background: url(v2/intro3-img-3.png) no-repeat center 0;}
+.introduce3 .list .cell-4 {background: url(v2/intro3-img-4.png) no-repeat center 0;}
+.introduce3 .list .cell .t {
+    text-align: center;
+    font-size: 18px;
+    color: #FFFFFF;
+    height: 70px;
+    line-height: 40px;
+}
+.introduce3 .list .cell .text {
+	font-size: 14px;
+	color: #BDBDBD;
+	line-height: 24px;
+}
+
+.cont-main {
+	background: url(v2/bottom-bg.jpg) no-repeat center bottom;
+	background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

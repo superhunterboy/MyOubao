@@ -1,0 +1,22 @@
+<?php
+return array (
+  'created_at' => '创建时间',
+  'description' => '描述',
+  'disabled' => '是否禁用',
+  'dividend black list' => '分红黑名单',
+  'down points black list' => '降点黑名单',
+  'icbc recharge white list' => '工行充值白名单',
+  'id' => 'ID',
+  'is_system' => '系统角色',
+  'name' => '名称',
+  'non_expired' => '不过期',
+  'priority' => '优先级',
+  'right_settable' => '是否可设置权限',
+  'role_type' => '角色类型',
+  'sequence' => '排序',
+  'up points black list' => '升点黑名单',
+  'updated_at' => '更新时间',
+  'user_settable' => '是否可设置用户',
+  'withdrawal black list' => '提现黑名单',
+  'withdrawal white list' => '提现白名单',
+);

@@ -1,0 +1,602 @@
+
+@font-face {    
+  font-family: 'open24';    
+  src: url( open24.eot ); /* IE */
+  src: url( open24.ttf ) format("truetype");  /* éžIE */
+}  
+
+body {
+    /**background: url(bg.jpg) no-repeat center 124px; 
+	background-size: cover;**/
+}
+
+.g_33 {
+    width: 1240px;
+}
+
+.logo-lottery {
+    margin: 22px 0 0 0;
+    width: 250px;
+}
+.gheader {
+    height: 140px;
+}
+
+.deadline {
+    background: #FD4E5A;
+    margin: 22px 0 0 0;
+    width: 281px;
+    overflow: hidden;
+    height: 35px;
+    padding-right: 0;
+}
+.deadline-text {
+    float: left;
+}
+.deadline-text strong {
+	color: #FFF;
+}
+.deadline-number {
+    width: 140px;
+    margin-top: -2px;
+    background: #3A3B47;
+    padding: 0 7px 0 7px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.deadline-number em {
+    width: 20px;
+    margin: 0;
+    padding: 0;
+    background: no-repeat;
+    box-shadow: none;
+    font-family: 'open24';
+    line-height: 35px;
+}
+.deadline-number .deadline-num {
+	width: 25px;
+}
+.deadline-number span {
+	width: 3px;
+}
+.deadline-number-mask {
+	border-bottom: none;
+}
+
+.lottery {
+    background: #4773BF;
+    border-radius: 5px;
+    margin-top: 22px;
+    padding-top: 8px;
+    padding-right: 10px;
+    position: relative;
+    margin-right: 100px;
+    height: 47px;
+    padding-left: 131px;
+}
+.lottery-text {
+	height: 71px;
+	line-height: 71px;
+	width: 95px;
+	padding-left: 74px;
+	background: url(header-ball-ico.png) no-repeat;
+	box-shadow: none;
+	position: absolute;
+	left: -34px;
+	top: -10px;
+	font-size: 14px;
+}
+.lottery-number em {
+	width: 38px;
+	height: 38px;
+	line-height: 34px;
+	font-size: 30px;
+	background: #FFF;
+	box-shadow: none;
+	color: #4A90E2;
+    text-indent: 0;
+    font-family: 'open24';
+
+}
+/**
+.lottery-number em.bnum-0 {background-image: url(nums/0.png);}
+.lottery-number em.bnum-1 {background-image: url(nums/1.png);}
+.lottery-number em.bnum-2 {background-image: url(nums/2.png);}
+.lottery-number em.bnum-3 {background-image: url(nums/3.png);}
+.lottery-number em.bnum-4 {background-image: url(nums/4.png);}
+.lottery-number em.bnum-5 {background-image: url(nums/5.png);}
+.lottery-number em.bnum-6 {background-image: url(nums/6.png);}
+.lottery-number em.bnum-7 {background-image: url(nums/7.png);}
+.lottery-number em.bnum-8 {background-image: url(nums/8.png);}
+.lottery-number em.bnum-9 {background-image: url(nums/9.png);}
+.lottery-number em.bnum-10 {background-image: url(nums/10.png);}
+**/
+.lottery-link {
+	position: absolute;
+	right: -100px;
+	top: 0px;
+}
+.lottery-link a {
+	opacity: 0.55;
+	background: #262732;
+	border-radius: 3px;
+    padding: 0px 20px;
+    color:#eee;
+}
+.lottery-link a:hover {
+    background: rgba(38, 39, 50, 0.79);
+	color: #FFF;
+	box-shadow: none;
+}
+
+.gametypes-menu-panel .content {
+	font-size: 14px;
+}
+
+
+.gametypes-menu-panel .gametypes-menu-ul {
+    width: auto;
+    background-color: #FFAA0D;
+}
+
+.play-select {
+	background: none;
+}
+
+.play-select-title li.current .title {
+    background-color: #FFAA0D;
+    color: #262732;
+    margin-top: 0;
+    line-height: 32px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.play-select-status-b .play-select-title li.current:hover .title {
+    height: 34px;
+    border-top: 0;
+    font-weight: normal;
+    line-height: 32px;
+}
+.play-select-title li.current .title:after {
+	display: none;
+}
+
+.number-section {
+	min-height: 350px;
+}
+
+
+
+.gametypes-menu-panel dl {
+	color: #262732;
+}
+
+.gametypes-menu-panel .types-item {
+	color: #262732;
+    padding: 5px 10px;
+    border: none;
+}
+
+.gametypes-menu-panel .content {
+    padding: 0 10px;
+}
+
+.play-select-title li {
+    width: 100px;
+    background: rgba(38, 39, 50, 0.91);
+    height: 39px;
+    line-height: 32px;
+    font-size: 14px;
+}
+.play-select-title li:hover .title, .play-select-title li.hover .title {
+	border: 0;
+    line-height: 33px;
+	background: #FFAA0D;
+}
+
+.gametypes-menu-panel .types-node {
+    width: 72px;
+    margin: 10px 0 0 0;
+    text-align: center;
+    color: #FFF;
+}
+
+.gametypes-menu-panel .types-item:hover {
+    background: #FFC55B;
+}
+
+.gametypes-menu-panel .types-item-current, .gametypes-menu-panel .types-item-current:hover {
+    color: #FFF;
+	background: #262732;
+	border: none;
+	box-shadow: none;
+}
+.number-section .balls-float-panel {
+    float: none;
+    width: 890px;
+    background: #FFF;
+    padding: 10px 10px 20px 10px;
+    min-height: 326px;
+}
+
+.number-section {
+    background: rgba(38, 39, 50, 0.91);
+    padding: 25px;
+    padding-bottom: 0;
+}
+.bet-statics-commit {
+    background: rgba(255, 255, 255, 0.95);
+}
+.play-footer {
+    padding: 25px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background: rgba(38, 39, 50, 0.91);
+}
+.play-footer .inner {
+    width: 890px;
+    padding: 10px;
+    background:#FFF;
+}
+.bet-statics-commit {
+    padding: 25px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background: rgba(38, 39, 50, 0.91);
+}
+.bet-statics-commit .inner {
+    width: 890px;
+    padding: 10px 10px 20px 10px;
+    background: #FFF;
+}
+.list-full-history {
+    padding: 25px;
+    background: rgba(38, 39, 50, 0.91);
+}
+.list-full-history .inner {
+    background: #515368;
+}
+
+
+.list-historys {
+    top: 95px;
+    right: 25px;
+    border: 0;
+    width: 255px;
+    background: #4D515E;
+    border: 1px solid #393A44;
+    border-top: 0;
+    border-bottom: 0;
+}
+.method-current-prize {
+	top: 0;
+	border: 0;
+	width: 100%;
+	padding: 0;
+	height: 114px;
+	background: url(prize-bg.png) no-repeat right 0;
+	position: relative;
+}
+.method-current-prize .inner-c {
+    padding: 25px 0 0 30px;
+    font-size: 16px;
+    color: #FFF;
+    line-height: 24px;
+}
+.method-current-prize .prize-num {
+	font-size: 20px;
+	color: #F9E922;
+}
+
+
+
+.bet-table-trend th,
+.bet-table-trend td {
+	background: #23807C;
+	border: none;
+}
+.bet-table-trend th {
+	background: none;
+	padding: 6px 0;
+}
+.bet-table-trend th span {
+	color: #FFF;
+}
+.bet-table-trend td {
+	color: #FFF;
+    border-bottom: 1px solid rgba(38, 39, 50, 0.2);
+    padding: 8px 0 5px 0;
+}
+.bet-table-trend td.bg {
+	background: #50E3C2;
+}
+.bet-table-trend tr:hover td {
+	background: #23807C; 
+}
+.bet-table-trend:hover td.bg {
+	background: #50E3C2; 
+}
+
+.bet-table-trend .first .balls p {
+	padding-bottom: 5px;
+}
+.list-historys .more {
+	padding: 6px 0;
+    display: none;
+}
+.list-historys .more a {
+	color: #FFF;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+.bet-table-trend .first .balls i {
+    width: 28px;
+    height: 28px;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    border: 1px solid rgba(62, 62, 62, 0.9);
+    background-image: #F3F3F3;
+    font-family: 'open24';
+    font-weight: normal;
+    color: #262732;
+}
+
+/**
+.bet-table-trend .first .balls i b.nums-s-0 {background:url(nums/s-0.png) no-repeat center center;}
+.bet-table-trend .first .balls i b.nums-s-1 {background:url(nums/s-1.png) no-repeat center center;}
+.bet-table-trend .first .balls i b.nums-s-2 {background:url(nums/s-2.png) no-repeat center center;}
+.bet-table-trend .first .balls i b.nums-s-3 {background:url(nums/s-3.png) no-repeat center center;}
+.bet-table-trend .first .balls i b.nums-s-4 {background:url(nums/s-4.png) no-repeat center center;}
+.bet-table-trend .first .balls i b.nums-s-5 {background:url(nums/s-5.png) no-repeat center center;}
+.bet-table-trend .first .balls i b.nums-s-6 {background:url(nums/s-6.png) no-repeat center center;}
+.bet-table-trend .first .balls i b.nums-s-7 {background:url(nums/s-7.png) no-repeat center center;}
+.bet-table-trend .first .balls i b.nums-s-8 {background:url(nums/s-8.png) no-repeat center center;}
+.bet-table-trend .first .balls i b.nums-s-9 {background:url(nums/s-9.png) no-repeat center center;}
+.bet-table-trend .first .balls i b.nums-s-10 {background:url(nums/s-10.png) no-repeat center center;}
+**/
+
+.bet-table-trend .first .balls i b {
+    display: block;
+    width: 28px;
+    height: 28px;
+    border-radius: 28px;
+    background: #FFF;
+}
+.deadline-number span.space {
+    text-indent: 0;
+    color: #E2E2E2;
+    width: 10px;
+    line-height: 36px;
+}
+
+.panel-section {
+
+}
+.panel-trace {
+  width: 430px;
+}
+
+
+
+
+
+.global-panel-feedback {
+	display: none;
+}
+.global-panel-curscore {
+    display: none;
+}
+
+.ball-control a {
+    border: none;
+}
+
+
+.ball-section li {
+
+}
+.ball-number {
+    background: #F3F3F3;
+    width: 36px;
+    height: 36px;
+    line-height: 32px;
+    text-indent: 1px;
+    margin-left: 5px;
+    border: 2px solid #787878;
+    border-radius: 43px;
+    color: #262732;
+    font-family: 'open24';
+}
+.ball-section-pk10-liangmianpan-guanyahezhi .ball-number,
+.ball-section-pk10-liangmianpan-rate_daccording .ball-number,
+.ball-section-pk10-liangmianpan-dragonwithtiger .ball-number {
+    text-indent: 0;
+}
+.ball-number:hover {
+    color: #262732;
+    background-position: center center;
+}
+.ball-number-current, .ball-number-current:hover {
+    background-color: #ffb325;
+    border-color: #a0762b;
+}
+.ball-number-space {
+	background: none;
+	border: none;
+}
+/**
+.ball-bgnum-0 {background-image: url(numsb/0.png);}
+.ball-bgnum-1 {background-image: url(numsb/1.png);}
+.ball-bgnum-2 {background-image: url(numsb/2.png);}
+.ball-bgnum-3 {background-image: url(numsb/3.png);}
+.ball-bgnum-4 {background-image: url(numsb/4.png);}
+.ball-bgnum-5 {background-image: url(numsb/5.png);}
+.ball-bgnum-6 {background-image: url(numsb/6.png);}
+.ball-bgnum-7 {background-image: url(numsb/7.png);}
+.ball-bgnum-8 {background-image: url(numsb/8.png);}
+.ball-bgnum-9 {background-image: url(numsb/9.png);}
+.ball-bgnum-10 {background-image: url(numsb/10.png);}
+
+.ball-bgnum-11 {background-image: url(numsb/11.png);}
+.ball-bgnum-12 {background-image: url(numsb/12.png);}
+.ball-bgnum-13 {background-image: url(numsb/13.png);}
+.ball-bgnum-14 {background-image: url(numsb/14.png);}
+.ball-bgnum-15 {background-image: url(numsb/15.png);}
+.ball-bgnum-16 {background-image: url(numsb/16.png);}
+.ball-bgnum-17 {background-image: url(numsb/17.png);}
+.ball-bgnum-18 {background-image: url(numsb/18.png);}
+.ball-bgnum-19 {background-image: url(numsb/19.png);}
+.ball-bgnum-20 {background-image: url(numsb/20.png);}
+**/
+
+/** ä¸å®šä½ **/
+.gametypes-menu-panel .gametypes-menu-budingwei .types-node-sanxingbudingwei {
+	height:auto;
+}
+/** ä¸¤é¢ç›˜ **/
+.ball-section-pk10-liangmianpan-dragonwithtiger .ball-number {
+	font-size: 14px;
+	width: 65px;
+    border-radius: 5px;
+    text-indent: 0;
+}
+.ball-section-pk10-liangmianpan-dragonwithtiger .ball-number-space {
+
+}
+.ball-section-pk10-liangmianpan-dragonwithtiger .ball-content {
+	
+}
+.ball-section-pk10-liangmianpan-dragonwithtiger .ball-control {
+	padding-left: 25px;
+}
+/** å† äºšå’Œå€¼ **/
+.ball-section-pk10-liangmianpan-guanyahezhi .ball-content {
+    
+}
+/** æŒ‰åæ¬¡ **/
+.ball-section-pk10-liangmianpan-rate_daccording .ball-title {
+    
+}
+/** ç›´é€‰å† äºšå’Œå€¼ **/
+.ball-section-pk10-zhixuanhezhi-guanyahezhi .ball-content {
+
+}
+/** çŒœè½¦å·å®šä½èƒ† **/
+.ball-section-pk10-caichehao-dingweidan .ball-title {
+    
+}
+/** çŒœæŽ’ä½å† äºš **/
+.ball-section-pk10-caipaiwei-guanyajun .ball-title {
+    
+}
+
+.ball-section-pk10-caipaiwei-zhixuanpk-guanyajun .ball-title {
+    
+}
+.ball-section-pk10-caipaiwei-zhixuanpk-qiansanpk .ball-title {
+    
+}
+.ball-section-pk10-caipaiwei-zhixuanpk-qiansipk .ball-title {
+    
+}
+.ball-section-pk10-caipaiwei-zhixuanpk-qianwupk .ball-title {
+    
+}
+.ball-section-pk10-budingwei-sanxingbudingwei-qiansan .ball-title {
+    
+}
+.ball-section-pk10-budingwei-sanxingbudingwei-housan .ball-title {
+    
+}
+
+
+.ball-section-pk10-liangmianpan-rate_daccording {
+    float: left;
+    width: 350px;
+}
+
+
+
+
+.bet-statistics {
+    text-align: left;
+    padding-left: 85px;
+}
+.bet-button-line {
+    text-align: left;
+    padding-left: 75px;
+}
+
+
+.list-historys .cont {
+    overflow: hidden;
+}
+
+
+.panel-section-inner {
+    border-right: 0;
+}
+
+
+.list-full-history .title li.current {
+    border-top: 0;
+    margin-top: 0;
+    height: 38px;
+}
+
+.ball-control a.current:hover {
+    border: none;
+}
+.ball-control a:hover {
+    border: none;
+}
+.lottery-link a:last-child {
+    
+}
+
+
+.list-full-history .title li {
+    padding: 0 20px;
+    background: none;
+    color: #FFF;
+    border: none;
+}
+.list-full-history .title li.current:after {
+    background-color: #50e3c2;
+}
+.list-full-history .title li:hover {
+    background: none;
+}
+.list-full-history .title li.current:hover {
+    background: #f8f7f2;
+}
+.chase-tab-title li.current:after {
+    background-color: #50e3c2;
+}
+
+.lottery-number em.flip {
+    background-color: #FFF;
+}
+
+
+.bet-table-trend tr.first-blink td {
+    animation: none;
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

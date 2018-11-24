@@ -1,0 +1,22 @@
+<?php
+return array (
+  'admin_user_id' => 'Administrator',
+  'amount_formatted' => 'Amount',
+  'available_formatted' => 'Available',
+  'created_at' => 'created time',
+  'friendly_description' => 'Type',
+  'id' => 'ID',
+  'ip' => 'IP',
+  'issue' => 'draw #',
+  'is_tester' => 'Tester',
+  'lottery_id' => 'Game',
+  'parent_str' => 'forefather',
+  'project_id' => 'Project ID',
+  'project_no' => 'Project No.',
+  'serial_number' => 'no.',
+  'serial_number_short' => 'no.',
+  'trace_id' => 'Trace ID',
+  'updated_at' => 'updated time',
+  'username' => 'username',
+  'user_id' => 'User ID',
+);

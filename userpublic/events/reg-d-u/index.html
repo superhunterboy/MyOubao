@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<title>注册博猫会员</title>
+<link href="http://www.bocat.com/assets/images/global/global.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" href="style/style.css"/>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/bomao.base.js"></script>
+<script type="text/javascript" src="js/bomao.Tab.js"></script>
+<script type="text/javascript" src="js/bomao.Slider.js"></script>
+<script type="text/javascript" src="images/vcastr2/swfobject.js"></script>
+
+</head>
+<body>
+	<div class="service">
+		<h4>咨询博猫代理</h4>
+		<a href="" class="btn">汤姆森：15565165165</a>
+		<a href="" class="btn">汤姆森：15565165165</a>
+	</div>
+	<div class="global-top">
+	<div class="g_33 cont clearfix">
+		<a title="博狼娱乐首页" class="logo" href="http://www.bocat.com">博狼娱乐</a>
+		<ul class="menu clerafix">
+			<li class="quick">
+				<!-- <a href="#">PC客户端</a> -->
+				<div class="quick-code base-jmp animation" style="display: none; margin-left: -64px;">
+					<div class="jmp-hd"><b class="tri-out"></b></div>
+					<div class="jmp-bd">
+						<p>快速访问，强化安全</p>
+					</div>
+				</div>
+			</li>
+			<!--
+			<li class="phone">
+				<a href="#">手机客户端</a>
+				<div class="phone-code base-jmp animation">
+					<div class="jmp-hd"><b class="tri-out"></b></div>
+					<div class="jmp-bd">
+						<img src="images/phone-code.png" alt="扫一扫，手机玩博猫" />
+						<p>扫一扫，手机玩博猫</p>
+					</div>
+				</div>
+			</li>
+			-->
+			<li class="wechat">
+				<a href="#">博猫微信</a>
+				<div class="wechat-code base-jmp animation">
+					<div class="jmp-hd"><b class="tri-out"></b></div>
+					<div class="jmp-bd">
+						<p>官方微信：bomaogame</p>
+						<img src="images/phone-code.jpg" alt="扫一扫，手机玩博猫" />
+						<p>微信扫一扫，精彩全知道</p>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+	<div class="reg-banner"></div>
+	<div class="reg-content">
+		<div class="g_33">
+			<div id="J-form-panel" class="reg-box">
+				<form method="post" action="?">
+					<input type="hidden" value="?" id="J-check-username-url">
+					<input type="hidden" value="?" id="J-check-vcode-url">
+					<div class="reg-title"><i></i>注册即享10元体验金！</div>
+					<div class="row">
+						<div class="row-title">
+							<span class="feild-title">博猫用户名</span>
+							<span class="feild-tip">
+								<i class="ico-error"></i>
+								<span class="feild-tip-text">用户名格式不对，请重新输入</span>
+							</span>
+						</div>
+						<div class="row-feild">
+							<input type="text" tabindex="1" id="J-username" class="input reg-input reg-input-username" value="">
+							<span class="feild-static-tip">
+								第一个字母必须为字母，由0-9，a-z，A-Z组成的6-16个字符
+							</span>
+							<span class="ico-right" style="display: none;"></span>
+						</div>
+					</div>
+					
+					
+					<div class="row row-password">
+						<div class="row-title">
+							<span class="feild-title">登陆密码</span>
+							<span class="feild-tip">
+								<i class="ico-error"></i>
+								<span class="feild-tip-text">
+									密码格式不正确，请重新输入
+								</span>
+							</span>
+
+						</div>
+						<div class="row-feild row-feild-password">
+							<input type="password" tabindex="2" id="J-password" class="input reg-input reg-input-password" value="">
+							<input type="text" id="J-password-hidden" class="reg-input-password-hidden" value="">
+							<label for="J-checkbox-showpas" class="checkbox-show-pas">
+								<input type="checkbox" id="J-checkbox-showpas"> 显示
+							</label>
+							<span class="feild-static-tip">
+								由字母和数字组成6-16个字符； 且必须包含数字和字母，不允许连续三位相同
+							</span>
+							<span class="ico-right"></span>
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="row-title">
+							<span class="feild-title">确认密码</span>
+							<span class="feild-tip">
+								<i class="ico-error"></i>
+								<span class="feild-tip-text">
+									确认密码不正确，请重新输入
+								</span>
+							</span>
+						</div>
+						<div class="row-feild">
+							<input type="password" tabindex="3" id="J-password2" class="input reg-input reg-input-password2" value="" />
+							<span class="feild-static-tip">
+								由2-6个字符组成
+							</span>
+							<span class="ico-right"></span>
+						</div>
+					</div>
+					
+					
+					
+					<div class="row row-mail">
+						<div class="row-title">
+							<span class="feild-title">邮箱地址</span>
+							<span class="feild-tip">
+								<i class="ico-error"></i>
+								<span class="feild-tip-text">
+									邮箱地址输入不正确，请重新输入
+								</span>
+							</span>
+						</div>
+						<div class="row-feild">
+							<input type="text" tabindex="4" id="J-email" class="input reg-input reg-input-email" value="" placeholder="填写真实邮箱能帮您找回密码" />
+							<span class="feild-static-tip">
+								由2-6个字符组成
+							</span>
+							<span class="ico-right"></span>
+						</div>
+					</div>
+					
+
+
+					<div class="row">
+						<div class="row-title">
+							<span class="feild-title">验证码</span>
+							<span class="feild-tip">
+								<i class="ico-error"></i>
+								<span class="feild-tip-text">
+									验证码不正确，请重新输入
+								</span>
+							</span>
+						</div>
+						<div class="row-feild row-feild-vcode">
+							<input type="text" tabindex="5" id="J-vcode" class="input reg-input reg-input-vcode" value="">
+							<img data-src="vcode.php?rd=" onClick="this.src=this.getAttribute(&quot;data-src&quot;)+&quot;?rd=&quot;+Math.random();" class="reg-img-vcode" src="images/vcode.png" id="J-img-vcode">
+							<span class="ico-right"></span>
+						</div>
+					</div>
+					<div class="row">
+						<input type="submit" tabindex="6" id="J-button-submit" class="reg-button-submit" value=" " />
+						
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="bocat-info">
+		<h3>博猫用业界最强优惠活动回馈玩家！</h3>
+		<div class="slider">
+			<div class="slider-inner">
+				<ul class="slider-pic clearfix">
+					<li class="slider-pic1 current"><img src="images/wj-2.jpg" alt="" /></li>
+					<li class="slider-pic2"><img src="images/wj-1.jpg" alt="" /></li>
+					<li class="slider-pic3"><img src="images/wj-3.jpg" alt="" /></li>
+				</ul>
+				<ul class="slider-num">
+					<li class="current"></li>
+					<li class=""></li>
+					<li class=""></li>
+				</ul>
+			</div>
+			<a href="javascript:void(0);" class="slider-prev"></a>
+			<a href="javascript:void(0);" class="slider-next"></a>
+		</div>
+		<p>注册后即可查看活动详情</p>
+	</div>
+	<div class="bocat-story">
+		<div class="g_33">
+			<h3>博猫品牌故事</h3>
+			<p>博狼娱乐（Lucky Online Ltd），尊享国际权威机构双重认证，<br />荣获全球知名实力企业倾情加盟，引进高端技术精英全力打造稳定平台。<br />博猫：因梦想而生，为幸运而来！<br />幸运，从博猫开始！</p>
+			<div class="vedio" id="J-video" style="background:#333;"></div>
+		</div>
+	</div>
+	<div class="footer clearfix">
+		<div class="g_33">
+			<div class="footer-cont">
+				<div class="foot-link">
+                                                            <a href="/brand">博猫品牌</a>   /
+                                                            <a href="/help">帮助中心</a>   /
+                                                            <a href="/introduce#contact">联系我们</a>
+				</div>
+                                                        <div class="copy">&copy; 2014 博狼娱乐版权所有 <font>尊享欧亚双重博彩牌照认证</font></div>
+                                                        <div class="foot-warning">博狼娱乐郑重提示：彩票有风险，投注需谨慎，不向未满18周岁的青少年出售彩票</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+<script>
+(function($){
+	var username = $('#J-username'),
+		password = $('#J-password'),
+		passwordHidden = $('#J-password-hidden'),
+		password2 = $('#J-password2'),
+		email = $('#J-email'),
+		vcode = $('#J-vcode'),
+		showPass = $('#J-checkbox-showpas');
+	
+	username.blur(function(){
+		var dom = username,v = $.trim(dom.val()),tip = dom.parent().parent().find('.feild-tip'),right = dom.parent().parent().find('.ico-right');
+		if(!(/^[a-zA-Z][a-zA-Z0-9]{5,15}$/).test(v)){
+			tip.find('.feild-tip-text').html('用户名格式不对，请重新输入');
+			tip.show();
+			right.hide();
+			return;
+		}
+		$.ajax({
+			url:$.trim($('#J-check-username-url').val()),
+			dataType:'json',
+			method:'POST',
+			data:{'username':v},
+			success:function(data){
+				if(Number(data['isSuccess']) == 1){
+					tip.hide();
+					right.show();
+				}else{
+					tip.find('.feild-tip-text').html('用户名已经被其他用户使用');
+					tip.show();
+					right.hide();
+				}
+			},
+			error:function(){
+				tip.hide();
+				right.show();
+			}
+		});
+	});
+	password.blur(function(){
+		var dom = password,v = $.trim(dom.val()),tip = dom.parent().parent().find('.feild-tip'),right = dom.parent().parent().find('.ico-right'),v2;
+		if(!(/^.{6,16}$/).test(v)){
+			tip.show();
+			right.hide();
+			return;
+		}
+		if(!(/\d/g).test(v) || !(/[a-zA-Z]/g).test(v) || (/(.)\1{2}/g).test(v)){
+			tip.show();
+			return;
+		}
+		tip.hide();
+		right.show();
+		
+		v2 = $.trim(password2.val());
+		if(v2 != ''){
+			if(v != v2){
+				password2.parent().parent().find('.feild-tip').show();
+				password2.parent().parent().find('.ico-right').hide();
+			}else{
+				password2.parent().parent().find('.feild-tip').hide();
+				password2.parent().parent().find('.ico-right').show();
+			}
+		}
+	}).keyup(function(){
+		passwordHidden.val(this.value);
+	});
+	passwordHidden.keyup(function(){
+		password.val(this.value);
+	});
+	passwordHidden.blur(function(){
+		var dom = passwordHidden,v = $.trim(dom.val()),tip = dom.parent().parent().find('.feild-tip'),right = dom.parent().parent().find('.ico-right'),v2;
+		if(!(/^.{6,16}$/).test(v)){
+			tip.show();
+			right.hide();
+			return;
+		}
+		if(!(/\d/g).test(v) || !(/[a-zA-Z]/g).test(v) || (/(.)\1{2}/g).test(v)){
+			tip.show();
+			return;
+		}
+		tip.hide();
+		right.show();
+		
+		v2 = $.trim(password2.val());
+		if(v2 != '' && v != v2){
+			password2.parent().parent().find('.feild-tip').show();
+			password2.parent().parent().find('.ico-right').hide();
+		}
+	});
+	password2.blur(function(){
+		var dom = password2,v = $.trim(dom.val()),tip = dom.parent().parent().find('.feild-tip'),right = dom.parent().parent().find('.ico-right');
+		if(v != $.trim(password.val())){
+			tip.find('.feild-tip-text').html('两次输入的密码不相同，请重新输入');
+			tip.show();
+			right.hide();
+			return;
+		}
+		if(v != ''){
+			tip.hide();
+			right.show();
+		}
+	});
+	email.blur(function(){
+		var dom = email,v = $.trim(dom.val()),tip = dom.parent().parent().find('.feild-tip'),right = dom.parent().parent().find('.ico-right');
+		if(v != '' && !(/\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/).test(v)){
+			tip.show();
+			return;
+		}
+		tip.hide();
+		if(v !=  ''){
+			right.show();
+		}
+	});
+	vcode.blur(function(){
+		var dom = vcode,v = $.trim(dom.val()),tip = dom.parent().parent().find('.feild-tip'),right = dom.parent().parent().find('.ico-right');
+		if(!(/^[a-zA-Z0-9]{5}$/).test(v)){
+			tip.show();
+			return;
+		}
+		$.ajax({
+			url:$.trim($('#J-check-vcode-url').val()),
+			dataType:'json',
+			method:'POST',
+			data:{'vcode':v},
+			success:function(data){
+				if(Number(data['isSuccess']) == 1){
+					tip.hide();
+					right.show();
+				}else{
+					tip.find('.feild-tip-text').html('您输入的验证码不正确');
+					tip.show();
+					right.hide();
+					$('#J-img-vcode').attr('src', $('#J-img-vcode').attr('data-src') + '?rd=' + Math.random());
+				}
+			}
+		});
+	});
+	showPass.click(function(){
+		if(this.checked){
+			passwordHidden.show();
+		}else{
+			passwordHidden.hide();
+		}
+	});
+	
+	
+	$('#J-button-submit').click(function(){
+		if($('#J-form-panel').find('.ico-error:visible').size() > 0){
+			return false;
+		}
+		if(username.val() == ''){
+			username.parent().parent().find('.feild-tip').show();
+			username.focus();
+			return false;
+		}
+		if(password.val() == ''){
+			password.parent().parent().find('.feild-tip').show();
+			password.focus();
+			return false;
+		}
+		if(password2.val() == ''){
+			password2.parent().parent().find('.feild-tip').show();
+			password2.focus();
+			return false;
+		}
+		if(vcode.val() == ''){
+			vcode.parent().parent().find('.feild-tip').show();
+			vcode.focus();
+			return false;
+		}
+		
+		return true;
+		
+	});
+	
+	
+	showPass.get(0).checked = false;
+	username.focus();
+	
+	/* jmpinfo */
+	var jmpTimer = null;
+	var menuLi = $(".menu li");
+	var baseJmp = $(".base-jmp");
+	
+	menuLi.hover(function(){
+		var curLeft = - $(this).find('.base-jmp').outerWidth()/2;
+		$(this).find('.base-jmp').show().css("margin-left",curLeft).addClass("fadeInUp");
+	}, function(){
+		$(this).find('.base-jmp').hide().removeClass("fadeInUp");
+	});
+	
+	var slider = new bomao.Slider({par:'.slider', triggers:'.slider-num li', panels:'.slider-pic li', sliderDirection:'left', sliderIsCarousel:true});
+	$('.slider').find('.slider-prev').click(function(e){
+		e.preventDefault();
+		slider.controlPre();
+	});
+	$('.slider').find('.slider-next').click(function(e){
+		e.preventDefault();
+		slider.controlNext();
+	});
+	
+	
+})(jQuery);
+
+
+
+
+
+//视频播放
+(function($){
+	var player = new SWFObject("images/vcastr2/vcastr2.swf","ply","800","450","9","#000000");
+	player.addParam("allowfullscreen","true");
+	player.addParam("allowscriptaccess","always");
+	player.addParam("wmode","opaque");
+	player.addParam("quality","high");
+	player.addParam("salign","lt");
+	player.addVariable("vcastr_file","http://192.168.62.104/images/video/bomao.flv");
+	player.write("J-video");
+	
+})(jQuery);
+
+
+
+
+
+
+</script>
+</html>

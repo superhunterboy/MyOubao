@@ -1,0 +1,108 @@
+
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;font-size:12px;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:none;}
+ul {list-style:none;}
+
+body {background:#282737;}
+.clearfix:after{content:".";display:block;height:0;clear:both;overflow:hidden;}
+.clearfix{*zoom:1;}
+a { text-decoration:none;}
+/** width **/
+.w-1 {width:50px!important;}
+.w-2 {width:100px!important;}
+.w-3 {width:150px!important;}
+.w-4 {width:200px!important;}
+.w-5 {width:250px!important;}
+.w-6 {width:300px!important;}
+.w-7 {width:350px!important;}
+.w-8 {width:400px!important;}
+.w-9 {width:450px!important;}
+.w-10 {width:500px!important;}
+.w-11 {width:550px!important;}
+.w-12 {width:600px!important;}
+.w-13 {width:650px!important;}
+.w-auto {width:auto!important;}
+.left {float:left;}
+.right {float:right;}
+
+
+.warper {width:1000px;margin:0 auto;position:relative;}
+
+
+.part {}
+.p-1 .warper .logo {position: absolute;left:0;top: 0;width: 360px;height: 60px;text-indent: -1000px;}
+.p-1 {height: 515px;background: url(1.jpg) no-repeat center 0;}
+.p-2 {height: 433px;background: url(2.jpg) no-repeat center 0;}
+.p-3 {height: 505px;background: url(3.jpg) no-repeat center 0;}
+.p-4 {height: 467px;background: url(4.jpg) no-repeat center 0;}
+.p-5 {height: 477px;background: url(5.jpg) no-repeat center 0;}
+.p-6 {height: 445px;background: url(6.jpg) no-repeat center 0;}
+.p-7 {height: 874px;background: url(7.jpg) no-repeat center 0;}
+.p-8 {height: 417px;background: url(8.jpg) no-repeat center 0;}
+
+
+
+.footer {background:#FFF;font-family:microsoft yahei;}
+.footer-bg {height:105px;background:url(footer-bg.png) no-repeat;}
+.footer .cell{ float:left; padding-top:20px; width:210px; font-size:14px;}
+.footer .cell-a{ padding-left:25px;}
+.footer .footer-cont{padding-top:20px; float:right;text-align:right;}
+.footer .footer-cont .foot-link{height:20px; line-height:20px;color:#cacaca;}
+.footer .footer-cont .foot-link a { color:#585757; text-decoration:none;}
+.footer .footer-cont .foot-link a:hover {color:#8e846b;}
+.footer .footer-cont .copy{height:30px; line-height:30px;color:#9e9e9e;}
+.footer .footer-cont .copy font{color:#b8af9b; font-size:12px;}
+.footer .footer-cont .foot-warning { color:#64646c;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1 @@
+../../../app/lang/zh-CN/_ad_info.php

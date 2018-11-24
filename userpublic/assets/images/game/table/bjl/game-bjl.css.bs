@@ -1,0 +1,1642 @@
+body {
+    background-color: black;
+}
+
+.main-content {
+    margin-top: 50px;
+    position: relative;
+    left: 50%;
+    margin-left: -910px;
+    width: 1820px;
+    height: 1068px;
+    background: url("bjl-bg.png") top center no-repeat;
+    background-size: contain;
+}
+
+.main-content .banker {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    margin-left: -100px;
+    width: 200px;
+    height: 50px;
+}
+
+.main-content .main-content-body {
+    position: relative;
+    height: 500px;
+    width: 1600px;
+    margin-top: -50px;
+    left: 50%;
+    margin-left: -800px;
+}
+
+.main-content .main-content-body .table-mask-lock {
+    width: 1196px;
+    height: 637px;
+    position: absolute;
+    /* top: 200px; */
+    margin-left: -598px;
+    left: 50%;
+    z-index: 99;
+}
+
+.main-content .main-content-body .game-level {
+    position: absolute;
+    left: 1100px;
+    margin-left: -10px;
+    top: 15px;
+    font-family: fzjzjw;
+    font-size: 14px;
+    padding: 5px 16px;
+    background-color: rgba(0,0,0,.3);
+    border-radius: 5px;
+    -moz-box-shadow:inset  -1px -1px 0px 0px #068833;
+    -webkit-box-shadow:inset  -1px -1px 0px 0px #068833;
+    box-shadow:inset  -1px -1px 0px 0px #068833;
+}
+
+.main-content .main-content-body .game-level .table-level {
+    /*color: rgb(254, 243, 214);*/
+}
+
+.main-content .main-content-body .game-level .table-limit {
+    /*color: white;*/
+}
+
+.main-content .main-content-body .game-help {
+    position: absolute;
+    top: 15px;
+    color: #178E48;
+    padding: 5px 8px;
+    cursor: pointer;
+    left: 409px;
+    font-size: 14px;
+    background-color:#F3BF79;
+    border-radius: 9px;
+}
+
+.main-content .main-content-body .game-help:hover {
+    color: blue;
+}
+
+.main-content .main-content-body .count-down {
+    width: 100px;
+    height: 94px;
+    position: absolute;
+    right: 135px;
+    bottom: -93px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 14px;
+    background:url(count-down-bg.png) no-repeat;
+}
+
+.main-content .main-content-body .count-down .count-down-text {
+    font-family: Microsoft YaHei;
+    text-align: center;
+    font-size: 14px;
+}
+
+.main-content .main-content-body .count-down .count-down-time {
+    position: absolute;
+    left: 14px;
+    top: 12px;
+    /* font-family: brushScriptMedium; */
+    font-size: 40px;
+    color: #904F04;
+    font-weight: bold;
+    /* box-shadow: 1px 1px 1px #000; */
+    text-shadow: 3px 2px 4px #000;
+    width:74px;
+    height:74px;
+    line-height: 74px;
+    background:url(count-down-txt-bg.png) no-repeat;
+}
+
+
+.main-content .main-content-body .count-down .count-down-time .num-red {
+    color: #FF5A00;
+}
+
+.poker-locations {
+    position: absolute;
+    top: 90px;
+    width: 700px;
+    left: 50%;
+    margin-left: -350px;
+    height: 100px;
+}
+
+.poker-locations .xian-value{
+    position: absolute;
+    top: 75px;
+    left: 215px;
+    width: 80px;
+    height: 80px;
+    background: url(poker-value-bg.png) center center no-repeat;
+    background-size: contain;
+    line-height: 80px;
+    text-align: center;
+    font-size: 25px;
+    display: none;
+}
+
+.poker-locations .zhuang-value{
+    position: absolute;
+    top: 75px;
+    left:398px;
+    width:80px;
+    height:80px;
+    background:url(poker-value-bg.png) center center no-repeat;
+    background-size:contain;
+    line-height: 80px;
+    text-align: center;
+    font-size: 25px;
+    display: none;
+}
+
+.poker-locations .xian-holder-2{
+    position: absolute;
+    top: 0px;
+    left: 207px;
+    width: 86px;
+    height: 92px;
+    background-image: url(xian-holder-2.png);
+    background-repeat: no-repeat;
+    background-size: contain
+}
+
+.poker-locations .xian-holder-1{
+    position: absolute;
+    top: -4px;
+    left: 127px;
+    width: 86px;
+    height: 92px;
+    background-image: url(xian-holder-1.png);
+    background-repeat: no-repeat;
+    background-size: contain
+}
+
+.poker-locations .zhuang-holder-1{
+    position: absolute;
+    top: 0px;
+    left: 404px;
+    width: 86px;
+    height: 92px;
+    background-image: url(zhuang-holder-1.png);
+    background-repeat: no-repeat;
+    background-size: contain
+}
+
+.poker-locations .zhuang-holder-2{
+    position: absolute;
+    top: -4px;
+    left: 485px;
+    width: 86px;
+    height: 92px;
+    background-image: url(zhuang-holder-2.png);
+    background-repeat: no-repeat;
+    background-size: contain
+}
+
+.poker-container {
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: .5s;
+    -webkit-transform:rotate(43deg);
+
+    -moz-transform-style: preserve-3d;
+    -moz-transition: .5s;
+    -moz-transform:rotate(43deg);
+
+
+    transform-style:preserve-3d;
+    transition:.5s;
+    transform: rotate(43deg);
+
+    position: absolute;
+    left: 794px;
+    top: -38px;
+    width: 60px;
+    height: 89px;
+}
+
+.poker-container-zhuang-1 {
+    top: 0px;
+    left: 415px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform:rotate(0deg);
+}
+
+.poker-container-zhuang-2 {
+    top: 0px;
+    left: 485px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform:rotate(0deg);
+}
+
+.poker-container-zhuang-3 {
+    top: 0px;
+    left: 570px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform:rotate(90deg);
+    filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.poker-container-xian-1 {
+    top: 0px;
+    left: 220px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform:rotate(0deg);
+}
+
+.poker-container-xian-2 {
+    top: 0px;
+    left: 150px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform:rotate(0deg);
+}
+
+.poker-container-xian-3 {
+    top: 0px;
+    left: 65px;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    transform:rotate(-90deg);
+    filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.poker-container-left {
+    -webkit-transform: rotateX(45deg) rotateY(-13deg) rotateZ(31deg);
+    -moz-transform: rotateX(45deg) rotateY(-13deg) rotateZ(31deg);
+    transform: rotateX(45deg) rotateY(-13deg) rotateZ(31deg);
+    width: 91px;
+    height: 103px;
+    left: -230px;
+    top: -113px;
+}
+
+.poker-container .card .poker {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    z-index: 2;
+}
+
+.poker-1 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(1.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-2 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(2.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-3 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(3.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-4 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(4.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-5 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(5.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-6 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(6.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-7 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(7.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-8 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(8.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-9 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(9.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-10 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(10.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-11 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(11.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-12 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(12.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-13 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(13.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-14 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(14.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-15 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(15.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-16 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(16.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-17 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(17.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-18 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(18.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-19 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(19.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-20 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(20.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-21 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(21.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-22 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(22.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-23 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(23.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-24 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(24.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-25 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(25.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-26 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(26.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-27 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(27.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-28 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(28.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-29 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(29.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-30 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(30.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-31 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(31.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-32 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(32.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-33 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(33.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-34 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(34.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-35 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(35.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-36 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(36.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-37 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(37.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-38 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(38.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-39 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(39.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-40 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(40.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-41 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(41.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-42 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(42.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-43 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(43.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-44 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(44.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-45 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(45.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-46 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(46.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-47 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(47.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-48 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(48.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-49 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(49.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-50 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(50.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-51 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(51.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-52 {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    background: url(52.png) no-repeat center center;
+    background-size: contain;
+}
+
+.poker-container .card .back {
+    background: url(back.png) center center no-repeat;
+    background-size: contain;
+}
+
+.poker-container .card {
+    width: 100%;
+    height: 100%;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: 1.5s;
+
+    -moz-transform-style: preserve-3d;
+    -moz-transition: 1.5s;
+
+    transform-style: preserve-3d;
+    transition: 1.5s;
+}
+
+.poker-container .card.filpped {
+    -webkit-transform: rotateX(180deg);
+    -moz-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+}
+
+
+/*.poker-locations .poker-zhuang-1{
+    position: absolute;
+    left: 220px;
+    width: 60px;
+    height: 89px;
+    background:url(1.png) no-repeat center center;
+    background-size:contain;
+}
+
+.poker-locations .poker-zhuang-2{
+    position: absolute;
+    left: 150px;
+    width: 60px;
+    height: 89px;
+    background:url(2.png) no-repeat center center;
+    background-size:contain;
+}
+
+.poker-locations .poker-zhuang-3{
+    position: absolute;
+    left: 65px;
+    width: 60px;
+    height: 89px;
+    background:url(3.png) no-repeat center center;
+    background-size:contain;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+
+.poker-locations .poker-xian-1{
+    position: absolute;
+    left: 415px;
+    width: 60px;
+    height: 89px;
+    background:url(21.png) no-repeat center center;
+    background-size:contain;
+
+}
+
+.poker-locations .poker-xian-2{
+    position: absolute;
+    left: 485px;
+    width: 60px;
+    height: 89px;
+    background:url(22.png) no-repeat center center;
+    background-size:contain;
+
+}
+
+.poker-locations .poker-xian-3{
+    position: absolute;
+    left: 570px;
+    width: 60px;
+    height: 89px;
+    background:url(23.png) no-repeat center center;
+    background-size:contain;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}*/
+
+.main-content .main-content-body .area {
+    position: absolute;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+
+.main-content .main-content-body .area-da {
+    top: 312px;
+    left: 250px;
+    background: url(da.png) no-repeat;
+    background-size: contain;
+    width: 178px;
+    height: 93px;
+}
+
+.main-content .main-content-body .area-da:hover {
+    top: 312px;
+    left: 250px;
+    background: url(da-hover.png) no-repeat;
+    background-size: contain;
+    width: 178px;
+    height: 93px;
+}
+
+.main-content .main-content-body .area-xiao {
+    top: 312px;
+    left: 1173px;
+    background: url(xiao.png) no-repeat;
+    background-size: contain;
+    width: 178px;
+    height: 93px;
+}
+
+.main-content .main-content-body .area-xiao:hover {
+    top: 312px;
+    left: 1173px;
+    background: url(xiao-hover.png) no-repeat;
+    background-size: contain;
+    width: 178px;
+    height: 93px;
+}
+
+.main-content .main-content-body .area-xian {
+    top: 260px;
+    left: 436px;
+    background: url(xian.png) no-repeat;
+    background-size: contain;
+    width: 287px;
+    height: 168px;
+}
+
+.main-content .main-content-body .area-xian:hover {
+    top: 260px;
+    left: 436px;
+    background: url(xian-hover.png) no-repeat;
+    background-size: contain;
+    width: 287px;
+    height: 168px;
+}
+
+.main-content .main-content-body .area-zhuang {
+    top: 260px;
+    left: 875px;
+    background: url(zhuang.png) no-repeat;
+    background-size: contain;
+    width: 287px;
+    height: 168px;
+}
+
+.main-content .main-content-body .area-zhuang:hover {
+    top: 260px;
+    left: 875px;
+    background: url(zhuang-hover.png) no-repeat;
+    background-size: contain;
+    width: 287px;
+    height: 168px;
+}
+
+.main-content .main-content-body .area-xianlongbao {
+    top: 239px;
+    left: 289px;
+    background: url(xianlongbao.png) no-repeat;
+    background-size: contain;
+    width: 158px;
+    height: 93px;
+}
+
+.main-content .main-content-body .area-xianlongbao:hover {
+    top: 239px;
+    left: 289px;
+    background: url(xianlongbao-hover.png) no-repeat;
+    background-size: contain;
+    width: 158px;
+    height: 93px;
+}
+
+.main-content .main-content-body .area-zhuanglongbao {
+    top: 239px;
+    left: 1149px;
+    background: url(zhuanglongbao.png) no-repeat;
+    background-size: contain;
+    width: 158px;
+    height: 93px;
+}
+
+.main-content .main-content-body .area-zhuanglongbao:hover {
+    top: 239px;
+    left: 1149px;
+    background: url(zhuanglongbao-hover.png) no-repeat;
+    background-size: contain;
+    width: 158px;
+    height: 93px;
+}
+
+.main-content .main-content-body .area-xiandui {
+    top: 180px;
+    left: 487px;
+    background: url(xiandui.png) no-repeat;
+    background-size: contain;
+    width: 240px;
+    height: 90px;
+}
+
+.main-content .main-content-body .area-xiandui:hover {
+    top: 180px;
+    left: 487px;
+    background: url(xiandui-hover.png) no-repeat;
+    background-size: contain;
+    width: 240px;
+    height: 90px;
+}
+
+.main-content .main-content-body .area-zhuangdui {
+    top: 180px;
+    left: 870px;
+    background: url(zhuangdui.png) no-repeat;
+    background-size: contain;
+    width: 240px;
+    height: 90px;
+}
+
+.main-content .main-content-body .area-zhuangdui:hover {
+    top: 180px;
+    left: 870px;
+    background: url(zhuangdui-hover.png) no-repeat;
+    background-size: contain;
+    width: 240px;
+    height: 90px;
+}
+
+.main-content .main-content-body .area-he {
+    top: 282px;
+    left: 747px;
+    background: url(he.png) no-repeat;
+    background-size: contain;
+    width: 109px;
+    height: 146px;
+}
+
+.main-content .main-content-body .area-he:hover {
+    top: 282px;
+    left: 747px;
+    background: url(he-hover.png) no-repeat;
+    background-size: contain;
+    width: 109px;
+    height: 146px;
+}
+
+.main-content .main-content-body .area-super {
+    top: 200px;
+    left: 754px;
+    background: url(super.png) no-repeat;
+    background-size: contain;
+    width: 92px;
+    height: 60px;
+}
+
+.main-content .main-content-body .area-super:hover {
+    top: 200px;
+    left: 754px;
+    background: url(super-hover.png) no-repeat;
+    background-size: contain;
+    width: 92px;
+    height: 60px;
+}
+
+.main-content .betTool {
+    width: 1128px;
+    height: 80px;
+    position: relative;
+    left: 50%;
+    margin-left: -564px;
+    margin-top: -90px;
+    clear:both;
+}
+
+.main-content .balance {
+    position: relative;
+    float: left;
+    width: 244px;
+    height: 78px;
+    background: url("betMoney.png") no-repeat center center;
+    background-size: contain;
+    margin-top: -18px;
+    text-align: left;
+}
+
+.main-content .money-bet {
+    float: left;
+    width: 259px;
+    height: 83px;
+    background: url("balance.png") no-repeat center center;
+    background-size: contain;
+    position: relative;
+    margin-top: -18px;
+}
+
+.main-content .balance .balance-txt {
+    width: 120px;
+    height: 53px;
+    line-height: 48px;
+    color: #FFF;
+    margin-left: 64px;
+    font-size: 12px;
+}
+
+.main-content .money-bet .money-txt {
+    width: 120px;
+    height: 53px;
+    line-height: 48px;
+    color: #FFF;
+    margin-left: 52px;
+    font-size: 12px;
+}
+
+.main-content .betTool .money-balance {
+    color: #F3BF79;
+    position: absolute;
+    top: 30px;
+    left: -20px;
+    font-size: 20px;
+    text-align: right;
+    width: 100%;
+}
+
+.main-content .betTool .money {
+    color: #F3BF79;
+    position: absolute;
+    top: 30px;
+    left: -20px;
+    font-size: 20px;
+    text-align: right;
+    width: 100%;
+}
+
+.main-content .main-content-chips {
+    height: 120px;
+    width: 646px;
+    position: relative;
+    top: -64px;
+    left: 1000px;
+}
+/*
+.main-content .main-content-chips .chip-1 {
+    top: 46px;
+}
+
+.main-content .main-content-chips .chip-2 {
+    top: 42px;
+}
+
+.main-content .main-content-chips .chip-5 {
+    top: 36px;
+}
+
+.main-content .main-content-chips .chip-10 {
+    top: 27px;
+}
+
+.main-content .main-content-chips .chip-50 {
+    top: 16px;
+}
+
+.main-content .main-content-chips .chip-100 {
+    top: 2px;
+}
+
+.main-content .main-content-chips .chip-1000 {
+    top: -14px;
+}*/
+
+.chip {
+    width: 76px;
+    height: 76px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    float: left;
+    cursor: pointer;
+}
+
+.move-chip {
+    position: absolute;
+    z-index: 98;
+}
+
+.main-content .main-content-chips .chip {
+    position: relative;
+    opacity: .9;
+}
+
+.main-content .main-content-chips .chip:hover {
+    opacity: 1;
+}
+
+.main-content .main-content-chips .active {
+    opacity: 1;
+}
+
+.chip {
+    width:63px;
+    height:63px;
+}
+.chip-0-5 {
+    background-image: url("chip-0-5.png");
+}
+
+.chip-1 {
+    background-image: url("chip-1.png");
+}
+
+.chip-2 {
+    background-image: url("chip-2.png");
+}
+
+.chip-5 {
+    background-image: url("chip-5.png");
+}
+
+.chip-10 {
+    background-image: url("chip-10.png");
+}
+
+.chip-50 {
+    background-image: url("chip-50.png");
+}
+
+.chip-100 {
+    background-image: url("chip-100.png");
+}
+
+.chip-1000 {
+    background-image: url("chip-1000.png");
+}
+
+.chip-200 {
+    background-image: url("chip-200.png");
+}
+
+.chip-300 {
+    background-image: url("chip-300.png");
+}
+
+.chip-500 {
+    background-image: url("chip-500.png");
+}
+
+.chip-600 {
+    background-image: url("chip-600.png");
+}
+
+.chip-800 {
+    background-image: url("chip-800.png");
+}
+
+.chip-2000 {
+    background-image: url("chip-2000.png");
+}
+
+.chip-3000 {
+    background-image: url("chip-3000.png");
+}
+
+.chip-5000 {
+    background-image: url("chip-5000.png");
+}
+
+.chip-6000 {
+    background-image: url("chip-6000.png");
+}
+
+.chip-8000 {
+    background-image: url("chip-8000.png");
+}
+
+.chip-10000 {
+    background-image: url("chip-10000.png");
+}
+
+.main-content-chips .chip {
+    margin-left: 15px;
+    width: 63px;
+    height: 64px;
+}
+
+.main-content .betTool .btn-submit {
+    margin-top: -27px;
+    float: left;
+    background: url("btn-submit.png") no-repeat center center;
+    background-size: contain;
+    width: 238px;
+    height: 108px;
+    cursor: pointer;
+}
+
+.main-content .betTool .btn-submit:hover {
+    float: left;
+    background: url("btn-submit-hover.png") no-repeat center center;
+    background-size: contain;
+    width: 238px;
+    height: 108px;
+    cursor: pointer;
+}
+
+.main-content .betTool .btn-submit:active {
+    float: left;
+    background: url("btn-submit.png") no-repeat center center;
+    background-size: contain;
+    width: 238px;
+    height: 108px;
+    cursor: pointer;
+}
+
+.main-content .betTool .btn-clear {
+    float: left;
+    width: 193px;
+    height: 108px;
+    background: url(btn-clear.png) no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+    margin-top: -23px;
+}
+
+.main-content .betTool .btn-clear:hover {
+    background: url(btn-clear-hover.png) no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.main-content .betTool .btn-clear:active {
+    background: url(btn-clear.png) no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.main-content .betTool .btn-rebet {
+    margin-top: -25px;
+    float: left;
+    width: 193px;
+    height: 108px;
+    background: url(btn-rebet.png) no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.main-content .betTool .btn-rebet:hover {
+    background: url(btn-rebet-hover.png) no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.main-content .betTool .btn-rebet:active {
+    background: url(btn-rebet.png) no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.main-content .betTool .btn-double {
+    margin-top: -25px;
+    float: left;
+    width: 193px;
+    height: 108px;
+    background: url(btn-double.png) no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+    display: none;
+}
+
+.main-content .betTool .btn-double:hover {
+    margin-top: -25px;
+    background: url(btn-double-hover.png) no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.main-content .betTool .btn-double:active {
+    margin-top: -25px;
+    background: url(btn-double.png) no-repeat no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.betTrand {
+    width: 1102px;
+    height: 182px;
+    background-color: black;
+    position: relative;
+    margin-left: -551px;
+    left: 50%;
+    top: -20px;
+    clear: both;
+    border: 5px solid silver;
+    border-radius: 5px;
+}
+
+.betTrand .trandController {
+    width: 200px;
+    height: 182px;
+    float: left;
+    position: relative;
+    background-color:#363537;
+}
+
+.betTrand .trandController .paginate {
+    position: absolute;
+    left: 50%;
+    margin-left: -64px;
+    width: 128px;
+    height: 48px;
+    top: 67px;
+}
+
+.betTrand .trandController .btn-last {
+    width: 37px;
+    height: 48px;
+    background-image: url(paginate.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    float: left;
+}
+
+.betTrand .trandController .btn-last:hover {
+    width: 37px;
+    height: 48px;
+    background-image: url(paginate-hover.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    float: left;
+    cursor: pointer;
+}
+
+.betTrand .trandController .btn-last:active {
+    width: 37px;
+    height: 48px;
+    background-image: url(paginate.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    float: left;
+}
+
+.betTrand .trandController .btn-curr {
+    width: 47px;
+    height: 48px;
+    background-image: url(paginate.png);
+    background-repeat: no-repeat;
+    background-position: -37px 0px;
+    float: left;
+}
+
+.betTrand .trandController .btn-curr:hover {
+    width: 47px;
+    height: 48px;
+    background-image: url(paginate-hover.png);
+    background-repeat: no-repeat;
+    background-position: -37px 0px;
+    float: left;
+    cursor: pointer;
+}
+
+.betTrand .trandController .btn-curr:active {
+    width: 47px;
+    height: 48px;
+    background-image: url(paginate.png);
+    background-repeat: no-repeat;
+    background-position: -37px 0px;
+    float: left;
+}
+
+.betTrand .trandController .btn-next {
+    width: 37px;
+    height: 48px;
+    background-image: url(paginate.png);
+    background-repeat: no-repeat;
+    background-position: -84px 0px;
+    float: left;
+}
+
+.betTrand .trandController .btn-next:hover {
+    width: 37px;
+    height: 48px;
+    background-image: url(paginate-hover.png);
+    background-repeat: no-repeat;
+    background-position: -84px 0px;
+    float: left;
+    cursor: pointer;
+}
+
+.betTrand .trandController .btn-next:active {
+    width: 37px;
+    height: 48px;
+    background-image: url(paginate.png);
+    background-repeat: no-repeat;
+    background-position: -84px 0px;
+    float: left;
+}
+
+.betTrand .column {
+    float: left;
+    margin-left: 2px;
+}
+
+.betTrand .item {
+    margin-top: 2px;
+    width: 28px;
+    height: 28px;
+    background-size: contain;
+}
+
+.betTrand .item-blank {
+    background-image: url('item-blank.png');
+}
+
+.betTrand .item-zhuang-zhuangdui-xiandui {
+    background-image: url('item-zhuangdui.png'), url('item-xiandui.png'), url('item-zhuang.png');
+}
+
+.betTrand .item-xian-zhuangdui-xiandui {
+    background-image: url('item-zhuangdui.png'), url('item-xiandui.png'), url('item-xian.png');
+}
+
+.betTrand .item-he-zhuangdui-xiandui {
+    background-image: url('item-zhuangdui.png'), url('item-xiandui.png'), url('item-he.png');
+}
+
+.betTrand .item-zhuang-zhuangdui {
+    background-image: url('item-zhuangdui.png'), url('item-zhuang.png');
+}
+
+.betTrand .item-xian-zhuangdui {
+    background-image: url('item-zhuangdui.png'), url('item-xian.png');
+}
+
+.betTrand .item-he-zhuangdui {
+    background-image: url('item-zhuangdui.png'), url('item-he.png');
+}
+
+.betTrand .item-zhuang-xiandui {
+    background-image: url('item-xiandui.png'), url('item-zhuang.png');
+}
+
+.betTrand .item-xian-xiandui {
+    background-image: url('item-xiandui.png'), url('item-xian.png');
+}
+
+.betTrand .item-he-xiandui {
+    background-image: url('item-xiandui.png'), url('item-he.png');
+}
+
+.betTrand .item-zhuang {
+    background-image: url('item-zhuang.png');
+}
+
+.betTrand .item-xian {
+    background-image: url('item-xian.png');
+}
+
+.betTrand .item-he {
+    background-image: url('item-he.png');
+}
+
+.table-result {
+    position: absolute;
+    right: 400px;
+    left: 411px;
+    top: 170px;
+    z-index: 100;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #F7CD1F;
+    padding: 10px 0;
+    border-radius: 5px;
+    display: none;
+    font-family: FZLanTingHei-R-GBK;
+}
+
+.table-notice {
+    position: absolute;
+    right: 400px;
+    left: 411px;
+    top: 170px;
+    z-index: 100;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 22px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #F7CD1F;
+    padding: 10px 0;
+    border-radius: 5px;
+    display: none;
+    font-family: FZLanTingHei-R-GBK;
+}
+
+.table-notice1 {
+    position: absolute;
+    right: 557px;
+    left: 557px;
+    top: 154px;
+    z-index: 101;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 22px;
+    background-color: rgba(38, 39, 50, .7);
+    color: #F7CD1F;
+    padding: 87px 0;
+    border-radius: 5px;
+    display: none;
+    font-family: FZLanTingHei-R-GBK;
+    box-shadow: 1px 1px 45px #000;
+}
+
+.table-notice2 {
+    position: absolute;
+    left: 50%;
+    margin-left: -516px;
+    width: 1016px;
+    height: 736px;
+    z-index: 1000000;
+    font-size: 14px;
+    background-color: rgba(38, 39, 50, 1);
+    color: #FFF6B9;
+    padding: 10px;
+    border-radius: 5px;
+    /*font-family: Microsoft YaHei;*/
+    border: 2px solid #A39E79;
+    display: none;
+}
+
+.close-notice2 {
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    background: #B6A67A;
+    border-radius: 2px;
+    width: 83px;
+    height: 32px;
+    display: inline-block;
+    line-height: 32px;
+    font-size: 14px;
+    text-align: center;
+    left: 50%;
+    margin-left: -41px;
+}
+
+.play-method .limit {
+    font-size: 25px;
+    color: red;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+.play-method .play-method-title{
+    width:100%;
+    font-weight: bold;
+}
+
+.play-method .play-method-content-detail{
+    padding-left:200px;
+}
+
+
+
+.play-method .tb-pm th{
+    border:1px solid black;
+    width:100px;
+    text-align: center;
+}
+
+.play-method .tb-pm td{
+    border:1px solid black;
+    width:100px;
+    text-align: center;
+}
+
+.game-contextmenu {
+    width: 100px;
+    position: absolute;
+    border-radius: 5px;
+    border: 2px solid #A07F32;
+    color: black;
+    display: inline-block;
+    background-color: #FFFEF1;
+    text-align: center;
+    box-shadow: 0px 2px 4px 0px #000;
+    display: none;
+    z-index: 99;
+}
+
+.game-contextmenu .txt-item {
+    height: 31px;
+    font-size: 13px;
+    line-height: 31px;
+    color: #000;
+    cursor: pointer;
+}
+
+.game-contextmenu.icon-txt-item {
+    height: 31px;
+    font-size: 13px;
+    line-height: 31px;
+    color: #000;
+}
+
+.game-contextmenu img {
+    display: inline-block;
+}
+
+.game-contextmenu .txt-item:hover,
+.game-contextmenu .icon-txt-item:hover {
+    background-color: #A39E79;
+    color: #FFF;
+}
+
+.game-contextmenu .seperator {
+    height: 1px;
+    width: 100%;
+    background-color: #9A9680;
+}
+
+.global-footer {
+    margin-top: 0px;
+}
+

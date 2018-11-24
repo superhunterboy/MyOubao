@@ -1,0 +1,93 @@
+
+
+
+
+.poker {
+    position: absolute;
+    width: 135px;
+    height: 190px;
+    top: 0;
+    left: -10000px;
+    background: url(poker/wd.png) no-repeat;
+    background-size: cover;
+    z-index: 90;
+    overflow: hidden;
+}
+
+
+.poker-1 {background-image: url(poker/1.png);}
+.poker-2 {background-image: url(poker/2.png);}
+.poker-3 {background-image: url(poker/3.png);}
+.poker-4 {background-image: url(poker/4.png);}
+.poker-5 {background-image: url(poker/5.png);}
+.poker-6 {background-image: url(poker/6.png);}
+.poker-7 {background-image: url(poker/7.png);}
+.poker-8 {background-image: url(poker/8.png);}
+.poker-9 {background-image: url(poker/9.png);}
+.poker-10 {background-image: url(poker/10.png);}
+
+.poker-11 {background-image: url(poker/11.png);}
+.poker-12 {background-image: url(poker/12.png);}
+.poker-13 {background-image: url(poker/13.png);}
+.poker-14 {background-image: url(poker/14.png);}
+.poker-15 {background-image: url(poker/15.png);}
+.poker-16 {background-image: url(poker/16.png);}
+.poker-17 {background-image: url(poker/17.png);}
+.poker-18 {background-image: url(poker/18.png);}
+.poker-19 {background-image: url(poker/19.png);}
+.poker-20 {background-image: url(poker/20.png);}
+
+.poker-21 {background-image: url(poker/21.png);}
+.poker-22 {background-image: url(poker/22.png);}
+.poker-23 {background-image: url(poker/23.png);}
+.poker-24 {background-image: url(poker/24.png);}
+.poker-25 {background-image: url(poker/25.png);}
+.poker-26 {background-image: url(poker/26.png);}
+.poker-27 {background-image: url(poker/27.png);}
+.poker-28 {background-image: url(poker/28.png);}
+.poker-29 {background-image: url(poker/29.png);}
+.poker-30 {background-image: url(poker/30.png);}
+
+.poker-31 {background-image: url(poker/31.png);}
+.poker-32 {background-image: url(poker/32.png);}
+.poker-33 {background-image: url(poker/33.png);}
+.poker-34 {background-image: url(poker/34.png);}
+.poker-35 {background-image: url(poker/35.png);}
+.poker-36 {background-image: url(poker/36.png);}
+.poker-37 {background-image: url(poker/37.png);}
+.poker-38 {background-image: url(poker/38.png);}
+.poker-39 {background-image: url(poker/39.png);}
+.poker-40 {background-image: url(poker/40.png);}
+
+
+.poker-41 {background-image: url(poker/41.png);}
+.poker-42 {background-image: url(poker/42.png);}
+.poker-43 {background-image: url(poker/43.png);}
+.poker-44 {background-image: url(poker/44.png);}
+.poker-45 {background-image: url(poker/45.png);}
+.poker-46 {background-image: url(poker/46.png);}
+.poker-47 {background-image: url(poker/47.png);}
+.poker-48 {background-image: url(poker/48.png);}
+.poker-49 {background-image: url(poker/49.png);}
+.poker-50 {background-image: url(poker/50.png);}
+
+.poker-51 {background-image: url(poker/51.png);}
+.poker-52 {background-image: url(poker/52.png);}
+
+
+
+body .poker-red {
+    background-image: url(poker/card-red.gif);
+}
+body .poker-blue {
+    background-image: url(poker/card-blue.gif);
+}
+
+
+
+
+
+
+
+
+

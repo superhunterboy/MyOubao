@@ -1,0 +1,129 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>游戏手机客户端 - 博狼娱乐</title>
+<style type="text/css">
+* {margin: 0;padding: 0;}
+html,body {height: 100%;overflow:hidden;}
+body {background: #302e41;padding-top: 50%;}
+
+.button-cont {width: 50%;margin-top: 40%;text-align: center;margin: 0 auto;}
+.text {color: #FFF;text-align: center;padding: 20px 0 0 0;font-size:24px;}
+
+.tip-change-bor {text-align: right;padding: 50px 50px 50px 0;}
+</style>
+</head>
+
+<body>
+
+
+<div class="tip-change-bor" id="J-tip-change-bor" style="display:none">
+	<img src="tip.png" width="70%" />
+</div>
+
+
+
+<div class="button-cont" id="J-button">
+	<a class="button" href="itms-services://?action=download-manifest&url=https://www.bomao777.com/Bomao.plist" title="点击下载iPhone安装包">
+		<img width="100%" src="button-download-a.png" />
+	</a>
+	<div class="text">安装过程系统会询问您是否信任，请选择信任</div>
+</div>
+
+
+
+
+
+
+<script type="text/javascript">
+function browserinfo() {
+    var Browser_Name = navigator.appName;
+    var Browser_Version = parseFloat(navigator.appVersion);
+    var Browser_Agent = navigator.userAgent;
+    var Actual_Version, Actual_Name;
+    var is_IE = (Browser_Name == "Microsoft Internet Explorer");
+    var is_NN = (Browser_Name == "Netscape");
+    var is_op = (Browser_Name == "Opera");
+    if (is_NN) {
+        if (Browser_Version >= 5.0) {
+            if (Browser_Agent.indexOf("Netscape") != -1) {
+                var Split_Sign = Browser_Agent.lastIndexOf("/");
+                var Version = Browser_Agent.lastIndexOf(" ");
+                var Bname = Browser_Agent.substring(0, Split_Sign);
+                var Split_sign2 = Bname.lastIndexOf(" ");
+                Actual_Version = Browser_Agent.substring(Split_Sign + 1, Browser_Agent.length);
+                Actual_Name = Bname.substring(Split_sign2 + 1, Bname.length)
+            }
+            if (Browser_Agent.indexOf("Firefox") != -1) {
+                var Split_Sign = Browser_Agent.lastIndexOf("/");
+                var Version = Browser_Agent.lastIndexOf(" ");
+                Actual_Version = Browser_Agent.substring(Split_Sign + 1, Browser_Agent.length);
+                Actual_Name = Browser_Agent.substring(Version + 1, Split_Sign)
+            }
+            if (Browser_Agent.indexOf("Safari") != -1) {
+                if (Browser_Agent.indexOf("Chrome") != -1) {
+                    var Split_Sign = Browser_Agent.lastIndexOf(" ");
+                    var Version = Browser_Agent.substring(0, Split_Sign);
+                    var Split_Sign2 = Version.lastIndexOf("/");
+                    var Bname = Version.lastIndexOf(" ");
+                    Actual_Version = Version.substring(Split_Sign2 + 1, Version.length);
+                    Actual_Name = Version.substring(Bname + 1, Split_Sign2)
+                } else {
+                    var Split_Sign = Browser_Agent.lastIndexOf("/");
+                    var Version = Browser_Agent.substring(0, Split_Sign);
+                    var Split_Sign2 = Version.lastIndexOf("/");
+                    var Bname = Browser_Agent.lastIndexOf(" ");
+                    Actual_Version = Browser_Agent.substring(Split_Sign2 + 1, Bname);
+                    Actual_Name = Browser_Agent.substring(Bname + 1, Split_Sign)
+                }
+            }
+        } else {
+            Actual_Version = Browser_Version;
+            Actual_Name = Browser_Name
+        }
+    } else if (is_IE) {
+        var Version_Start = Browser_Agent.indexOf("MSIE");
+        var Version_End = Browser_Agent.indexOf(";", Version_Start);
+        Actual_Version = Browser_Agent.substring(Version_Start + 5, Version_End);
+        Actual_Name = Browser_Name;
+        if (Browser_Agent.indexOf("Maxthon") != -1 || Browser_Agent.indexOf("MAXTHON") != -1) {
+            var mv = Browser_Agent.lastIndexOf(" ");
+            var mv1 = Browser_Agent.substring(mv, Browser_Agent.length - 1);
+            mv1 = "遨游版本:" + mv1;
+            Actual_Name += "(Maxthon)";
+            Actual_Version += mv1
+        }
+    } else if (Browser_Agent.indexOf("Opera") != -1) {
+        Actual_Name = "Opera";
+        var tempstart = Browser_Agent.indexOf("Opera");
+        var tempend = Browser_Agent.length;
+        Actual_Version = Browser_Version
+    } else {
+        Actual_Name = "Unknown Navigator";
+        Actual_Version = "Unknown Version";
+    }
+    navigator.Actual_Name = Actual_Name;
+    navigator.Actual_Version = Actual_Version;
+    this.Name = Actual_Name;
+    this.Version = Actual_Version;
+
+}
+browserinfo();
+/**
+document.write("你使用的浏览器是:" + navigator.userAgent);
+document.write("<br>");
+document.write("你使用的浏览器是:" + navigator.Actual_Name + ",版本号:" + navigator.Actual_Version);
+**/
+if(navigator.Actual_Name != 'Safari'){
+	var dom = document.getElementById('J-tip-change-bor');
+	dom.style.display = 'block';
+	document.getElementById('J-button').style.display = 'none';
+	document.body.style.paddingTop = '0px';
+	document.body.style.background = '#302e41 url(text.png) no-repeat center 50%';
+}
+</script>
+
+</body>
+</html>

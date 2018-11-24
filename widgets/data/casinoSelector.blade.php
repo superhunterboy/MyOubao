@@ -1,0 +1,1 @@
+var lotteriesWithSeriesId={"16":{"id":"16","name":"\u9ab0\u5b9d","series_id":"16","open":1},"17":{"id":"17","name":"\u9f99\u864e\u6597","series_id":"17","open":1},"18":{"id":"18","name":"\u767e\u5bb6\u4e50","series_id":"18","open":1}}

@@ -1,0 +1,1 @@
+../../../app/lang/zh-CN/_clear_user_details.php

@@ -1,0 +1,300 @@
+
+
+
+/*banners*/
+
+.xmSlide {
+    height: 330px;
+    overflow: hidden;
+    position: relative;
+}
+
+.xmSlide-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 200;
+}
+
+.xmSlide-control {
+    position: relative;
+}
+
+.xmSlide-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.xmSlide-img {
+    height: 370px;
+    overflow: hidden;
+    background-position: top center;
+    background-size: cover;
+}
+
+.xmSlide-prev,
+.xmSlide-next {
+    z-index: 500;
+    position: absolute;
+    top: 100px;
+    width: 41px;
+    height: 119px;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+    opacity: .5;
+    filter: alpha(opacity=50);
+    text-indent: -9999px;
+}
+
+.xmSlide-prev {
+    left: 50px;
+    background: url(ban_pre_24.png);
+    display: none;
+}
+
+.xmSlide-next {
+    right: 50px;
+    background: url(ban_next_24.png);
+    display: none;
+}
+
+.xmSlide-prev:hover,
+.xmSlide-next:hover {
+    opacity: 1;
+    filter: alpha(opacity=100)
+}
+
+.xmSlide-pagination {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    text-align: center;
+    z-index: 200;
+    height: 20px;
+    overflow: hidden;
+}
+
+.xmSlide-pagination li {
+    display: inline-block;
+    margin: 0 5px;
+    width: 10px;
+    height: 10px;
+    background: #C4C9D2;
+    cursor: pointer;
+    border-radius: 5px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.xmSlide-pagination li a {
+    display: block;
+    width: 10px;
+    height: 10px;
+    text-indent: -9999px;
+    background-color: #ccd1d9;
+    border-radius: 5px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    overflow: hidden;
+}
+
+.xmSlide-pagination li a.active {
+    background-color: #7A7A7A;
+}
+
+
+/*content*/
+
+.content {
+  height:400px;
+  background: #F6F6F6;
+}
+
+.content .login-box {
+    float: left;
+    width: 290px;
+    padding: 20px 10px;
+}
+
+.content .login-info {
+    float: left;
+    width: 840px;
+    height: 200px;
+}
+
+.content .login-box .row {
+    padding: 10px 0;
+}
+
+.content .row-title {
+    font-size: 18px;
+    color: #000;
+    line-height: 24px;
+    padding: 10px 0;
+}
+
+.content .login-box .input {
+    background: #E3E3E3;
+    border: 1px solid #C9C9C9;
+    box-shadow: inset 0px 2px 2px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 3px;
+    padding: 8px 10px;
+    width: 270px;
+}
+
+.content .login-box .button {
+    background-image: linear-gradient(-180deg, #FFF5C8 2%, #C6B996 3%, #7D7356 65%, #978D72 100%);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.20);
+    border-radius: 3px;
+    color: #FFF;
+    border: none;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+
+.content .login-box .button:hover {
+    background-image: linear-gradient(-180deg, #FFF5C8 2%, #C6B996 3%, #918462 65%, #978D72 100%);
+}
+
+.content .login-box .button:active {
+    background-image: linear-gradient(-180deg, #FFF5C8 2%, #C6B996 3%, #7D7356 65%, #978D72 100%);
+}
+
+.content .login-box .row-text {
+    font-size: 14px;
+    color: #000;
+}
+
+.content .login-box .row-text a {
+    color: #787562;
+}
+
+.content .login-box .row-text a:hover {
+    color: #ABA688;
+}
+
+.content .login-box .row-text a.s {
+    font-size: 12px;
+}
+
+.content .login-box .login-error {
+    background: #FF0000;
+    padding: 10px 20px;
+    color: #FFF;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.content .login-box .hidden {
+    display: none;
+}
+
+.content .login-box .row-vcode {
+    position: relative;
+}
+
+.content .login-box .input-vcode {
+    width: 130px;
+}
+
+.content .login-box .verify {
+    position: absolute;
+    margin: 0px 0 0 10px;
+}
+
+.content .login-box .verify img {
+    width: 130px;
+    height: 37px;
+}
+
+.content .login-info {
+    float: left;
+    width: 720px;
+    padding: 20px 0 20px 140px;
+}
+
+.content .login-info .row {
+    padding: 10px 0;
+}
+
+.content .login-info .cont {
+    height: 213px;
+    background: url(login-img.png) no-repeat;
+    margin-top: 10px;
+}
+
+.dy-superiority {
+    position: relative;
+    float: right;
+    width: 800px;
+    height: 276px;
+    padding: 20px 10px;
+}
+
+.superiority-title {
+    font-size: 18px;
+    line-height: 19px;
+    color: #000;
+    padding: 10px 0;
+}
+
+.superiority-content {
+    position: absolute;
+    top: 75px;
+    width: 800px;
+    height: 223px;
+}
+
+.superiority-pic {
+    position: relative;
+    left: 50%;
+    margin-left: -49px;
+    width: 98px;
+    height: 98px;
+}
+
+#games {
+    background: url("games.png") center center no-repeat;
+}
+
+#rocket {
+    background: url("rocket.png") center center no-repeat;
+}
+
+#clock {
+    background: url("clock.png") center center no-repeat;
+}
+
+#security {
+    background: url("security.png") center center no-repeat;
+}
+
+.superiority-content span {
+    float: left;
+    width: 151px;
+}
+
+.superiority-content .seperator {
+    float: left;
+    width: 58px;
+    height: 100%;
+}
+
+p.title {
+    margin-top: 26px;
+    width: 155px;
+    font-size: 23px;
+}
+
+p.explain {
+    margin-top: 12px;
+    font-size: 12px;
+    width: 170px;
+    line-height: 22px;
+}

@@ -1,0 +1,38 @@
+<?php
+return array (
+
+    'audited' => '已审核',
+
+    'bonus sent' => '已派送',
+    'waiting audit' => '等待审核',
+    'sys del' => '系统过滤',
+    'rejected' => '已拒绝',
+
+    'status' => '状态',
+    'bank_card'=>'银行卡',
+    'created_at' => '审核时间',
+    'updated_at' => '更新时间',
+    'status_register'=>'注册状态',
+    'status_deposit'=>'首充状态',
+    'username' => '用户名',
+    'register_ip' => '注册ip',
+    'phone' => '手机号码',
+    'bonus_type'=>'礼金类型',
+    'cash_bonus'=>'礼金列表',
+    'auditing'=> '审核',
+    'auditing_all'=>'全部审核',
+    'sendprize'=>'派奖',
+    'sendprize_all'=>'全部派奖',
+    'deposit'=>'存款金额',
+    'register'=>'注册',
+    'normal'=>'待处理',
+    'rejected'=>'已拒绝',
+    'audited'=>'已通过',
+    'note'=>'备注',
+    'voucher_id'=>'礼金类型',
+    'deposit_amount'=>'首充',
+    'admin_username'=>'审核人',
+    'amount'=>'礼金金额',
+    'mincost'=>'流水金额',
+    'bonussendlist'=>'审核列表',
+);

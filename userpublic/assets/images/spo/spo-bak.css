@@ -1,0 +1,179 @@
+
+
+
+.container-main-spo {
+    background: #262732 url(bg-1.jpg) no-repeat center 0;
+    height: 2175px;
+}
+
+
+
+.spo-header {}
+.spo-header .title {
+    height: 160px;
+
+}
+.spo-header .text {
+    height: 80px;
+
+    margin: 60px 0 80px 0;
+}
+
+.spo-f-text {
+    height: 77px;
+
+    margin: 50px 0 200px 0;
+}
+
+
+.spo-ad {
+    height: 162px;
+
+}
+
+
+.spo-text-1 {
+    height: 318px;
+
+    margin-top: 80px;
+}
+
+
+.spo-text-2 {
+    height: 407px;
+
+    margin-top: 100px; 
+}
+.spo-text-2 .inner {
+    padding: 60px 0 0 64px;
+}
+.spo-text-2 a {
+    width: 146px;
+    height: 71px;
+    float: left;
+    margin: 1px 10px 20px 0;
+}
+
+.c-2 {
+    height: 125px;
+    background: #F5A623 url(c-2-bg.png) no-repeat center center;
+}
+
+.float-chart {
+    position: fixed;
+    top: 50%;
+    margin-top: -120px;
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    border-radius: 5px;
+    padding: 5px 0;
+}
+.float-chart p {
+    display: block;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.float-chart p a {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: underline;
+}
+.float-chart p a:hover {
+    color: #FFF;
+}
+
+
+
+.account-wrapper {
+    background: none;
+    box-shadow: none;
+}
+.bcontainer-main-login .form-horizontal .control-label {
+    display: none;
+}
+.account-body .has-error .text-tip {
+    color: #FFC00D;
+    background: rgba(38, 39, 50, 0.64);
+    padding: 2px 10px;
+    border-radius: 0;
+    margin: 0 2px;
+}
+
+.form-control {
+    border-color: #30877F;
+    border-radius: 3px;
+}
+.has-error .form-control:focus {
+    border-width: 1px;
+    border-color: #000;
+}
+
+.account-body .btn-form-submit {
+    background: #EE3047;
+    width: 250px;
+}
+.account-body .btn-form-submit:hover {
+    background: #FF586B;
+}
+.col-sm-10 {
+    width: 99%;
+}
+
+.account-wrapper {
+    width: 420px;
+}
+
+.cont-submit .tologin {
+    position: absolute;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+    background: #FFF;
+    opacity: 0.87;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    color: #30877F;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.login-tip {
+    position: absolute;
+    width: 231px;
+    height: 42px;
+    background: url(login-tip.png) no-repeat;
+    top: -48px;
+}
+
+
+.f-username {
+    background: #FFF url(ico-username-d.png) no-repeat 15px center;
+    padding-left: 45px;
+}
+.f-username:focus {
+    background-image: url(ico-username.png);
+}
+.f-password {
+    background: #FFF url(ico-password-d.png) no-repeat 15px center;
+    padding-left: 45px;
+}
+.f-password:focus {
+    background-image: url(ico-password.png);
+}
+.f-password2 {
+    background: #FFF url(ico-password2-d.png) no-repeat 15px center;
+    padding-left: 45px;
+}
+.f-password2:focus {
+    background-image: url(ico-password2.png);
+}
+
+
+
+
+
+
+
+
+

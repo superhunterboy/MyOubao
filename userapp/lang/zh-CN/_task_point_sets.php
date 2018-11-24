@@ -1,0 +1,1 @@
+../../../app/lang/zh-CN/_task_point_sets.php

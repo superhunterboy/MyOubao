@@ -1,0 +1,96 @@
+
+
+
+
+
+/** v2 版本头部覆盖 **/
+.global-top .menu-games {text-align: left;}
+.global-top .cont {text-align: right;}
+.global-top .logo {text-align: left;}
+.global-top .menu-user {float:none;display:inline-block;height: 36px;padding: 20px 30px 0 0;}
+.global-top .menu-user a {color: #FFF;}
+.global-top .menu-user-sj {right: 18px;top:28px;}
+.global-top .chat {width: 104px;height: 39px;}
+.global-top .chat a {background-image: url(v2/ico-service.png);background-position: 0 0;}
+.global-top .chat a:hover {background-position: 0 -39px;}
+.menu-user-control {display: inline-block;padding: 14px 20px 0 0;color: #ead8b4;}
+.menu-user-control a {display: inline-block;color:#CDCDD0;border-radius: 2px;width: 40px;height: 27px;text-align: center;line-height: 27px;}
+.menu-user-control a:hover {color: #EBEBEC;border-color: #8B8B8E}
+.menu-user-control a.button-control-hidden {height: 25px;line-height: 25px;margin:0 10px 0 5px;}
+.menu-user-control a.button-control-rechange {background: url(v2/button-rechange.png) no-repeat;border: none;text-indent: -1000px;}
+.menu-user-control a.button-control-rechange:hover {background-position: 0 -29px;}
+.menu-user-control a.button-control-withdrawals {background: url(v2/button-withdrawal.png) no-repeat;border: none;text-indent: -1000px;}
+.menu-user-control a.button-control-withdrawals:hover {background-position: 0 -29px;}
+.menu-user-control .balance-money-num {font-size: 14px;}
+.menu-user-control .balance-money-num-hidden {display: none;}
+.menu-user-control-hidden .balance-money-num {display: none;}
+.menu-user-control-hidden .balance-money-num-hidden {display: inline-block;}
+.global-top .menu-user-panel {left: -40px;}
+.global-top .menu-user-panel-text {height: 34px;overflow: hidden;}
+
+
+
+/** 代理身份头部 **/
+.global-top .btn {background-image: linear-gradient(-180deg, #655F76 0%, #4D4957 98%);;border-radius: 2px;padding: 0 10px;color: #FFF;display: inline-block;height: 27px;line-height: 27px;outline: none;
+box-shadow: 0px 1px 0px 0px rgba(24,24,24,0.11);
+}
+.global-top .btn:hover {background-image: linear-gradient(-180deg, #968DAE 0%, #4D4957 100%);color: #FFF;}
+.global-top .btn:active {background-image: linear-gradient(-180deg, #655F76 0%, #4D4957 100%);}
+.global-top .btn .ico {background: url(ico-service.png) no-repeat 0 center;padding: 0 0 0 20px;}
+.global-top .buttons {float: right;width: 250px;text-align: right;padding: 20px 0 0 0;position: relative;}
+.global-top .buttons .btn {margin-left: 2px;}
+.global-top .buttons .ico-service {background-image: url(ico-service.png);}
+.global-top .buttons .ico-user {background-image: url(ico-user.png);background-position: 5px center;}
+.global-top .buttons .ico-msg {background-image: url(ico-msg.png);background-position: 5px center;}
+.global-top .buttons .btn-msg {position: relative;}
+.global-top .buttons .btn-msg .num {position: absolute;width: 15px;height: 15px;right:-5px;top:-5px;border-radius: 15px;background: #D0021B;color: #FFF;font-size: 12px;line-height: 17px;text-align:center;font-style: normal;}
+.global-top .buttons .user-info {display:none;right:-25px;top:60px;background: #484453;border-radius: 3px;width: 160px;position: absolute;text-align: center;color: #FFF;padding: 10px;}
+.global-top .buttons .user-info .row {padding: 5px 0;font-size: 14px;}
+.global-top .buttons .user-info .row-group {border-bottom: 1px solid #5E5E5E;}
+.global-top .buttons .user-info .row-group .num {font-size: 24px;}
+.global-top .buttons .user-info .row-gray {font-size: 12px;opacity: .4;}
+.global-top .buttons .user-info .btn {color:#615B71;width:133px;background-image: linear-gradient(-180deg, #E7E5E5 0%, #C9C7CD 98%);
+background: #CCC\9;
+}
+.global-top .buttons .user-info .btn:hover {background-image: linear-gradient(-180deg, #FFF 0%, #C9C7CD 98%)}
+.global-top .buttons .user-info .btn:active {background-image: linear-gradient(-180deg, #E7E5E5 0%, #C9C7CD 98%)}
+.global-top .buttons .user-info .sj {background: url(user-panel-sj.png) no-repeat;width: 18px;height: 10px;position: absolute;top:-9px;left: 50%;margin-left: -9px;}
+
+.global-top .menu {float: left;margin-left: 20px;}
+.global-top .menu a:hover, .global-top .menu a.current { color:#c2bda1;background: url(bg-menu-a-hover.png) 0 center no-repeat; }
+
+
+
+
+
+
+/** 问题反馈 **/
+.global-panel-feedback {position:fixed;_position: absolute;width: 20px;text-align:center;padding:10px 5px;background: #F60;color: #FFF;right: 10px;top: 226px;
+border-radius: 4px;cursor: pointer;
+background-image: linear-gradient(-180deg, #FF934B 0%, #F60 100%);
+}
+.global-panel-feedback:hover {
+background-image: linear-gradient(-180deg, #F60 0%, #FF934B 100%);
+}
+.global-panel-feedback:active {
+background-image: linear-gradient(-180deg, #FF934B 0%, #F60 100%);
+}
+.global-feedback-window-cont {}
+.global-feedback-window-cont .title-text {font-size: 12px;padding:0 0 5px 0;text-align: left;}
+.global-feedback-window-cont textarea {width: 380px;height:100px;padding: 10px;font-size: 14px;border: 1px solid #CCC;outline: none;line-height: 150%;color: #666;}
+.global-feedback-window-cont .gray {font-size: 12px;color: #999;}
+.global-feedback-window-cont .tip-text-length {text-align: right;color: #999;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

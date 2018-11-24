@@ -1,0 +1,569 @@
+html,
+ body {
+     margin: 0px;
+     padding: 0px;
+ }
+ 
+ .header {
+     width: 100%;
+     height: 49px;
+ }
+ 
+ .content {
+     background: url('bg.jpg') no-repeat center top;
+     background-size: cover;
+     width: 100%;
+     height: 1754px;
+ }
+ 
+ .anniversary-container {
+     position: relative;
+     width: 100%;
+     height: 340px;
+ }
+ 
+ .anniversary {
+     position: absolute;
+     width: 726px;
+     height: 207px;
+     top: 80px;
+     margin-left: -363px;
+     left: 50%;
+     background: url("anniversary.png") no-repeat center center;
+ }
+ 
+ .millinback-container {
+     position: relative;
+     width: 100%;
+     height: 100px;
+ }
+ 
+ .millinback {
+     position: relative;
+     width: 414px;
+     height: 112px;
+     top: 0px;
+     margin-left: -207px;
+     left: 50%;
+     background: url("millinback.png") no-repeat center center;
+ }
+ 
+ .th-activities-container {
+     position: relative;
+     width: 100%;
+     height: 200px;
+     background: url("wenz.png") no-repeat center 67px;
+ }
+ 
+ .btn-new-user,
+ .btn-limit-bonus,
+ .btn-dice-bonus {
+     float: left;
+     display: inline-block;
+     width: 125px;
+     height: 40px;
+     line-height: 40px;
+     border-radius: 40px;
+     text-align: center;
+     background-color: rgba(0, 0, 0, .3);
+     font-size: 16px;
+     color: white;
+     font-family: Microsoft YaHei;
+ }
+ 
+ .btn-new-user:hover,
+ .btn-limit-bonus:hover,
+ .btn-dice-bonus:hover {
+     float: left;
+     display: inline-block;
+     width: 125px;
+     height: 40px;
+     line-height: 40px;
+     border-radius: 40px;
+     text-align: center;
+     background-color: rgba(0, 0, 0, .5);
+     font-size: 16px;
+     color: silver;
+     cursor: pointer;
+     box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, .7) inset;
+     font-family: Microsoft YaHei;
+ }
+ 
+ .btn-new-user:active,
+ .btn-limit-bonus:active,
+ .btn-dice-bonus:active {
+     float: left;
+     display: inline-block;
+     width: 125px;
+     height: 40px;
+     line-height: 40px;
+     border-radius: 40px;
+     text-align: center;
+     background-color: rgba(0, 0, 0, .3);
+     font-size: 16px;
+     color: white;
+     font-family: Microsoft YaHei;
+ }
+ 
+ .btn-seperator {
+     background-color: rgb(150, 104, 131);
+     width: 25px;
+     height: 2px;
+     float: left;
+     margin-top: 19px;
+ }
+ 
+ .activity-time {
+     position: absolute;
+     top: 120px;
+     width: 100%;
+     text-align: center;
+     font-size: 13px;
+     color: #6b3642;
+ }
+ 
+ .fi-activities-outer-container {
+     position: relative;
+     width: 816px;
+     height: 871px;
+     top: 0px;
+     left: 50%;
+     margin-left: -408px;
+     background: url(borders.png) no-repeat 8px 159px;
+     position: relative;
+ }
+ 
+ .fi-activities-outer-container .btn-angle-new-user {
+     width: 163px;
+     height: 118px;
+     background: url(btn-angle-red.png) no-repeat center center;
+     position: absolute;
+     top: 275px;
+     left: 136px;
+ }
+ 
+ .fi-activities-outer-container .btn-angle-new-user:hover {
+     width: 163px;
+     height: 118px;
+     background: url(btn-angle-red-hover.png) no-repeat center center;
+     position: absolute;
+     top: 275px;
+     left: 136px;
+     cursor: pointer;
+ }
+ 
+ .fi-activities-outer-container .btn-angle-new-user:active {
+     width: 163px;
+     height: 118px;
+     background: url(btn-angle-red.png) no-repeat center center;
+     position: absolute;
+     top: 275px;
+     left: 136px;
+ }
+ 
+ .btn-angle-iphone {
+     width: 162px;
+     height: 119px;
+     background: url(btn-angle-red.png) no-repeat center center;
+     position: absolute;
+     top: 275px;
+     left: 523px;
+ }
+ 
+ .btn-angle-iphone:hover {
+     width: 162px;
+     height: 119px;
+     background: url(btn-angle-red-hover.png) no-repeat center center;
+     position: absolute;
+     top: 275px;
+     left: 523px;
+     cursor: pointer;
+ }
+ 
+ .btn-angle-iphone:active {
+     width: 162px;
+     height: 119px;
+     background: url(btn-angle-red.png) no-repeat center center;
+     position: absolute;
+     top: 275px;
+     left: 523px;
+ }
+ 
+ .btn-angle-total-bonus {
+     position: absolute;
+     top: 595px;
+     left: 331px;
+     width: 162px;
+     height: 119px;
+     background: url(btn-angle-blue-down-detail.png) no-repeat center center;
+ }
+ 
+ .btn-angle-total-bonus:hover {
+     background: url(btn-angle-blue-down-detail-hover.png) no-repeat center center;
+     cursor: pointer;
+ }
+ 
+ .btn-angle-total-bonus:active {
+     background: url(btn-angle-blue-down-detail.png) no-repeat center center;
+ }
+ 
+ .btn-angle-daily-two,
+ .btn-angle-daily-one {
+     background: url(btn-angle-blue-up-detail.png) no-repeat center center;
+ }
+ 
+ .btn-angle-daily-two:hover,
+ .btn-angle-daily-one:hover {
+     background: url(btn-angle-blue-up-detail-hover.png) no-repeat center center;
+     cursor: pointer;
+ }
+ 
+ .btn-angle-daily-two:active,
+ .btn-angle-daily-one:active {
+     background: url(btn-angle-blue-up-detail.png) no-repeat center center;
+ }
+ 
+ .btn-angle-daily-two {
+     position: absolute;
+     top: 655px;
+     left: 94px;
+     width: 162px;
+     height: 119px;
+ }
+ 
+ .btn-angle-daily-one {
+     position: absolute;
+     top: 655px;
+     left: 559px;
+     width: 162px;
+     height: 119px;
+     background: url(btn-angle-blue-up-detail.png) no-repeat center center;
+ }
+ 
+ .mask {
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     width: 100%;
+     height: 1803px;
+     background-color: rgba(0, 0, 0, 0.4);
+     z-index: 0;
+     display: none;
+ }
+ 
+ .dice-bonus-one {
+     position: relative;
+     top: 900px;
+     width: 695px;
+     height: 642px;
+     left: 50%;
+     margin-left: -358px;
+     display: none;
+     background: url("bonus-one.png") no-repeat top center;
+     z-index: 10000;
+ }
+ 
+ .dice-bonus-two {
+     position: relative;
+     top: 900px;
+     width: 695px;
+     height: 759px;
+     left: 50%;
+     margin-left: -358px;
+     background: url("bonus-two.png") no-repeat top center;
+     background-size: cover;
+     display: none;
+     z-index: 10000;
+ }
+ 
+ .dice-bonus-total {
+     position: relative;
+     top: 900px;
+     width: 695px;
+     height: 842px;
+     left: 50%;
+     margin-left: -358px;
+     background: url("bonus-total.png") no-repeat top center;
+     background-size: cover;
+     display: none;
+     z-index: 10000;
+ }
+ 
+ .iphone-bonus {
+     position: relative;
+     top: 900px;
+     height: 646px;
+     width: 695px;
+     left: 50%;
+     margin-left: -358px;
+     background: url("iphone-bonus.jpg") no-repeat top center;
+     display: none;
+     z-index: 10000;
+ }
+ 
+ .new-user-bonus {
+     position: relative;
+     top: 900px;
+     height: 636px;
+     width: 695px;
+     left: 50%;
+     margin-left: -358px;
+     background: url("new-user-bonus.png") no-repeat top center;
+     display: none;
+     z-index: 10000;
+ }
+ 
+/* .bonus-cancel {
+     position: absolute;
+     height: 29px;
+     width: 29px;
+     top: -14px;
+     right: -14px;
+     background: url(cancel.png) no-repeat center center;
+ }
+ 
+ .bonus-cancel:hover {
+     position: absolute;
+     height: 29px;
+     width: 29px;
+     top: -14px;
+     right: -14px;
+     background: url(cancel-hover.png) no-repeat center center;
+     cursor: pointer;
+ }*/
+ 
+/* .bonus-wheel-container {
+     position: relative;
+     top: 100px;
+     width: 800px;
+     height: 800px;
+     margin-left: -400px;
+     left: 50%;
+     z-index: 1000;
+     display: none;
+ }
+ 
+ .bonus-wheel {
+     position: absolute;
+     margin-left: -352px;
+     top: 0px;
+     left: 50%;
+     width: 704px;
+     height: 704px;
+ }
+ 
+ .result-notice {
+     position: relative;
+     width: 600px;
+     height: 120px;
+     margin-left: -300px;
+     left: 50%;
+     top: 240px;
+     background-color: rgba(111, 111, 111, .9);
+     border-radius: 10px;
+     box-shadow: 0px 0px 5px 0px rgb(255, 255, 255);
+     display: none;
+ }
+
+ .result-notice-content{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    height: 80px;
+    width: 600px;
+    line-height: 40px;
+ }
+ 
+ .result-notice-cancel {
+     width: 80px;
+     height: 30px;
+     background-color: #535367;
+     border-radius: 5px;
+     color: white;
+     margin:0 auto;
+     line-height: 30px;
+     text-align: center;
+}
+.result-notice-cancel:hover {
+    width: 80px;
+    height: 30px;
+    background-color: #313133;
+    border-radius: 5px;
+    color: white;
+    margin:0 auto;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.result-notice-cancel:active {
+    width: 80px;
+    height: 30px;
+    background-color: #535367;
+    border-radius: 5px;
+    color: white;
+    margin:0 auto;
+    line-height: 30px;
+    text-align: center;
+
+}
+.bonus-wheel-pointer-cover {
+    position: absolute;
+    top: 229px;
+    left: 303px;
+    width: 195px;
+    height: 221px;
+    display: none;
+    z-index: 20;
+}
+.bonus-wheel-pointer {
+    position: absolute;
+    top: 229px;
+    left: 303px;
+    width: 195px;
+    height: 221px;
+    background: url(bonus-wheel-pointer.png);
+}
+.bonus-wheel-pointer:hover {
+    position: absolute;
+    top: 229px;
+    left: 302px;
+    width: 195px;
+    height: 221px;
+    background: url(bonus-wheel-pointer-hover.png);
+    cursor: pointer;
+}
+.bonus-wheel-pointer:active {
+    position: absolute;
+    top: 229px;
+    left: 303px;
+    width: 195px;
+    height: 221px;
+    background: url(bonus-wheel-pointer.png);
+}
+.bonus-wheel-end-time {
+    position: relative;
+    width: 143px;
+    height: 25px;
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+    left: 50%;
+    margin-left: -71.5px;
+    line-height: 25px;
+    top: 112px
+}
+.bonus-wheel-time-text {
+    float: left;
+    margin-left: 5px;
+}
+.bonus-wheel-time-time {
+    float: right;
+    margin-right: 5px;
+}
+.bonus-wheel-curr-avaliable {
+    margin-top: 116px;
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+}
+.bonus-wheel-curr-money {}
+.bonus-wheel-cancel {
+    position: absolute;
+    height: 29px;
+    width: 29px;
+    top: 53px;
+    right: 101px;
+    background: url(cancel.png) no-repeat center center;
+}
+.bonus-wheel-cancel:hover {
+    position: absolute;
+    height: 29px;
+    width: 29px;
+    top: 53px;
+    right: 101px;
+    background: url(cancel-hover.png) no-repeat center center;
+    cursor: pointer;
+}
+.bonus-wheel-cancel:active {
+    position: absolute;
+    height: 29px;
+    width: 29px;
+    top: 53px;
+    right: 101px;
+    background: url(cancel.png) no-repeat center center;
+}
+.bonus-end-time {
+    position: relative;
+    width: 143px;
+    height: 25px;
+    color: white;
+    font-size: 12px;
+    background-color: rgba(0,
+    0,
+    0,
+    .2);
+    border-radius: 4px;
+    left: 50%;
+    margin-left: -71.5px;
+    line-height: 25px;
+}
+.bonus-end-time .time-text {
+    float: left;
+    margin-left: 10px;
+}
+.bonus-end-time .time-time {
+    float: right;
+    margin-right: 10px;
+}
+.curr-avaliable {
+    margin-top: 5px;
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+}*/
+/*.notice {
+    position: fixed;
+    width: 600px;
+    height: 100px;
+    margin-left: -300px;
+    left: 50%;
+    z-index: 20;
+    top: 240px;
+    background-color: rgba(111,
+    111,
+    111,
+    .9);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgb(255,
+    255,
+    255);
+    display: none;
+}
+.notice-content {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    height: 100px;
+    width: 600px;
+    line-height: 100px;
+}
+.notice-cancel {
+    position: absolute;
+    height: 29px;
+    width: 29px;
+    top: -14px;
+    right: -14px;
+    background: url(cancel.png) no-repeat center center;
+}
+.notice-cancel:hover {
+    position: absolute;
+    height: 29px;
+    width: 29px;
+    top: -14px;
+    right: -14px;
+    background: url(cancel-hover.png) no-repeat center center;
+    cursor: pointer;
+}*/

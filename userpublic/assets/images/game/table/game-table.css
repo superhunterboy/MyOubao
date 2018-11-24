@@ -1,0 +1,1418 @@
+.chip {
+    display: inline-block;
+    width: 59px;
+    height: 59px;
+    background: url(dice/chip-1.png) no-repeat;
+    cursor: pointer;
+}
+
+.chip-1 {
+    background-image: url(dice/chip-1.png)
+}
+
+.chip-2 {
+    background-image: url(dice/chip-2.png)
+}
+
+.chip-5 {
+    background-image: url(dice/chip-5.png)
+}
+
+.chip-10 {
+    background-image: url(dice/chip-10.png)
+}
+
+.chip-20 {
+    background-image: url(dice/chip-20.png)
+}
+
+.chip-50 {
+    background-image: url(dice/chip-50.png)
+}
+
+.chip-100 {
+    background-image: url(dice/chip-100.png)
+}
+
+.chip-200 {
+    background-image: url(dice/chip-200.png);
+}
+
+.chip-300 {
+    background-image: url(dice/chip-300.png);
+}
+
+.chip-500 {
+    background-image: url(dice/chip-500.png);
+}
+
+.chip-600 {
+    background-image: url(dice/chip-600.png);
+}
+
+.chip-800 {
+    background-image: url(dice/chip-800.png);
+}
+.chip-1000 {
+    background-image: url(dice/chip-1000.png);
+}
+.chip-2000 {
+    background-image: url(dice/chip-2000.png);
+}
+
+.chip-3000 {
+    background-image: url(dice/chip-3000.png);
+}
+
+.chip-5000 {
+    background-image: url(dice/chip-5000.png);
+}
+
+.chip-6000 {
+    background-image: url(dice/chip-6000.png);
+}
+
+.chip-8000 {
+    background-image: url(dice/chip-8000.png);
+}
+.chip-10000 {
+    background-image: url(dice/chip-10000.png);
+}
+
+
+
+.move-chip {
+    position: absolute;
+}
+
+.table-layout {
+    height: 1264px;
+    background-repeat: no-repeat;
+    background-position: center -66px;
+    moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.table-layout .top {
+    height: 200px;
+    position: relative;
+    z-index: 1;
+}
+
+.table-layout .top .empty-bg {
+    position: absolute;
+    width: 100%;
+    height: 86px;
+    left: 0;
+    bottom: 5px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+}
+
+.table-layout .top .empty-bg .btn-help {
+    display: inline-block;
+    width: 109px;
+    height: 32px;
+    border: none;
+    background-image: linear-gradient(-180deg, #F5515F 0%, #9F041B 100%);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.50);
+    border-radius: 3px;
+    cursor: pointer;
+    color: #FFF;
+    outline: none;
+    margin: 26px 0 0 10px;
+}
+
+.table-layout .top .empty-bg .btn-help:hover {
+    background-image: linear-gradient(-180deg, #FF6D7A 0%, #9C1126 100%);
+}
+
+.table-layout .top .empty-bg .btn-help:active {
+    background-image: linear-gradient(-180deg, #F12A3B 0%, #82091B 100%);
+}
+
+.table-layout .top .logo {
+    position: absolute;
+    width: 116px;
+    height: 90px;
+    left: 10px;
+    top: 20px;
+    background: url(dice/logo.png) no-repeat;
+}
+
+.table-layout .top .mm {
+    position: absolute;
+    width: 163px;
+    height: 197px;
+    left: 90px;
+    top: 10px;
+    background: url(dice/mm.png) no-repeat;
+}
+
+.table-layout .top .history {
+    float: right;
+    width: 1007px;
+    height: 180px;
+    margin-top: 15px;
+    background: rgba(0, 0, 0, 0.21);
+    border-radius: 3px;
+    position: relative;
+    z-index: 1;
+}
+
+.table-layout .top .time {
+    float: right;
+    width: 240px;
+    color: #FFF;
+}
+
+.table-layout .top .time .title {
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+.table-layout .top .time .balls {
+    text-align: center;
+}
+
+.table-layout .top .time .balls .dice {
+    display: inline-block;
+    width: 59px;
+    height: 60px;
+    background: url(dice/dice-big-1.png) no-repeat;
+}
+
+.table-layout .top .time .balls .dice-2 {
+    background-image: url(dice/dice-big-2.png)
+}
+
+.table-layout .top .time .balls .dice-3 {
+    background-image: url(dice/dice-big-3.png)
+}
+
+.table-layout .top .time .balls .dice-4 {
+    background-image: url(dice/dice-big-4.png)
+}
+
+.table-layout .top .time .balls .dice-5 {
+    background-image: url(dice/dice-big-5.png)
+}
+
+.table-layout .top .time .balls .dice-6 {
+    background-image: url(dice/dice-big-6.png)
+}
+
+.table-layout .top .number-time .left {
+    float: left;
+    width: 103px;
+    padding: 23px 0 0 0px;
+}
+
+.table-layout .top .number-time .left .hl {
+    color: #F9F2B9;
+    display: inline-block;
+    padding: 0 2px;
+}
+
+.table-layout .top .number-time .right {
+    float: right;
+    width: 137px;
+    font-family: dyBebas;
+    font-size: 38px;
+    padding: 16px 0 0 0;
+    text-align: center;
+}
+.table-layout .top .history-container{
+    height: 180px;
+    width: 730px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.table-layout .top .scroll-bar {
+    width: 50px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: rgba(125, 125, 125, .3);
+    position: absolute;
+    bottom: 2px;
+    right: 0px;
+}
+
+.table-layout .top .scroll-bar:hover{
+    cursor: pointer;
+}
+.table-layout .top .his-list {
+    float:right;
+    color: rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+    height: 180px;
+}
+
+.table-layout .top .his-list li {
+    float: right;
+    width: 36px;
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
+.table-layout .top .his-list .active{
+    background: rgba(255, 255, 255, 0.15);
+}
+
+
+.table-layout .top .his-list li:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.table-layout .top .his-list .num {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    background: url(dice/dice-sm-1.png) no-repeat;
+}
+
+.table-layout .top .his-list .num-2 {
+    background-image: url(dice/dice-sm-2.png)
+}
+
+.table-layout .top .his-list .num-3 {
+    background-image: url(dice/dice-sm-3.png)
+}
+
+.table-layout .top .his-list .num-4 {
+    background-image: url(dice/dice-sm-4.png)
+}
+
+.table-layout .top .his-list .num-5 {
+    background-image: url(dice/dice-sm-5.png)
+}
+
+.table-layout .top .his-list .num-6 {
+    background-image: url(dice/dice-sm-6.png)
+}
+
+.table-layout .top .his-list .text {
+    display: block;
+    margin-top: 3px;
+}
+
+.table-layout .top .his-list .text-number {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.table-layout .top .pagination{
+    height:180px;
+    width:30px;
+    float:left;
+}
+
+.table-layout .top .pagination .page{
+    display: inline-block;
+    width:25px;
+    height:25px;
+    margin:2px 2px 0px 3px;
+}
+
+.table-layout .top .pagination .last-page{
+    background:url(dice/last-records.png) no-repeat center center;
+}
+.table-layout .top .pagination .last-page:hover{
+    background:url(dice/last-records-hover.png) no-repeat center center;
+}
+.table-layout .top .pagination .last-page:active{
+    background:url(dice/last-records.png) no-repeat center center;
+}
+
+.table-layout .top .pagination .next-page{
+    background:url(dice/next-records.png) no-repeat center center;
+}
+.table-layout .top .pagination .next-page:hover{
+    background:url(dice/next-records-hover.png) no-repeat center center;
+}
+.table-layout .top .pagination .next-page:active{
+    background:url(dice/next-records.png) no-repeat center center;
+}
+
+
+.table-layout .top .pagination .curr-page{
+    background:url(dice/current-records.png) no-repeat center center;
+}
+.table-layout .top .pagination .curr-page:hover{
+    background:url(dice/current-records-hover.png) no-repeat center center;
+}
+.table-layout .top .pagination .curr-page:active{
+    background:url(dice/current-records.png) no-repeat center center;
+}
+
+.table-layout .bottom {
+    position: relative;
+    height: 368px;
+    overflow: hidden;
+}
+
+.table-layout .bottom .btn-toggle-records{
+	width:41px;
+	height:22px;
+	margin:0 auto;
+	
+	margin-bottom:-6px;
+}
+
+.table-layout .bottom .down{
+ 	background:url("dice/btn-toggle-records-down.png") center center no-repeat;
+}
+
+.table-layout .bottom .up{
+	background:url("dice/btn-toggle-records-up.png") center center no-repeat;
+}
+.table-layout .bottom .btn-toggle-records:hover{
+	cursor: pointer;
+}
+
+.table-layout .bottom .bet-records{
+	position: absolute;
+    bottom: 0px;
+    height:100%;
+    width: 100%;
+    text-align: center
+}
+
+.table-layout .bottom .tb-bet-records {
+    width: 100%;
+    position: absolute;
+    bottom: -1px;
+}
+.table-layout .bottom .tb-bet-records .tb-header {
+    background-color: #C2BFAC;
+    height: 43px;
+    width: 1204px;
+}
+
+
+.table-layout .bottom .tb-bet-records .tb-header th {
+    border-bottom: 1px solid rgba(120, 117, 98, .57);
+}
+
+.table-layout .bottom .tb-bet-records .tb-header .th-text {
+    display: inline-block;
+    height: 43px;
+    width:98%;
+    text-align: center;
+    line-height: 43px;
+    float:left;
+}
+
+.table-layout .bottom .tb-bet-records .tb-header .th-seperator {
+    width: 1px;
+    height: 43px;
+    background:url("dice/th-seperator.png") center center no-repeat;
+    display: inline-block;
+    float:right;
+}
+
+.table-layout .bottom .tb-bet-records .tb-header th:first-child {
+    border-top-left-radius: 3px;
+}
+
+.table-layout .bottom .tb-bet-records .tb-header th:last-child {
+    border-top-right-radius: 3px;
+}
+
+.table-layout .bottom .tb-bet-records tbody{
+	display: none;
+}
+
+.table-layout .bottom .tb-bet-records tbody tr {
+    height: 40px;
+    border-bottom: 1px solid #E2D4D4;
+}
+
+.table-layout .bottom .tb-bet-records tbody tr:nth-child(odd) {
+    background-color: #E8E7DA;
+}
+.table-layout .bottom .tb-bet-records tbody tr:nth-child(even) {
+    background-color: #E8E1DA;
+}
+
+.table-layout .bottom .tb-bet-records tbody tr:hover {
+	background-color: #EEE;
+}
+
+.table-layout .bottom .tb-bet-records tbody tr:last-child:hover {
+	background-color: #E8E7DA;
+}
+
+.table-layout .bottom .tb-bet-records .btn-more-records{
+	display: inline-block;
+    border: 1px solid #CCC;
+    padding: 5px 20px;
+    border-radius: 4px;
+}
+
+.table-layout .bottom .tb-bet-records .btn-more-records:hover{
+	background: #EEE;
+}
+
+
+
+
+
+.table-main {
+    position: relative;
+    height: 570px;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 6px 0 0 0;
+}
+
+.table-main .money-quota {
+    position: absolute;
+    left: 143px;
+    top: 6px;
+    width: 100px;
+    height: 100px;
+    font-family: FZLanTingHei-R-GBK;
+    font-weight: bold;
+    text-align: center;
+    margin-left: -19px;
+    font-size: 14px;
+    color: #2F4B7B;
+    line-height: 17px;
+    text-shadow: 0px 1px 1px #FFF;
+}
+
+.table-main .area {
+    position: absolute;
+    border: 2px solid rgba(247, 205, 31, 0.4);
+    border-radius: 7px;
+}
+
+.table-main .area:hover {
+    background-color: rgba(255, 218, 64, 0.3);
+}
+
+.table-main .appearance-time{
+    width:20px;
+    height:20px;
+    position: absolute;
+    bottom:0px;
+    right:0px;
+    display: none;
+    /*background:url("dice/appearance_time.png") no-repeat;*/
+    text-align: center;
+    font-size:15px;
+    color:white;
+    line-height:26px; 
+    z-index: 10000000000;
+}
+.table-main .hot{
+     background:url("dice/hot.png") no-repeat;
+}
+.table-main .cold{
+    background:url("dice/cold.png") no-repeat;
+}
+
+.table-main .area-empty:hover {
+    background: none;
+}
+
+.table-main .area-empty-yima {
+    border-radius: 7px 7px 25px 25px;
+}
+
+.table-main .area .help {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.40);
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+    text-align: center;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    left: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.table-main .area .odds {
+    position: absolute;
+    font-family: dyAvenir;
+    font-weight: bold;
+    font-size: 14px;
+    color: #F7CD1F;
+    line-height: 18px;
+    left: 40px;
+    top: 50px;
+    cursor: default;
+}
+.table-main .area .odds .cn-charactor{
+    font-family: FZLanTingHei-R-GBK;
+}
+
+.table-main .area-big {
+    border-radius: 25px 7px 7px 7px;
+    background: url(dice/area-big.png) no-repeat 100px 10px;
+}
+
+.table-main .area-small {
+    border-radius: 7px 25px 7px 7px;
+    background: url(dice/area-small.png) no-repeat 15px 10px;
+}
+
+.table-main .area-odd {
+    background: url(dice/area-odd.png) no-repeat 115px 10px;
+}
+
+.table-main .area-even {
+    background: url(dice/area-even.png) no-repeat 30px 10px;
+}
+
+.table-main .area-duizi-66 {
+    background: url(dice/area-duizi-66.png) no-repeat 8px 2px;
+}
+
+.table-main .area-duizi-55 {
+    background: url(dice/area-duizi-55.png) no-repeat 8px 2px;
+}
+
+.table-main .area-duizi-44 {
+    background: url(dice/area-duizi-44.png) no-repeat 8px 2px;
+}
+
+.table-main .area-duizi-33 {
+    background: url(dice/area-duizi-33.png) no-repeat 8px 2px;
+}
+
+.table-main .area-duizi-22 {
+    background: url(dice/area-duizi-22.png) no-repeat 8px 2px;
+}
+
+.table-main .area-duizi-11 {
+    background: url(dice/area-duizi-11.png) no-repeat 8px 2px;
+}
+
+.table-main .area-baozi-666 {
+    background: url(dice/area-duizi-666.png) no-repeat 5px 6px;
+}
+
+.table-main .area-baozi-555 {
+    background: url(dice/area-duizi-555.png) no-repeat 5px 6px;
+}
+
+.table-main .area-baozi-444 {
+    background: url(dice/area-duizi-444.png) no-repeat 5px 6px;
+}
+
+.table-main .area-baozi-333 {
+    background: url(dice/area-duizi-333.png) no-repeat 5px 6px;
+}
+
+.table-main .area-baozi-222 {
+    background: url(dice/area-duizi-222.png) no-repeat 5px 6px;
+}
+
+.table-main .area-baozi-111 {
+    background: url(dice/area-duizi-111.png) no-repeat 5px 6px;
+}
+
+.table-main .area-baozi-n {
+    background: url(dice/area-baozi-n.png) no-repeat 10px 20px;
+}
+
+.table-main .area-hezhi-17 {
+    background: url(dice/hezhi-17.png) no-repeat 18px 13px;
+}
+
+.table-main .area-hezhi-16 {
+    background: url(dice/hezhi-16.png) no-repeat 18px 13px;
+}
+
+.table-main .area-hezhi-15 {
+    background: url(dice/hezhi-15.png) no-repeat 16px 13px;
+}
+
+.table-main .area-hezhi-14 {
+    background: url(dice/hezhi-14.png) no-repeat 16px 13px;
+}
+
+.table-main .area-hezhi-13 {
+    background: url(dice/hezhi-13.png) no-repeat 16px 13px;
+}
+
+.table-main .area-hezhi-12 {
+    background: url(dice/hezhi-12.png) no-repeat 16px 13px;
+}
+
+.table-main .area-hezhi-11 {
+    background: url(dice/hezhi-11.png) no-repeat 16px 13px;
+}
+
+.table-main .area-hezhi-10 {
+    background: url(dice/hezhi-10.png) no-repeat 16px 13px;
+}
+
+.table-main .area-hezhi-9 {
+    background: url(dice/hezhi-9.png) no-repeat 16px 13px;
+}
+
+.table-main .area-hezhi-8 {
+    background: url(dice/hezhi-8.png) no-repeat 16px 13px;
+}
+
+.table-main .area-hezhi-7 {
+    background: url(dice/hezhi-7.png) no-repeat 16px 13px;
+}
+
+.table-main .area-hezhi-6 {
+    background: url(dice/hezhi-6.png) no-repeat 16px 13px;
+}
+
+.table-main .area-hezhi-5 {
+    background: url(dice/hezhi-5.png) no-repeat 16px 13px;
+}
+
+.table-main .area-hezhi-4 {
+    background: url(dice/hezhi-4.png) no-repeat 16px 13px;
+}
+
+.table-main .area-erma-56 {
+    background: url(dice/erma-56.png) no-repeat center 5px;
+}
+
+.table-main .area-erma-46 {
+    background: url(dice/erma-46.png) no-repeat center 5px;
+}
+
+.table-main .area-erma-45 {
+    background: url(dice/erma-45.png) no-repeat center 5px;
+}
+
+.table-main .area-erma-36 {
+    background: url(dice/erma-36.png) no-repeat center 5px;
+}
+
+.table-main .area-erma-35 {
+    background: url(dice/erma-35.png) no-repeat center 5px;
+}
+
+.table-main .area-erma-34 {
+    background: url(dice/erma-34.png) no-repeat center 5px;
+}
+
+.table-main .area-erma-26 {
+    background: url(dice/erma-26.png) no-repeat center 5px;
+}
+
+.table-main .area-erma-25 {
+    background: url(dice/erma-25.png) no-repeat center 5px;
+}
+
+.table-main .area-erma-24 {
+    background: url(dice/erma-24.png) no-repeat center 5px;
+}
+
+.table-main .area-erma-23 {
+    background: url(dice/erma-23.png) no-repeat center 5px;
+}
+
+.table-main .area-erma-16 {
+    background: url(dice/erma-16.png) no-repeat center 5px;
+}
+
+.table-main .area-erma-15 {
+    background: url(dice/erma-15.png) no-repeat center 5px;
+}
+
+.table-main .area-erma-14 {
+    background: url(dice/erma-14.png) no-repeat center 5px;
+}
+
+.table-main .area-erma-13 {
+    background: url(dice/erma-13.png) no-repeat center 5px;
+}
+
+.table-main .area-erma-12 {
+    background: url(dice/erma-12.png) no-repeat center 5px;
+}
+
+.table-main .area-yima-6 {
+    background: url(dice/yima-6.png) no-repeat center 4px;
+}
+
+.table-main .area-yima-5 {
+    background: url(dice/yima-5.png) no-repeat center 4px;
+}
+
+.table-main .area-yima-4 {
+    background: url(dice/yima-4.png) no-repeat center 4px;
+}
+
+.table-main .area-yima-3 {
+    background: url(dice/yima-3.png) no-repeat center 4px;
+}
+
+.table-main .area-yima-2 {
+    background: url(dice/yima-2.png) no-repeat center 4px;
+}
+
+.table-main .area-yima-1 {
+    background: url(dice/yima-1.png) no-repeat center 4px;
+}
+
+.table-bar {
+    width: 850px;
+    height: 170px;
+    margin: 0 auto;
+    position: relative;
+    /*background-color: #EEE;*/
+    background: rgba(0, 0, 0, 0.28);
+    border-radius: 17px;
+    margin-top: -50px;
+}
+
+.chips-cont {
+    text-align: center;
+    padding: 15px 0 10px 0;
+}
+
+.chips-cont .chip {
+    position: relative;
+    opacity: .6;
+}
+
+.chips-cont .chip:hover {
+    opacity: 1;
+}
+
+.chips-cont .active {
+    opacity: 1;
+}
+
+.table-bar .buttons {
+    text-align: center;
+}
+
+.table-bar .buttons .btn-clear {
+    display: inline-block;
+    width: 175px;
+    height: 54px;
+    border: none;
+    background: url(dice/btn-clear.png) no-repeat;
+    color: #FFF;
+    outline: none;
+    cursor: pointer;
+    font-family: FZZHJW--GB1-0;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 19px;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.50);
+    position: relative;
+    top: -8px;
+
+}
+
+.table-bar .buttons .btn-clear:hover {
+    background-image: url(dice/btn-clear-hover.png);
+}
+
+.table-bar .buttons .btn-clear:active {
+    background-image: url(dice/btn-clear.png);
+}
+
+.table-bar .buttons .btn-submit {
+    display: inline-block;
+    width: 237px;
+    height: 70px;
+    border: none;
+    background: url(dice/btn-submit.png) no-repeat;
+    color: #FFF;
+    outline: none;
+    cursor: pointer;
+    font-family: FZZHJW--GB1-0;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 19px;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.50);
+    text-indent: -10000px;
+}
+
+.table-bar .buttons .btn-submit:hover {
+    background-image: url(dice/btn-submit-hover.png);
+}
+
+.table-bar .buttons .btn-submit:active {
+    background-image: url(dice/btn-submit.png);
+}
+
+.table-bar .buttons .btn-rebet {
+    display: inline-block;
+    width: 175px;
+    height: 54px;
+    border: none;
+    background: url(dice/btn-rebet.png) no-repeat;
+    color: #FFF;
+    outline: none;
+    cursor: pointer;
+    font-family: FZZHJW--GB1-0;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 19px;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.50);
+    position: relative;
+    top: -8px;
+}
+
+.table-bar .buttons .btn-rebet:hover {
+    background-image: url(dice/btn-rebet-hover.png);
+}
+
+.table-bar .buttons .btn-rebet:active {
+    background: url(dice/btn-rebet.png) no-repeat;
+}
+
+.table-bar .buttons .btn-double {
+    width: 175px;
+    height: 54px;
+    border: none;
+    background: url(dice/btn-double.png) no-repeat;
+    color: #FFF;
+    outline: none;
+    cursor: pointer;
+    font-family: FZZHJW--GB1-0;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 19px;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.50);
+    position: relative;
+    top: -8px;
+    display: none;
+}
+
+.table-bar .buttons .btn-double:hover {
+    background-image: url(dice/btn-double-hover.png);
+}
+
+.table-bar .buttons .btn-double:active {
+    background: url(dice/btn-double.png) no-repeat;
+}
+
+.table-bar .balance {
+    position: absolute;
+    left: 30px;
+    top: 0;
+    color: #FFF;
+    font-size: 14px;
+    margin: 21px 0 0 16px;
+    padding: 5px 10px 5px 30px;
+    border: 2px solid #979797;
+    border-radius: 22px;
+    background-color: rgba(216, 216, 216, .17);
+}
+
+.table-bar .balance-bg {
+    position: absolute;
+    top: -10px;
+    left: -34px;
+    width: 58px;
+    height: 51px;
+    background: url("dice/cur-bet-bg.png") no-repeat;
+}
+
+.table-bar .money-bet {
+    position: absolute;
+    margin-top: 21px;
+    right: 10px;
+    top: 0;
+    color: #FFF;
+    font-size: 14px;
+    padding: 5px 10px 5px 30px;
+    border: 2px solid #979797;
+    border-radius: 22px;
+    background-color: rgba(216, 216, 216, .17);
+}
+
+.table-bar .balance-txt,.table-bar .money-txt{
+    font-family: FZLanTingHei-R-GBK;
+}
+
+.table-bar .money-bg {
+    position: absolute;
+    top: -10px;
+    left: -24px;
+    width: 42px;
+    height: 54px;
+    background: url("dice/balance-bg.png") no-repeat;
+}
+
+.table-bar .money {
+    color: #F7CD1F;
+}
+
+.table-bar .bet-bonus{
+    width:100px;
+    height:30px;
+    position: absolute;
+    margin-top: 21px;
+    right: 10px;
+    top: -60px;
+    text-align: center;
+    font-size:20px;
+    line-height: 30px;
+    color: #F7CD1F;
+    display: none;
+}
+
+.table-bar .win-bonus-container{
+    width:100px;
+    height:30px;
+    position: absolute;
+    margin-top: 21px;
+    right: 117px;
+    top: -55px;
+    text-align: center;
+    font-size:20px;
+    line-height: 30px;
+    color: #F7CD1F;
+    display: none;
+}
+
+.game-contextmenu {
+    width: 100px;
+    position: absolute;
+    border-radius: 5px;
+    border: 2px solid #A07F32;
+    color: black;
+    display: inline-block;
+    background-color: #FFFEF1;
+    text-align: center;
+    box-shadow: 0px 2px 4px 0px #000;
+    display: none;
+}
+
+.game-contextmenu .txt-item {
+    height: 31px;
+    font-size: 13px;
+    line-height: 31px;
+    color: #000;
+    cursor: pointer;
+}
+
+.game-contextmenu.icon-txt-item {
+    height: 31px;
+    font-size: 13px;
+    line-height: 31px;
+    color: #000;
+}
+
+.game-contextmenu img {
+    display: inline-block;
+}
+
+.game-contextmenu .txt-item:hover,
+.game-contextmenu .icon-txt-item:hover {
+    background-color: #A39E79;
+    color: #FFF;
+}
+
+.game-contextmenu .seperator {
+    height: 1px;
+    width: 100%;
+    background-color: #9A9680;
+}
+
+.table-main .tagle-game-cup {
+    position: absolute;
+    width: 73px;
+    left: 584px;
+    top: -7px;
+    z-index: 1;
+}
+
+.table-main .table-game-sandglass {
+    position: absolute;
+    width: 6px;
+    height: 144px;
+    border-radius: 8px;
+    background-color: #000;
+    top: 200px;
+    right: 85px;
+}
+
+.table-main .table-game-sand {
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    height: 0%;
+    background-color: #F6BB42;
+    border-radius: 8px;
+}
+
+.table-main .table-hot-cold{
+	position: absolute;
+    top: 246px;
+    right: 11px;
+    width: 30px;
+    height: 56px;
+    border-radius: 5px;
+    background-color:#26202F;
+    border:1px solid black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: FZLanTingHei-R-GBK;
+}
+
+.table-main .table-hot-cold:hover{
+	box-shadow: none;
+	border:1px solid black;
+    cursor: pointer;
+    background-color:#46202F;
+}
+
+.table-main .table-hot-cold-txt{
+    position: absolute;
+    top: 316px;
+    right: 11px;
+    width: 30px;
+    height: 26px;
+    border-radius: 5px;
+    background-color:#26202F;
+    border:1px solid black;
+    text-decoration: none;
+    font-family: FZLanTingHei-R-GBK;
+    font-size:12px;
+    text-align: center;
+    color:#A9A999;
+}
+
+
+.table-main .table-hot-cold-txt:focus{
+    outline:none;
+    border:1px solid #A9A999;
+}
+
+.table-main .cold-area{
+	position: absolute;
+	bottom: 0;
+	height:28px;
+	width:100%;
+	text-align: center;
+	line-height: 28px;
+	font-size:12px;
+    color:#DC4343;
+}
+
+
+.table-main .hot-area{
+	position: absolute;
+    top:0;
+	height:28px;
+	width:100%;
+	text-align: center;
+	line-height: 28px;
+	font-size:12px;
+    color:#99A7F9;
+	
+}
+
+
+.table-main .tagle-game-cup .dices {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 42px;
+    height: 28px;
+    background: rgba(238, 238, 238, 0);
+    top: 16px;
+    margin: 0 auto;
+}
+
+
+/**
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 150px;
+    height: 100px;
+    background: rgba(238, 238, 238, 0.31);
+    top: 60px;
+    margin: 0 auto;
+**/
+
+.table-main .tagle-game-cup .dices .dice {
+    position: absolute;
+    width: 15px;
+    top:5px;
+}
+
+.table-main .tagle-game-cup .dice-1 {
+    left:0px;
+
+}
+
+.table-main .tagle-game-cup .dice-2 {
+    left:15px;
+}
+
+.table-main .tagle-game-cup .dice-3 {
+    left:30px;
+}
+
+.table-main .tagle-game-cup .dice-4 {
+    left:0px;
+}
+
+.table-main .tagle-game-cup .dice-5 {
+    left:15px;
+}
+
+.table-main .tagle-game-cup .dice-6 {
+    left:30px;
+}
+
+.table-main .table-mask-lock {
+    position: absolute;
+    width: 100%;
+    height: 690px;
+    background: rgba(0, 0, 0, 0);
+    z-index: 2;
+    display: none;
+}
+
+.table-main .compensation-limit{
+    font-size:20px;
+    color:red;
+    font-weight: bold;
+    text-decoration:oblique;
+    font-family: FZLanTingHei-R-GBK;
+}
+
+.table-main .table-result{
+    position: absolute;
+    right: 400px;
+    left: 411px;
+    bottom: 170px;
+    z-index: 10;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #F7CD1F;
+    padding: 10px 0;
+    border-radius: 5px;
+    display: none;
+    font-family: FZLanTingHei-R-GBK;
+}
+.table-main .table-result .win-prize-in-tips{
+    
+}
+
+.table-main .table-notice {
+    position: absolute;
+    right: 400px;
+    left: 411px;
+    bottom: 170px;
+    z-index: 10;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 22px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #F7CD1F;
+    padding: 10px 0;
+    border-radius: 5px;
+    display: none;
+    font-family: FZLanTingHei-R-GBK;
+}
+
+.table-main .table-notice1{
+    position: absolute;
+    right: 400px;
+    left: 411px;
+    bottom: 170px;
+    z-index: 10;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 22px;
+    background-color: rgba(38,39,50,.7);
+    border: 2px solid #A39E79;
+    color: #F7CD1F;
+    padding: 10px 0;
+    border-radius: 5px;
+    display: none;
+    font-family: FZLanTingHei-R-GBK;
+}
+
+.table-main .table-notice2{
+    position: absolute;
+    left: 50%;
+    margin-left: -316px;
+    bottom: 30px;
+    width: 616px;
+    height:565px;
+    z-index: 1000000;
+    font-size: 14px;
+    background-color: rgba(38,39,50,.7);
+    color: #FFF6B9;
+    padding: 10px;
+    border-radius: 5px;
+    /*font-family: Microsoft YaHei;*/
+    border: 2px solid #A39E79;
+    display: none;
+}
+
+.table-main .play-method .item,.table-main .play-summary-content{
+    text-indent: 20px;
+}
+.table-main .play-method .limit{
+    font-size: 25px;
+    color:red;
+    width:100%;
+    text-align: center;
+    display: block;
+}
+
+.table-main .close-notice2{
+    position: absolute;
+    bottom:20px;
+    color:white;
+    background:#B6A67A;
+    border-radius: 2px;
+    width:83px;
+    height:32px;
+    display: inline-block;
+    line-height: 32px;
+    font-size:14px;
+    text-align: center;
+    left:50%;
+    margin-left:-41px;
+}
+
+.table-main .close-notice2:hover{
+    position: absolute;
+    bottom:20px;
+    color:white;
+    background:#B19171;
+    border-radius: 2px;
+    width:83px;
+    height:32px;
+    display: inline-block;
+    line-height: 32px;
+    font-size:14px;
+    text-align: center;
+    left:50%;
+    margin-left:-41px;
+}
+.table-main .close-notice2:active{
+    position: absolute;
+    bottom:20px;
+    color:white;
+    background:#B6A67A;
+    border-radius: 2px;
+    width:83px;
+    height:32px;
+    display: inline-block;
+    line-height: 32px;
+    font-size:14px;
+    text-align: center;
+    left:50%;
+    margin-left:-41px;
+}
+
+.j-ui-tip .sj-t {
+    top: 50%;
+    left: -8px;
+    width: 15px;
+    height: 8px;
+    top: 0;
+    left: 80%;
+    margin-left: -8px;
+    background-position: 0 0;
+}
+
+.j-ui-tip-play-help{
+    background-color:rgba(2,2,2,.9);
+    color:white;
+    width:250px;
+}
+.j-ui-tip-money{
+    background-color:rgba(2,2,2,.9);
+    color:white;
+}
+.j-ui-tip-hot-cold{
+    background-color:rgba(2,2,2,.9);
+    color:white;
+    width:140px;
+    height:40px;
+
+}
+
+/*moz 加载层*/
+.loading-mask{
+    width: 100%;
+    height: 1264px;
+    position: absolute;
+    text-align: center;
+    z-index: 100;
+    background-color: #000000;
+    filter:alpha(opacity=80); /*ie透明度20%*/ 
+    -moz-opacity:0.8;/*Moz + FF 透明度20%*/ 
+    opacity:0.8; /*支持CSS3的浏览器(FF1.5也支持)透明度20%*/ 
+    color: #FFFFFF;
+    font-size: 40px;
+}
+.load-img{
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 271px;
+    height: 259px;
+    background: url('bjl/loading.png') no-repeat;
+}
+.load-bar{
+    position: absolute;
+    width: 150px;
+    margin-left: 73px;
+    margin-top: 234px;
+}
+.load-bar-unfill {
+    height:6px;
+    display:block;
+    background:#fff;
+    width:150px;
+    border-radius:8px;
+}
+.load-bar-fill {
+    height:6px;
+    display:block;
+    background:#e0bf6c;
+    width:0;
+    border-radius:8px;
+    -webkit-transition:width .8s ease;
+    -moz-transition:width .8s ease;
+    transition:width .8s ease;
+    -webkit-animation:progressbar 2s;
+    animation:progressbar 2s;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes progressbar { 
+    from {
+        width:0
+    }
+    to {
+        width:100%
+    }
+}
+/* Standard syntax */
+@keyframes progressbar {
+    from {
+        width:0
+    }
+    to {
+        width:100%
+    }
+}

@@ -1,0 +1,1 @@
+../../../app/lang/zh-CN/_q_buys.php

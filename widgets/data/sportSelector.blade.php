@@ -1,0 +1,1 @@
+var lotteriesWithSeriesId={"9001":{"id":9001,"name":"\u7ade\u5f69\u8db3\u7403","series_id":9001,"open":1}}

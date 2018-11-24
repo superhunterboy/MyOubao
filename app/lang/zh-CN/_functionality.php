@@ -1,0 +1,23 @@
+<?php
+return array (
+  'action' => '方法',
+  'controller' => '控制器',
+  'created_at' => '创建时间',
+  'description' => '说明',
+  'disabled' => '是否禁用',
+  'forefather_ids' => '祖先ID',
+  'id' => 'ID',
+  'menu' => '是否菜单项',
+  'need_curd' => '是否需要CURD权限',
+  'need_log' => '日志',
+  'need_search' => '是否需要搜索表单',
+  'parent' => '上级',
+  'parent_id' => '上级',
+  'parent_str' => '祖先',
+  'realm' => '适用范围',
+  'refresh_cycle' => '刷新间隔',
+  'search_config_id' => '搜索表单',
+  'sequence' => '排序',
+  'title' => '标题',
+  'updated_at' => '更新时间',
+);

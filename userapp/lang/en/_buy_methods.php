@@ -1,0 +1,1 @@
+../../../app/lang/en/_buy_methods.php

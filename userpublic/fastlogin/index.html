@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>欧豹快速登录器</title>
+<link media="all" type="text/css" rel="stylesheet" href="/assets/images/global/global.css" />
+<link type="text/css" rel="stylesheet" href="images/logger.css" />
+<script src="/dist/assets/js/base-all.min.js?v=1836b9cbf72cf719512d99b2c955587651905382"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="header">
+	<div class="warper">
+		<a href="/" class="logo"></a>
+		<a href="/" target="_blank" class="button">进入欧豹主站</a>
+	</div>
+</div>
+
+
+<div class="banner">
+	<div class="warper">
+		<div class="float text-big"></div>
+		<div class="float text-small"></div>
+		<div class="float mac"></div>
+		<a href="#" target="_blank" class="float button" id="J-button-download">点击下载登录器</a>
+	</div>
+</div>
+
+
+
+
+<div class="info">
+	<div class="warper">
+	</div>
+</div>
+
+
+<div class="info-text">
+	<div class="warper">
+	</div>
+</div>
+
+
+<script type="text/template" id="J-template-list-download">
+<ul class="list-download clearfix">
+	<li>
+		<p>&nbsp;百度网盘下载：</p>
+		<p><a href="http://pan.baidu.com/s/1jGFzh8E" class="btn" target="_blank">百度网盘下载</a></p>
+		<p>&nbsp;提取码：5ni2</p>
+	</li>
+	<li>
+		<p>&nbsp;360网盘下载：</p>
+		<p><a href="http://yunpan.cn/cjiFnHrA8dyuQ" class="btn" target="_blank">360网盘下载</a></p>
+		<p>&nbsp;提取码：f193</p>
+	</li>
+	<li>
+		<p>&nbsp;360网盘下载：</p>
+		<p><a href="http://yunpan.cn/cjiFh7HqESzZE" class="btn" target="_blank">&nbsp;360网盘下载</a></p>
+		<p>&nbsp;提取码：8c55</p>
+	</li>
+</ul>
+</script>
+
+
+<div class="footer">
+	<div class="warper footer-bg">
+		<div class="footer-cont">
+			<div style="height:10px;"></div>
+		   <div class="copy">&copy; 2014 欧豹娱乐版权所有 <font>尊享欧亚双重博彩牌照认证</font></div>
+		   <div class="foot-warning">欧豹娱乐郑重提示：彩票有风险，投注需谨慎，不向未满18周岁的青少年出售彩票</div>
+		</div>
+	</div>
+</div>
+
+
+<script>
+(function(){
+	var wd = bomao.Message.getInstance(),button = $('#J-button-download'),text = $('#J-template-list-download').html();
+	button.click(function(e){
+		wd.show({
+			title:'欧豹快速登录器下载地址',
+			isShowMask:true,
+			closeIsShow:true,
+			closeFun:function(){
+				wd.hide();
+			},
+			content:text
+		});
+		e.preventDefault();
+	});
+})();
+</script>
+
+</body>
+</html>

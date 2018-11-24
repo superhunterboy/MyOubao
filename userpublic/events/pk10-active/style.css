@@ -1,0 +1,440 @@
+* {
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    PADDING-TOP: 0px
+}
+
+HTML {
+
+}
+
+BODY {
+    FONT-FAMILY: "Microsoft YaHei";
+    BACKGROUND: #160f0a;
+    COLOR: #000;
+    FONT-SIZE: 12px
+}
+
+A:hover IMG {
+    BORDER-BOTTOM: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-RIGHT: medium none
+}
+
+IMG {
+    BORDER-BOTTOM: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-RIGHT: medium none
+}
+
+UL {
+    LIST-STYLE-TYPE: none;
+    LIST-STYLE-IMAGE: none
+}
+
+INPUT {
+    OUTLINE-STYLE: none;
+    OUTLINE-COLOR: invert;
+    OUTLINE-WIDTH: medium
+}
+
+BUTTON {
+    OUTLINE-STYLE: none;
+    OUTLINE-COLOR: invert;
+    OUTLINE-WIDTH: medium
+}
+
+SELECT {
+    OUTLINE-STYLE: none;
+    OUTLINE-COLOR: invert;
+    OUTLINE-WIDTH: medium
+}
+
+TEXTAREA {
+    OUTLINE-STYLE: none;
+    OUTLINE-COLOR: invert;
+    OUTLINE-WIDTH: medium
+}
+
+TABLE INPUT {
+    VERTICAL-ALIGN: middle
+}
+
+TABLE BUTTON {
+    VERTICAL-ALIGN: middle
+}
+
+TABLE SELECT {
+    VERTICAL-ALIGN: middle
+}
+
+TABLE TEXTAREA {
+    VERTICAL-ALIGN: middle
+}
+
+TEXTAREA {
+    resize: none
+}
+
+TABLE {
+    BORDER-COLLAPSE: collapse
+}
+
+A {
+    COLOR: inherit;
+    TEXT-DECORATION: none
+}
+
+A:hover {
+
+}
+
+.header .float_r {
+    POSITION: relative;
+    WIDTH: 193px;
+    BACKGROUND: url(/events/pk10-active/img/qq.png) no-repeat left center;
+    HEIGHT: 95px;
+};
+.clearfix:after {
+    DISPLAY: block;
+    HEIGHT: 0px;
+    VISIBILITY: hidden;
+    CLEAR: both;
+    OVERFLOW: hidden;
+    CONTENT: "."
+}
+
+.clearfix {
+
+}
+
+.clear {
+    WIDTH: 0px;
+    HEIGHT: 0px;
+    CLEAR: both;
+    FONT-SIZE: 0px;
+    OVERFLOW: hidden
+}
+
+.float_l {
+    FLOAT: left
+}
+
+.float_r {
+    FLOAT: right
+}
+
+#header {
+    WIDTH: 100%;
+    HEIGHT: 95px;
+    background: rgb(39, 39, 51) none repeat scroll 0% 0%;
+}
+
+.header {
+    MARGIN: 0px auto;
+    WIDTH: 1000px;
+    HEIGHT: 115px
+}
+
+.header .float_l {
+    WIDTH: 455px;
+    BACKGROUND: url(/events/pk10-active/img/logo.png)  no-repeat left center;
+    HEIGHT: 95px
+}
+#page-container {
+    BACKGROUND: #ebf2fa;
+    PADDING-TOP: 20px;
+};
+
+.header .float_r {
+    POSITION: relative;
+    WIDTH: 193px;
+    BACKGROUND: url(/events/pk10-active/img/qq.png)  no-repeat left center;
+    HEIGHT: 95px
+}
+
+.header .float_r DL {
+    PADDING-BOTTOM: 0px;
+    LINE-HEIGHT: 18px;
+    PADDING-LEFT: 60px;
+    PADDING-RIGHT: 0px;
+    PADDING-TOP: 28px
+}
+
+.header .float_r DL DT {
+
+}
+
+.header .float_r DL DD {
+    FONT-SIZE: 20px;
+    FONT-WEIGHT: bold
+}
+
+.banner {
+    WIDTH: 100%;
+    no-repeat center top;
+    HEIGHT: 400px
+}
+
+.register {
+    margin: 0 auto;
+    width:303px;
+    height:59px;
+    background:url(/events/pk10-active/img/zc.png);
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+}
+
+.register A {
+    line-height: 60px;
+    font-size:24px;
+    text-align: center;
+    color:white;
+    font-weight:bold;
+    outline: none;
+}
+
+
+.links {
+    PADDING-BOTTOM: 20px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    PADDING-TOP: 20px;
+    background: rgb(39, 39, 51) none repeat scroll 0% 0%;
+}
+
+.links UL {
+    TEXT-ALIGN: center
+}
+
+.links UL LI {
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 15px;
+    PADDING-RIGHT: 15px;
+    DISPLAY: inline;
+    PADDING-TOP: 0px
+}
+
+.links UL LI IMG {
+    VERTICAL-ALIGN: middle;
+    _vertical-align: baseline
+}
+
+.footer {
+    TEXT-ALIGN: center;
+    COLOR: #fff;
+    FONT-SIZE: 14px
+}
+
+.here {
+    MARGIN: 0px auto;
+    WIDTH: 960px;
+    BACKGROUND: #f5f5f5;
+    HEIGHT: 32px
+}
+
+.here SPAN {
+    LINE-HEIGHT: 32px;
+    PADDING-LEFT: 10px;
+    FLOAT: left;
+    COLOR: #16132e;
+    FONT-SIZE: 14px;
+    FONT-WEIGHT: bold
+}
+
+.content {
+    PADDING-BOTTOM: 10px;
+    LINE-HEIGHT: 24px;
+    MARGIN: 0px auto;
+    PADDING-LEFT: 20px;
+    WIDTH: 920px;
+    PADDING-RIGHT: 20px;
+    DISPLAY: block;
+    BACKGROUND: #fff;
+    PADDING-TOP: 10px
+}
+
+.clear {
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    CLEAR: both;
+    PADDING-TOP: 0px
+}
+
+.clearfix:before {
+    DISPLAY: table;
+    CONTENT: ""
+}
+
+.clearfix:after {
+    DISPLAY: table;
+    CONTENT: ""
+}
+
+.clearfix:after {
+    CLEAR: both
+}
+
+.clearfix {
+
+}
+
+
+
+#page-body {
+    MARGIN: 0px auto;
+    WIDTH: 1000px;
+        padding-bottom: 20px;
+}
+
+.first #page-body {
+    WIDTH: 950px
+}
+
+.game #page-body {
+    WIDTH: 966px
+}
+
+.live #page-body {
+    MARGIN-BOTTOM: 36px
+}
+
+.ltlottery #page-body {
+    BORDER-BOTTOM: #bed0fd 1px solid;
+    BORDER-LEFT: #bed0fd 1px solid;
+    MARGIN-TOP: 36px;
+    WIDTH: 950px;
+    BACKGROUND: #fff;
+    BORDER-TOP: #bed0fd 1px solid;
+    BORDER-RIGHT: #bed0fd 1px solid
+}
+
+.game3dfight #page-body {
+    BORDER-BOTTOM: #bed0fd 1px solid;
+    BORDER-LEFT: #bed0fd 1px solid;
+    MARGIN-TOP: 36px;
+    WIDTH: 950px;
+    BACKGROUND: #fff;
+    BORDER-TOP: #bed0fd 1px solid;
+    BORDER-RIGHT: #bed0fd 1px solid
+}
+
+.memberexclusiveii #page-body {
+    BORDER-BOTTOM: #bed0fd 1px solid;
+    BORDER-LEFT: #bed0fd 1px solid;
+    MARGIN-TOP: 36px;
+    WIDTH: 950px;
+    BACKGROUND: #fff;
+    BORDER-TOP: #bed0fd 1px solid;
+    BORDER-RIGHT: #bed0fd 1px solid
+}
+
+
+.ele-ltlottery-wrap {
+    PADDING-TOP: 30px
+}
+
+.first-body-text {
+    PADDING-BOTTOM: 0px;
+    PADDING-LEFT: 3px;
+    PADDING-RIGHT: 3px;
+    PADDING-TOP: 0px;
+    background: rgb(81, 83, 104) none repeat scroll 0% 0%;
+}
+
+.first-download-btn {
+    MARGIN: -4px 0px 0px 55px;
+    WIDTH: 175px;
+    DISPLAY: block;
+    HEIGHT: 103px
+}
+
+.text-area-01 {
+    WIDTH: 265px;
+    FLOAT: left
+}
+
+.text-area-02 {
+    WIDTH: 265px;
+    FLOAT: left
+}
+
+.text-area-01 {
+    MARGIN: 0px 21px
+}
+
+.text-area-02 {
+    MARGIN: 0px 32px
+}
+
+.text-title-01 {
+    WIDTH: 265px;
+    HEIGHT: 34px
+}
+
+.text-title-02 {
+    WIDTH: 265px;
+    HEIGHT: 34px
+}
+
+.text-title-03 {
+    WIDTH: 265px;
+    HEIGHT: 34px
+}
+
+.text-title-01 {
+    MARGIN-TOP: 44px
+}
+
+.text-title-03 {
+    MARGIN-TOP: 44px
+}
+
+.text-title-02 {
+    MARGIN-TOP: 22px
+}
+
+.text-content-01 {
+    MARGIN-TOP: 40px
+}
+
+.text-content-02 {
+    MARGIN-TOP: 40px
+}
+
+.text-content {
+    LINE-HEIGHT: 20px;
+    MARGIN-TOP: 40px
+}
+
+.text-detail {
+    LINE-HEIGHT: 20px;
+    MARGIN-BOTTOM: 20px;
+    COLOR: white;
+}
+
+.text-detail H6 {
+    FONT-SIZE: 15px
+}
+
+
+.login-join:hover {
+    BACKGROUND-POSITION: 50% bottom
+}
+
+.login-submit:hover {
+    BACKGROUND-POSITION: 50% bottom
+}
+
+.first-download-btn:hover {
+    BACKGROUND-POSITION: 50% bottom
+}
+
+

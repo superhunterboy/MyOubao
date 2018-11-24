@@ -1,0 +1,20 @@
+<?php
+return array (
+  'id' => 'ID',
+  'parent_id' => '上级',
+  'item' => '键',
+  'value' => '值',
+  'default_value' => '默认值',
+  'title' => '标题',
+  'data_type' => '数据类型',
+  'form_face' => '控件类型',
+  'validation' => '校验方法',
+  'data_source' => '数据源',
+  'description' => '描述',
+  'formated_value' => '格式化后的值',
+  'formated_default_value' => '格式化后的默认值',
+  'sequence' => '排序',
+  'updated_at' => '更新时间',
+  'set-failed' => ':item设置失败',
+  'seted' => ':item设置成功',
+);

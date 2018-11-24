@@ -1,0 +1,763 @@
+html body {
+	background: url(/events/eurocup/images/background.jpg)  no-repeat top center scroll #121d13;
+    font-family: 微软雅黑,Microsoft YaHei,宋体,Microsoft JhengHei,Verdana,arial,sans-serif;
+	font-size: 12px;
+    line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	color: #555;
+}
+
+h1 {
+	font-size:36px;
+	margin:0;
+	padding:0;
+	line-height:1.6em
+}
+h2 {
+	font-size:32px!important;
+	margin:0;
+	padding:0;
+	line-height:1.5em
+}
+h3 {
+	font-size:26px;
+	margin:0;
+	padding:0;
+	line-height:1.4em
+}
+h6 {
+	font-size:14px;
+	margin:0;
+	padding:0;
+	line-height:1.2em
+}
+p {
+	font-size:16px!important;
+	margin:0;
+	padding:0;
+	line-height:1.4em
+    border: 0;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+.bold {
+	font-weight: bold;
+}
+
+.orange {
+	color: #FFAB0D;
+}
+
+.grey {
+	color: #9c9c9c;
+}
+
+.page-content .container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+
+
+.page-content .content {
+	width: 100%;
+}
+
+a {
+	color: #000;
+	/*text-decoration: underline;*/
+}
+
+a:hover {
+	color: #a3adb3;
+	/*text-decoration: underline;*/
+}
+
+
+
+.styled-select {
+	background: #fff;
+	height: 42px;
+	overflow: hidden;
+	width: 345px;
+	margin: 10px 0;
+}
+
+.styled-select select {
+	background: transparent;
+	border: none;
+	font-size: 14px;
+	height: 42px;
+	padding: 5px 5px 5px 73px;
+	width: 360px;
+	outline: none;
+}
+
+.champion {
+	background: url(/events/eurocup/images/all01.png)  no-repeat left top #fff;
+	background-position: -3131px -1680px;
+}
+
+.silver {
+	background: url(/events/eurocup/images/all01.png)  no-repeat left top #fff;
+	background-position: -3131px -1638px;
+}
+
+.finalfour {
+	background: url(/events/eurocup/images/all01.png)  no-repeat left top #fff;
+	background-position: -3479px -1638px;
+}
+
+.tabs-menu {
+	height: 60px;
+	float: left;
+	clear: both;
+	padding: 0;
+}
+
+.tabs-menu li {
+	height: 60px;
+	line-height: 58px;
+	float: left;
+	background-color: #097637;
+	list-style-type: none;
+	border-right: 1px solid #07642e;
+}
+
+.tabs-menu li.current {
+	position: relative;
+	background-color: #073319;
+	z-index: 5;
+}
+
+.tabs-menu li a {
+	padding: 17px 28px;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.tabs-menu .current a {
+	color: #f88c01;
+}
+
+.tab {
+	border: 1px solid #d4d4d1;
+	background-color: #fff;
+	float: left;
+	margin-bottom: 20px;
+	width: auto;
+}
+
+.tab-content {
+	display: none;
+}
+
+#tab-1 {
+	display: block;
+}
+
+.tab .content-group {
+	width: 917px;
+}
+
+#EuroCupheader {
+	width: 100%;
+	position: relative !important;
+	top: 0;
+	bottom: auto;
+	left: 0;
+	right: 0;
+}
+
+.EuroCupheader {
+	background-color: #192a21 !important;
+	background-color: rgba(25, 42, 33, .8) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000) !important;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)" !important;
+}
+
+.EuroCupheader img {
+	margin: 6px 0;
+}
+
+.main-menu {
+	margin: 0 auto;
+	height: 59px;
+	position: relative;
+	top: 0;
+}
+
+.leftHalf {
+	background: url(/events/eurocup/images/all01.png)  no-repeat;
+	background-position: -3000px -1638px;
+	width: 131px;
+	position: absolute;
+	left: 38px;
+	height: 100%;
+}
+
+.rightHalf {
+	background: url(/events/eurocup/images/all01.png)  no-repeat;
+	background-position: -3000px -1753px;
+	width: 131px;
+	position: absolute;
+	right: 320px;
+	height: 100%;
+}
+
+@media all and (min-width: 1921px) {
+	.leftHalf {
+		display: none;
+	}
+
+	.rightHalf {
+		display: none;
+	}
+}
+
+@media all and (min-width: 1024px)and (max-width: 1280px) {
+	.leftHalf {
+		background: url(/events/eurocup/images/menubg-left.png)  no-repeat;
+		width: 131px;
+		position: absolute;
+		left: 6px;
+		height: 100%;
+	}
+
+	.rightHalf {
+		background: url(/events/eurocup/images/menubg-right.png)  no-repeat;
+		width: 131px;
+		position: absolute;
+		right: -6px;
+		height: 100%;
+	}
+}
+
+@media all and (min-width: 768px)and (max-width: 1024px) {
+	.leftHalf {
+		display: none;
+	}
+
+	.rightHalf {
+		display: none;
+	}
+}
+
+@media all and (min-width: 480px)and (max-width: 768px) {
+	.leftHalf {
+		display: none;
+	}
+
+	.rightHalf {
+		display: none;
+	}
+}
+
+@media all and (max-width: 480px) {
+	.leftHalf {
+		display: none;
+	}
+
+	.rightHalf {
+		display: none;
+	}
+}
+
+.leftHalf {
+	display: none \9;
+}
+
+.rightHalf {
+	display: none \9;
+}
+
+#spnDeposit {
+	transform: skew(30deg);
+	position: absolute;
+	left: 31px;
+	font-size: 16px;
+	left: 448px \9;
+}
+
+#spnSportbook {
+	transform: skew(30deg);
+	position: absolute;
+	left: 31px;
+	font-size: 16px;
+	left: 570px \9;
+}
+
+.lavalamp-object {
+	background-color: #073319;
+	width: 9px;
+	height: 72px;
+	position: absolute;
+	-webkit-transform: skew(-30deg);
+	-moz-transform: skew(-30deg);
+	-o-transform: skew(-30deg);
+	transform: skew(-30deg);
+}
+
+.lavaLampNoImage {
+	position: relative;
+	height: 59px;
+	background-color: #097637;
+	overflow: hidden;
+}
+
+.lavaLampNoImage li {
+	float: left;
+	list-style: none;
+	width: 33%;
+	text-align: center;
+	height: 100%;
+	cursor: pointer;
+}
+
+.lavaLampNoImage li.back {
+	background-color: #073319;
+	width: 9px;
+	height: 72px;
+	z-index: 8;
+	position: absolute;
+	-webkit-transform: skew(-30deg);
+	-moz-transform: skew(-30deg);
+	-o-transform: skew(-30deg);
+	transform: skew(-30deg);
+}
+
+.lavaLampNoImage li a {
+	font: bold 25px arial;
+	font-family: 微软雅黑,Microsoft YaHei,宋体,Microsoft JhengHei,Verdana,arial,sans-serif;
+	text-decoration: none;
+	color: #fff;
+	outline: none;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0;
+	z-index: 10;
+	display: inline-block;
+	line-height: 59px;
+}
+
+.lavaLampNoImage li a:hover,
+.lavaLampNoImage li a:active,
+.lavaLampNoImage li a:visited {
+	border: none;
+}
+
+.lavaLampNoImage li a.current {
+	color: #f88c01;
+	position: relative;
+	z-index: 10;
+}
+
+.banner {
+	position: relative;
+	height: 438px;
+	background: url(/events/eurocup/images/all01.png)  no-repeat top center scroll;
+	background-position: -2099px -1930px;
+	color: #fff;
+}
+
+.bonus {
+	position: absolute;
+	top: 220px;
+	width: 520px;
+	padding-left: 417px;
+}
+
+.bonus h3 {
+	margin: 0;
+	font-weight: bold;
+}
+
+.bonus .btn{
+	background-color:#097637;
+}
+.bonus .btn-bet{
+		background-color:#073319;
+}
+
+.left .btn {
+	font-size:14px;
+	-moz-user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: bold;
+	line-height: 1.42857;
+	margin-bottom: 0;
+	padding: 6px 12px;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	height:39px;
+}
+
+.quizbg p .btn {
+	font-size:14px;
+	-moz-user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: bold;
+	line-height: 1.42857;
+	margin-bottom: 0;
+	padding: 6px 12px;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.btn-deposit {
+	background-color: #097637;
+	border-radius: 0;
+	color: #fff;
+	height: 25px;
+	padding: 6px 60px;
+	transform: skew(-30deg);
+	text-transform: capitalize;
+	transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+}
+
+.btn-deposit a {
+	transform: skew(30deg);
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+}
+
+.btn-bet {
+	background-color: #073319;
+	border-radius: 0;
+	color: #fff;
+	height: 25px;
+	padding: 6px 60px;
+	transform: skew(-30deg);
+	text-transform: capitalize;
+	transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+}
+
+
+.btn-bet:hover,
+.btn-deposit:hover {
+	padding: 14px 60px;
+	color: #fff;
+}
+
+.btn-quiz {
+	background: #f88c01;
+	padding: 10px 40px;
+	text-decoration: none;
+	color: #fff;
+	margin: 12px 0;
+	-webkit-transition: background-color 1s ease-out;
+	-moz-transition: background-color 1s ease-out;
+	-o-transition: background-color 1s ease-out;
+	transition: background-color 1s ease-out;
+}
+
+.btn-quiz:hover {
+	background: #94580b;
+	text-decoration: none;
+	color: #fff;
+}
+
+.quizbg .btn-submit {
+	background: #ED3046;
+	width: 345px;
+	padding: 10px 0;
+	height:39px;
+	text-decoration: none;
+	color: #fff;
+	-webkit-transition: background-color 1s ease-out;
+	-moz-transition: background-color 1s ease-out;
+	-o-transition: background-color 1s ease-out;
+	transition: background-color 1s ease-out;
+}
+
+.quizbg .btn-submit:hover {
+	background: #94580b;
+	text-decoration: none;
+	color: #fff;
+}
+
+.timerbg {
+	background-color: rgba(0, 0, 0, .7);
+	border-radius: 0;
+	color: #fff;
+	float: right;
+	height: 40px;
+	padding: 7px 0;
+	position: relative;
+	text-transform: capitalize;
+	top: -7px;
+	transform: skew(-30deg);
+	transition: all .2s ease-in-out 0s;
+	width: 225px;
+	background-color: #000;
+	filter: alpha(opacity=70);
+}
+
+.about {
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.aboutbg {
+	background: #020204 url(/events/eurocup/images/countrybg.jpg)  no-repeat scroll center bottom;
+	min-height: 1475px;
+	position: relative;
+}
+
+.intro {
+	color: #000;
+}
+
+.intro .left {
+	margin: 40px 30px 0 0;
+	width: 170px;
+	float: left;
+	text-align: right;
+}
+
+.intro .center {
+	margin: 30px 30px 0 0;
+	width: 370px;
+	float: left;
+}
+
+.intro .right {
+	margin: 30px 30px 0 0;
+	width: 370px;
+	float: left;
+}
+
+
+.stadium {
+	margin: 175px 0 0 0;
+}
+
+.stadium .left {
+	margin: 30px 50px 0 30px;
+	width: 400px;
+	float: left;
+}
+
+.stadium .right {
+	margin: 200px 30px 0 0;
+	width: 400px;
+	float: left;
+}
+
+.about h1 {
+	font-weight: bold;
+}
+
+.match {
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.matchbg {
+	background: #040c19 url(/events/eurocup/images/all01.png)  no-repeat scroll top center;
+	background-position: -1000px -1930px;
+	position: relative;
+	float: left;
+}
+
+.match .center {
+	margin: 450px 37px 50px;
+	float: left;
+	width: 926px;
+}
+
+.boxes {
+	display: table;
+	width: 100%;
+	height: 100%;
+	padding: 20px 0;
+}
+
+.box {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.box1,
+.box7 {
+	width: 10%;
+}
+
+.box2,
+.box6 {
+	width: 18%;
+}
+
+.box3,
+.box5 {
+	width: 10%;
+}
+
+.box4 {
+	width: 24%;
+	color: #636363;
+}
+
+.vs {
+	font-size: 18px;
+}
+
+.dateMatches {
+	font-size: 13px;
+}
+
+.odd {
+	background-color: #fff;
+}
+
+.even {
+	background-color: #ededed;
+}
+
+.quiz {
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+.quiz .right .cytj,.quiz .right .zysx{
+	color:#f88c01;
+}
+.quiz .right .zysx{
+	height:23px;
+}
+.quiz .content .right .cytj2{
+	font-size:14px !important;
+}
+
+.quizbg {
+	background: #081e01 url(/events/eurocup/images/quizbg.jpg)  no-repeat scroll center top;
+	position: relative;
+	padding-bottom: 60px;
+}
+
+.quiz .title {
+	padding: 266px 0 0 0;
+	width: 100% !important;
+	height: 85px;
+}
+
+.quiz h2 {
+	margin: 10px 0 50px 0;
+	text-shadow: #000 0 2px 4px;
+}
+
+.quiz .left {
+	float: left;
+	text-align: left;
+	width: 36%;
+	margin-left: 70px;
+}
+
+.quiz .right {
+	float: right;
+	text-align: left;
+	width: 45%;
+	margin-right: 70px;
+	margin-top:7px;
+}
+
+.terms {
+	font-size: 14px;
+	margin: 0;
+	padding: 10px 0;
+	line-height: 1.2em;
+}
+/*.terms ul{
+	list-style: decimal;
+
+}*/
+.terms ul li{
+	list-style: decimal;
+	margin-left:15px;
+}
+
+.trip {
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: -55px;
+}
+
+.tripbg {
+	background: #000 url(/events/eurocup/images/all01.png)  no-repeat scroll center top;
+	background-position: -2000px -0px;
+	min-height: 1660px;
+	position: relative;
+}
+
+.trip .left {
+	text-align: left;
+	width: 40%;
+	position: absolute;
+	left: 70px;
+	bottom: 0;
+	padding-bottom: 50px;
+}
+
+.trip .right {
+	text-align: left;
+	width: 42%;
+	position: absolute;
+	right: 55px;
+	bottom: 0;
+	padding-bottom: 50px;
+}
+
+#footer {
+	width: 100%;
+	position: relative;
+	float: left;
+	top: -38px;
+	height: 0;
+}
+
+.footer {
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	color: #999;
+	font-size: 11px;
+	margin: 6px 0;
+}
+
+.r-main {
+	overflow: hidden;
+	margin-bottom: 55px;
+}
+
+.container .main-content{
+	background: none;
+}

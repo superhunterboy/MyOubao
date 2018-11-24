@@ -1,0 +1,20 @@
+<?php
+return array (
+  'add_user_id' => '作者',
+  'audited' => '审核通过',
+  'category' => '分类',
+  'category_id' => '分类',
+  'content' => '内容',
+  'created_at' => '创建时间',
+  'id' => 'ID',
+  'is_for_agent' => '是否代理专属',
+  'new' => '待审核',
+  'rejected' => '审核未通过',
+  'retract' => '公告下架',
+  'search_text' => '搜索关键字',
+  'status' => '状态',
+  'summary' => '简介',
+  'title' => '标题',
+  'updated_at' => '更新时间',
+  'update_user_id' => '最后修改者',
+);

@@ -1,0 +1,25 @@
+{
+    "name": "digithis/activehelper",
+    "type": "helper",
+    "description": "Active helper is a simple active state system for your links in laravel 4",
+    "keywords": ["active","links","laravel","laravel 4"],
+    "homepage": "http://github.com/digithis/activehelper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Digithis",
+            "email": "rolletremi@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Digithis\\Activehelper": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}

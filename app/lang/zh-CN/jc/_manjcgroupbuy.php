@@ -1,0 +1,45 @@
+<?php
+return array (
+    'user_id' => '用户ID',
+    'username' => '用户名',
+    'bet_id' => '方案ID',
+    'buy_amount' => '认购金额',
+    'amount' => '总金额',
+    'buy_percent' => '进度',
+    'end_time' => '截止时间',
+    'fee_rate' => '佣金比例',
+    'fee_amount' => '佣金',
+    'guarantee_amount' => '保底金额',
+    'guarantee_percent' => '保底比例',
+    'show_type' => '显示状态',
+    'status' => '状态',
+    'prize_status' => '奖金状态',
+    'commission_status' => '返点状态',
+    'sequence' => '排序',
+    'created_at' => '创建时间',
+    'updated_at' => '更新时间',
+    
+    'normal' => '正常',
+    'droped' => '撤单',
+    'lost' => '未中奖',
+    'won' => '已中奖',
+    'prize sent' => '已派奖',
+    'drop by system' => '系统撤单',
+    'avaliable' => '已满员',
+    'cancelled' => '取消',
+    
+    'calculating' => '计奖中',
+    'calculated' => '计奖完成',
+    'sending' => '派奖中',
+    
+    'fee sent' => '已派佣金',
+    'done' => '已完成',
+
+    'show type hide' => '不公开',
+    'show type after follow' => '跟单即公开',
+    'show type after end' => '截止后公开',
+    'show type public' => '公开',
+    
+    'bet project' => '方案详请',
+    'group buy detail' => '认购详情',   
+);

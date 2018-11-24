@@ -1,0 +1,280 @@
+
+
+html body {
+    background: #FFF;
+}
+
+
+input[placeholder], [placeholder], *[placeholder] { 
+    color:#616161; 
+}
+::-webkit-input-placeholder {
+    color:#616161; 
+}
+
+.layout-login {
+
+}
+
+
+.layout-login .s-1 {
+    height: 590px;
+    background: url(s-1.jpg) no-repeat center bottom;
+    background-size: cover;
+}
+.layout-login .s-1 .left {
+    float: left;
+    width: 620px;
+}
+.layout-login .s-1 .left .inner {
+    height: 300px;
+    height: 590px;
+    background: url(logo-big.png) no-repeat 280px 150px;
+}
+.layout-login .s-1 .left .inner .line {
+    float: right;
+    height: 390px;
+    margin-top: 90px;
+    border-right: 1px solid rgba(151, 151, 151, 0.5);
+}
+.layout-login .s-1 .right {
+    float: right;
+    width: 620px;
+    height: 590px;
+}
+.layout-login .s-1 .right .inner {
+    padding: 150px 0 0 100px;
+}
+.layout-login .s-1 .right .box {
+    width: 300px;
+    padding: 15px 20px 15px 20px;
+    background: rgba(36, 36, 36, 0.45);
+    border: 1px solid rgba(255, 255, 255, 0.21);
+    font-size: 18px;
+    color: #FFF;
+}
+.layout-login .s-1 .right .box .title {
+    height: 45px;
+    line-height: 35px;
+    float: left;
+}
+.layout-login .s-1 .right .box .fastlogin {
+    height: 38px;
+    line-height: 38px;
+    font-size:14px;
+    float:right;
+    color:white;
+    text-decoration: underline;
+    font-weight: normal;
+    color: #E8E8E8;
+}
+.layout-login .s-1 .right .box .error {
+    font-size: 12px;
+    color: red;
+    clear: both;
+}
+.layout-login .s-1 .right .box .hidden {
+    display: none;
+}
+.layout-login .s-1 .right .box .row {
+    padding: 10px 0;
+}
+.layout-login .s-1 .right .box .ipt {
+    border: 2px solid #979797;
+    background: none;
+    padding: 10px;
+    font-size: 14px;
+    color: #979797;
+    outline: none;
+    padding-left: 45px;
+    vertical-align: middle;
+    width: 240px;
+}
+
+.layout-login .s-1 .right .box .ipt:focus {
+    border-color: #FFAA0D;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.layout-login .s-1 .right .box .ipt-vcode {
+    width: 120px;
+    vertical-align: middle;
+}
+.layout-login .s-1 .right .box .vcode {
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+
+
+
+
+.layout-login .s-1 .right .box .ipt-username {
+    background: url(../reg-v4/ipt-ico-username.png) no-repeat 10px 11px;
+}
+.layout-login .s-1 .right .box .ipt-username:focus {
+    background-image: url(../reg-v4/ipt-ico-username-hover.png);
+}
+.layout-login .s-1 .right .box .ipt-password {
+    background: url(../reg-v4/ipt-ico-password.png) no-repeat 10px 11px;
+}
+.layout-login .s-1 .right .box .ipt-password:focus {
+    background-image: url(../reg-v4/ipt-ico-password-hover.png);
+}
+.layout-login .s-1 .right .box .ipt-password2 {
+    background: url(../reg-v4/ipt-ico-password2.png) no-repeat 10px 11px;
+}
+.layout-login .s-1 .right .box .ipt-password2:focus {
+    background-image: url(../reg-v4/ipt-ico-password2-hover.png);
+}
+
+.layout-login .s-1 .right .box .ipt-captcha {
+    width: 126px;
+    background:url(../reg-v4/ipt-ico-password2.png) no-repeat 10px 11px;
+       /*background: rgba(0, 0, 0, 0.14) url(../reg-v4/ipt-ico-password2.png) no-repeat 10px 11px;*/
+}
+.layout-login .s-1 .right .box .ipt-captcha:focus {
+    background-image: url(../reg-v4/ipt-ico-password2-hover.png);
+}
+
+
+
+
+
+
+
+
+
+.layout-login .s-1 .right .box .submit {
+    color: #000;
+    border: none;
+    width: 100%;
+    padding: 10px 0;
+    cursor: pointer;
+    outline: none;
+    background: #FFAA0D;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.25);
+
+}
+.layout-login .s-1 .right .box .submit:hover {
+    background:#FBB637;
+}
+.layout-login .s-1 .right .box .submit:active {
+    background: #FFAA0D;
+}
+.layout-login .s-1 .right .box .tip {
+    font-size: 14px;
+    color: #E8E8E8;
+}
+.layout-login .s-1 .right .box .tip a {
+    color: #E8E8E8; 
+    text-decoration: underline;
+}
+.layout-login .s-1 .right .box .tip a:hover {
+    color: #36CDAB;
+}
+
+
+
+
+.layout-login .s-2 {
+    height: 500px;
+}
+.layout-login .s-2 .sj {
+    width: 23px;
+    height: 20px;
+    margin: 0 auto;
+    padding-top: 50px;
+    background: url(sj.png) no-repeat 0 50px;
+}
+
+.layout-login .s-3 {
+    height: 640px;
+    background: url(s-3.jpg) no-repeat center bottom;
+    background-size: cover;
+    position: relative;
+}
+
+.layout-login .s-3 .video-cont {
+    width: 1000px;
+    height: 510px;
+    position: absolute;
+    left: 50%;
+    margin-left: -500px;
+    top: -420px;
+    border: 1px solid #A5A5A5;
+}
+
+.layout-login .s-3 .video-cont .inner {
+    margin: 20px;
+    height: 460px;
+    background: #000;
+    border:5px solid #FDA92D;
+    position: relative;
+}
+
+.layout-login .s-3 .video-cont .video-cover {
+    width: 100%;
+    height: 100%;
+    background: url(video-face.png) no-repeat;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.layout-login .s-3 .title {
+    text-align: center;
+    color: #FFF;
+    font-size: 36px;
+    padding-top: 130px;
+    padding-bottom: 70px;
+}
+.layout-login .s-3 .list {
+    text-align: center;
+}
+.layout-login .s-3 .list .cell {
+    float: left;
+    text-align: left;
+    width: 240px;
+    height: 200px;
+    margin-right: 20px;
+    padding: 20px;
+    color: #CCC;
+    font-size: 14px;
+    background: url(ico-1.png) no-repeat center 0;
+    padding-top: 120px;
+    margin-left: 10px;
+}
+.layout-login .s-3 .list .cell .t {
+    color: #00C7AB;
+    font-size: 20px;
+}
+.layout-login .s-3 .list .cell .text {
+    line-height: 180%;
+    padding: 10px 0;
+}
+.layout-login .s-3 .list .cell .c {
+    border-right: 1px solid #4A90E2;
+    padding-right: 30px;
+    height: 130px;
+}
+.layout-login .s-3 .list .cell-b {background-image: url(ico-2.png);}
+.layout-login .s-3 .list .cell-b .c {
+    border-right-color: #50E3C2;
+}
+.layout-login .s-3 .list .cell-c {background-image: url(ico-3.png);}
+.layout-login .s-3 .list .cell-c .c {
+    border-right-color: #EF7474;
+}
+.layout-login .s-3 .list .cell-d {background-image: url(ico-4.png);}
+.layout-login .s-3 .list .cell-d .c {
+    border-right:none;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+<?php
+return array (
+  'created_at' => '创建时间',
+  'deleted status' => '删除状态',
+  'deleted_at' => '删除时间',
+  'id' => 'ID',
+  'is_deleted' => '是否删除',
+  'is_keep' => '是否保留站内短信',
+  'is_readed' => '是否已读',
+  'message title' => '消息标题',
+  'message type' => '消息类型',
+  'msg_id' => '消息ID',
+  'msg_title' => '标题',
+  'readed status' => '阅读状态',
+  'readed_at' => '读取的时间',
+  'receiver' => '接收者',
+  'send time from' => '发送时间',
+  'send time to' => '至',
+  'sender' => '发送者',
+  'status' => '状态',
+  'type_id' => '类型',
+  'updated_at' => '更新时间',
+);

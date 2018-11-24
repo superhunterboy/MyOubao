@@ -1,0 +1,33 @@
+{
+	"name": "soapbox/laravel-formatter",
+	"type": "library",
+	"description": "A formatting library that converts data output between XML, CSV, JSON, TXT, YAML and a few others.",
+	"keywords": ["laravel", "formatter", "data", "convert", "csv", "xml", "yaml"],
+    "homepage": "http://github.com/SoapBox/laravel-formatter",
+    "license": "MIT",
+	"version": "2.0",
+	"authors": [
+		{
+			"name": "Graham McCarthy",
+			"email": "graham@soapboxhq.com",
+			"homepage": "http://grahammccarthy.com"
+		},
+		{
+			"name": "Jaspaul Bola",
+			"email": "jaspaul.b@gamil.com",
+			"homepage": "http://jaspaulbola.com"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"league/csv": "~6.0",
+		"mustangostang/spyc": "0.5.*@dev",
+		"illuminate/support": ">=4.0"
+	},
+	"autoload": {
+		"psr-0": {
+			"SoapBox\\Formatter": "src/"
+		}
+	},
+	"minimum-stability": "dev"
+}

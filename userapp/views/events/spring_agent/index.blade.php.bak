@@ -1,0 +1,523 @@
+@extends('l.base-v4')
+
+@section('title')
+   2016春节活动 - 博狼娱乐
+@stop
+
+@section ('styles')
+@parent
+	{{ style('spring2016') }}
+	<link media="all" type="text/css" rel="stylesheet" href="/assets/images/events/spring2016/csshake.css">
+@stop
+
+
+
+@section ('container')
+	@include('w.header-v4')
+
+
+
+
+	<div class="sp-cont">
+		<div class="part part-1">
+			<div class="fw-1"></div>
+			<div class="fw-2"></div>
+
+			<div class="text">
+				<div class="info">
+					<span class="hl">活动时间：</span>2016年2月7日00:00:00-2016年2月22日23:59:59 <br />
+					<span class="hl">活动对象：</span>所有用户 <br />
+					<span class="hl">活动彩种：所有彩种</span> <br />
+					<span class="hl">活动内容：</span>用户在每场发红包时段内有效投注额达到<span class="hl">1000</span>元以上，刷新本活动页面后，即可点击“领红包”按钮获得红包。 
+
+				</div>
+				<div class="rule">
+					<span class="hl">活动规则：</span> <br />
+					<ol>
+						<li>红包每天发放，每60分钟一场，每位用户每场只可领取一次，每天最多可领取24次，领到的红包会实时派发至您的平台账户。</li>
+						<li>投注金额越多，领到大额红包几率越大，红包最高388元，红包数量有限，先领先得。</li>
+						<li>系统会自动计算每位用户在每场领红包时段内的有效投注额。有效投注额指实际已经开奖的有效投注量（撤单、未开奖均不计算在内），全包玩法不计入有效投注。</li>
+						<li>在每场领红包时段内，只要用户有效投注额达标，即可领取红包，若用户未领取视为自愿放弃，系统自下场领红包开始自动重新计算有效投注额。</li>
+						<li>本活动最终解释权和裁决权归博狼娱乐所有，博狼娱乐保留修改、暂停、终止该优惠活动等所有权利。</li>
+					</ol>
+				</div>
+				<div class="buttons">
+					<a class="button shake" href="/"></a>
+				</div>
+			</div>
+
+
+		</div>
+		<div class="part part-2">
+
+
+			<div class="text">
+				<div class="info">
+					<span class="hl">活动时间：</span>2016年2月7日00:00:00-2016年2月13日23:59:59  <br />
+					<span class="hl">活动对象：</span>所有用户 <br />
+					<span class="hl">活动彩种：博猫1分彩、2分彩、5分彩、博猫11选5、博猫快3、骰宝、龙虎斗</span> <br />
+					<span class="hl">活动内容：当日首充>=100元</span> <br />
+					<p>当日有效投注额达到当日首充的30倍，即可在当天领取等于当天首充金额50%的返利 </p>
+					<p>当日有效投注额达到当日首充的55倍，即可在当天领取等于当天首充金额100%的返利 </p>
+					<p>备注：每账户每日返利金额最高不超过10万元人民币。 </p>
+					</p>
+				</div>
+				<div class="rule">
+					<span class="hl">活动规则：</span> <br />
+					<ol>
+						<li>用户的当日有效投注额符合指定流水后，即可联系客服申请首充返利，客服审核通过后，返利将于30分钟内派发至您的平台账户。每位用户每天仅有一次申领首充返利的机会，当天24点前不领则视为自愿放弃。</li>
+						<li>当日首充以用户当日第一笔充值申请且充值成功的金额为准。当日有效投注额按当日实际已经开奖的有效投注额计算（撤单、未开奖均不计算在内）。</li>
+						<li>投注码量不能超过70%，即定位胆玩法不能超过7注、二码玩法不能超过70注、三码玩法不能超过700注、四星玩法不能超过7000注、五星玩法不能超过70000注，全包玩法不计入有效投注。</li>
+						<li>如发现玩家重复领取或利用多账户对打套利、恶意刷返点套利，博狼娱乐有权拒绝赠送返利、没收优惠及其所有相关盈利。</li>
+                        <li>本活动最终解释权和裁决权归博狼娱乐所有，博狼娱乐保留修改、暂停、终止该优惠活动等所有权利。</li>
+					</ol>
+				</div>
+				<div class="buttons">
+					<a class="button shake" href="/"></a>
+				</div>
+			</div>
+
+
+		</div>
+		<div class="part part-3">
+
+
+			<div class="text">
+				<div class="info">
+					<span class="hl">活动时间：</span>2016年2月7日00:00:00-2016年2月13日23:59:59 <br />
+					<span class="hl">活动对象：</span>所有用户 <br />
+					<span class="hl">活动彩种：博猫1分彩，2分彩，5分彩，博猫11选5，博猫快3，骰宝，龙虎斗</span> <br />
+					<span class="hl">活动内容：</span>
+
+
+                    <div style="width:512px;margin:0 auto;">
+                        <div style="padding-top:15px;">消费佣金</div>
+    					<table class="datatable" align="center">
+    						<tr>
+    							<th>下级有效投注（元）</th>
+    							<th>上级消费佣金（元）</th>
+    							<th>上上级消费佣金（元）</th>
+    						</tr>
+    						<tr>
+    							<td>1000</td>
+    							<td>5</td>
+    							<td>0</td>
+    						</tr>
+    						<tr>
+    							<td>3000</td>
+    							<td>10</td>
+    							<td>5</td>
+    						</tr>
+    						<tr>
+    							<td>6000</td>
+    							<td>32</td>
+    							<td>8</td>
+    						</tr>
+    						<tr>
+    							<td>10000及以上</td>
+    							<td>60</td>
+    							<td>10</td>
+    						</tr>
+    					</table>
+                    </div>
+
+                    <div style="width:512px;margin:0 auto;">
+                        <div style="padding-top:15px;">亏损佣金</div>
+                        <table class="datatable" align="center" width="100%">
+                            <tr>
+                                <th>下级每日净亏损额（元）</th>
+                                <th>上级佣金（元）</th>
+                                <th>上上级佣金（元）</th>
+                            </tr>
+                            <tr>
+                                <td>1,000及以上</td>
+                                <td>15</td>
+                                <td>10</td>
+                            </tr>
+                        </table>
+                        <div style="text-align:center;padding:10px 0 0 0">
+                            备注：净亏损额 =【投注总额 - 派奖总额 – 促销红利】
+                        </div>
+                    </div>
+
+
+
+
+				</div>
+				<div class="rule">
+					<span class="hl">活动规则：</span> <br />
+					<ol>
+						<li>系统自动计算每位用户的每日有效投注金额和每日净亏损额，投注佣金和亏损佣金将于次日12点前派发至您的平台账户。</li>
+						<li>每日有效投注金额按当日实际已经开奖的有效投注额计算（撤单、未开奖等均不计算在内）。</li>
+						<li>玩法投注不得超过该玩法投注总码的70%，即定位胆必须小于等于7注，二码必须小于等于70注，三码必须小于等于700注，四星必须小于等于7000注，五星必须小于等于70000注。如发现违规投注情况，均视作放弃本次活动。</li>
+						<li>若发现同一用户利用多个账号（相同/相似IP地址、相同银行卡、相同银行账户、相同电脑等）重复领取、对打套利、恶意刷返点套利等任何违规投注和对打情况，博狼娱乐将拒绝赠送佣金、没收优惠及其所有相关盈利。</li>
+						<li>本活动最终解释权和裁决权归博狼娱乐所有，博狼娱乐保留修改、暂停、终止该优惠活动等所有权利。</li>
+					</ol>
+				</div>
+				<div class="buttons">
+					<a class="button shake" href="/"></a>
+				</div>
+			</div>
+
+
+
+
+
+		</div>
+	</div>
+
+
+
+
+@include('w.footer-v4')
+@stop
+
+
+
+
+
+@section('end')
+@parent
+
+<script type="text/javascript" src="/events/anniversary/images/jQueryRotate.js"></script>
+<script>
+var bonusRequestStatus = 1;
+(function($){
+
+    var data,balance,currentTime,currentEndTime,currentStartTime,
+        isUserAvailable,status,turnover,userId,leftTime,countDown,
+        noticeCountDown,enterLeftTime,noticeLeftTime,
+        getRealTimeInfo,
+        infoUrl="{{route('anniversary.get-datas')}}",
+        resultUrl="{{route('anniversary.get-red-envelope')}}",
+        i = 10,
+        dur = 10*1000,
+        angles = {
+            388:30,
+            288:60,
+            0:90,
+            88:120,
+            68:150,
+            38:210,
+            28:240,
+            18:270,
+            8:300,
+            6:330
+        },
+        clockNoticeStatus = 1;
+        
+
+    
+    // 从后台获取抽奖信息
+    var getInfo = function(){
+        $.ajax({
+            url:infoUrl,
+            dataType:"JSON",
+            // async:false, 
+            success:function(result){
+                initLottery(result);
+            },
+            error:function(){
+                setTimeout(function(){
+                    getInfo();
+                },3000);
+                
+            }
+        })
+    }
+
+    // 根据从后台获取的抽奖信息初始化页面
+    var initLottery = function(data){
+        balance = formatMoneyCN(data["turnover"]),
+        currentEndTime = data["currentEndTime"],
+        currentStartTime = data["currentStartTime"],
+        currentTime = data["currentTime"],
+        isUserAvailable = data["isUserAvailable"],
+        status = data["status"],
+        // turnover用户本期投注额
+        turnover = data["turnover"],
+        user_id = data["user_id"],
+
+        currentEndTime = new Date(currentEndTime.split(" ")[0]+"T"+currentEndTime.split(" ")[1]+"Z"),
+        currentStartTime = new Date(currentStartTime.split(" ")[0]+"T"+currentStartTime.split(" ")[1]+"Z"),
+        currentTime = new Date(currentTime.split(" ")[0]+"T"+currentTime.split(" ")[1]+"Z"),
+
+        leftTime = currentEndTime.getTime() - currentTime.getTime();
+        enterLeftTime = leftTime,
+        noticeLeftTime = leftTime;
+
+
+		//isUserAvailable = 2;
+
+
+        // 当前抢红包活动不可用
+        if(status==0){
+            $(".bonus-entrance-container").css("display","none");
+            return;
+        }else{
+            $(".bonus-entrance-container").css("display","block");
+        }
+
+        // 当前用户本期是否已经抢过红包
+        if(isUserAvailable==1){
+            $(".bonus-yiqiang").css("display","block");
+            coverPointer();
+
+            // 如果已经抢过了，就不需要向后台继续请求数据了，return跳出函数，倒计时需要继续执行
+            clearInterval(countDown);
+            countDown = setInterval(function(){
+                var leftSec = enterLeftTime/1000%60,
+                    leftHour = Math.floor(enterLeftTime/1000/3600),
+                    leftMin = Math.floor(enterLeftTime/1000/60)-leftHour*60;
+                clock(leftHour,leftMin,leftSec);
+                enterLeftTime=enterLeftTime-1000;
+                if(enterLeftTime<=0){
+                     getInfo();
+                }
+            },1000);
+            // 将请求状态设置为不继续请求
+            bonusRequestStatus = 0;
+            return;
+        }else{
+            $(".bonus-yiqiang").css("display","none");
+            unCoverPointer();
+        }
+
+        // 设置用户的投注金额
+        setBalance(balance);
+
+        clearInterval(countDown);
+        // 倒计时
+        countDown = setInterval(function(){
+            var leftSec = enterLeftTime/1000%60,
+                leftHour = Math.floor(enterLeftTime/1000/3600),
+                leftMin = Math.floor(enterLeftTime/1000/60)-leftHour*60;
+            clock(leftHour,leftMin,leftSec);
+            enterLeftTime=enterLeftTime-1000;
+            if(enterLeftTime<=0){
+                 getInfo();
+            }
+        },1000);
+            
+        if(noticeLeftTime<=30000&&noticeLeftTime>1){
+            // 在活动期间，且用户未关闭倒计时提示框
+            if(status == 1 && clockNoticeStatus==1){
+                clearInterval(noticeCountDown);
+                noticeCountDown = setInterval(function(){
+                    if(clockNoticeStatus==1){
+                        showClockNotice("本场抢红包活动还有"+noticeLeftTime/1000+"秒结束");
+                        noticeLeftTime = noticeLeftTime-1000;
+                        // 如果倒计时结束,且此时前端处于不向后台请求数据的状态,需要再次向后台发起请求。
+                        if(noticeLeftTime<=0 && bonusRequestStatus==0){
+                            getInfo();
+                        }
+                    }
+                },1000);
+            }
+        }else{
+            clearInterval(noticeCountDown);
+            hideClockNotice();
+            clockNoticeStatus = 1;
+        }
+
+        // // 10秒后再次向后台请求数据
+        // getRealTimeInfo = setTimeout(function(){
+        //     if(bonusRequestStatus==1){
+        //         getInfo();
+        //     }
+        // },10000);
+    };
+
+
+
+    // 显示倒计时剩余时间
+    var clock = function(leftHour,leftMin,leftSec){
+        leftHour=leftHour<10?"0"+leftHour:leftHour
+        leftMin=leftMin<10?"0"+leftMin:leftMin
+        leftSec=leftSec<10?"0"+leftSec:leftSec
+        $(".left-hour").html(leftHour);
+        $(".left-min").html(leftMin);
+        $(".left-sec").html(leftSec);
+    };
+
+    // 格式化钱数-CN
+    var formatMoneyCN = function(num){
+        var num = Number(num),
+        re = /(-?\d+)(\d{3})/;
+        num = '' + num;
+        while (re.test(num)) {
+            num = num.replace(re, "$1,$2")
+        }
+        return num + "元";
+    };
+
+    // 设置余额
+    var setBalance = function(balance){
+        $(".curr-money").html(balance);
+    };
+
+    // 本场结束倒计时提示框
+    var showClockNotice = function(txt){
+        $(".clock-notice-content").html(txt);
+        $(".clock-notice").show();
+    }
+
+    var hideClockNotice = function(){
+        clockNoticeStatus = 0;
+        $(".clock-notice").hide();
+    }
+
+    // 普通的提示消息
+    var showNormalNotice = function(txt){
+        $(".normal-notice-content").html(txt);
+        $(".normal-notice").css({'marginTop':0}).show().animate({'marginTop':-80});
+
+    }
+    var hideNormalNotice = function(){
+        $(".normal-notice").hide()
+    }
+
+    // 显示抽奖结果通知
+    var showResultNotice = function(txt){
+        $(".result-notice-content").html(txt);
+        $(".result-notice").show();
+    }
+
+    var hideResultNotice = function(){
+        $(".result-notice").hide();
+        $(".bonus-wheel-container").hide();
+    }
+
+    // 抽奖按钮设为不可用
+    var coverPointer = function(){
+        $(".bonus-wheel-pointer-cover").css("display","block");
+    }
+
+    var unCoverPointer = function(){
+        $(".bonus-wheel-pointer-cover").css("display","none");
+    }
+    
+    // 关闭普通提示框
+    $(".normal-notice-cancel").on("click",function(){
+        hideNormalNotice();
+    });
+
+    // 关闭倒计时提示框
+    $(".clock-notice-cancel").on("click",function(){
+        hideClockNotice();
+    });
+
+    // 抢红包悬浮按钮
+    $(".bonus-entrance").on("click", function() {
+
+        if(!user_id){
+            showNormalNotice("尚未登录，请登录后重试");
+        }else{
+            getInfo();
+            //$(".curr-avaliable").css("display","block");
+            switch(isUserAvailable){
+                case 1:
+                    showNormalNotice("您已抢过红包，请等待下一期");
+                    break;
+                case 0:
+                    showNormalNotice("有效投注额不足");
+                    break;
+                case 2:
+                    $(".bonus-mask").fadeIn();
+                    $(".bonus-wheel-container").css({
+                    	'marginTop':-200
+                    }).show().animate({
+                    	'marginTop':-300
+                    });
+                    break;
+            }
+        }
+    })
+
+    // 关闭抢红包转盘按钮
+    $(".bonus-wheel-cancel").on("click", function() {
+        $(".bonus-mask").hide();
+        $(".bonus-wheel-container").hide();
+    })
+
+    // 关闭结果提示框
+    $(".result-notice-cancel").on("click",function(){
+        $(this).parent().hide();
+        $(".bonus-wheel-container").hide();
+        $(".bonus-mask").hide();
+
+    });
+
+    // 点击大轮盘上的抢红包按钮
+    $(".bonus-wheel-pointer").on("click", function() {
+
+        // 不允许再次点击
+        coverPointer();
+
+        // 请求
+        $.ajax({
+            url:resultUrl,
+            dataType:"JSON",
+            success:function(result){
+               if(result.isSuccess==1){
+                    var amount = result["data"]["amount"];
+                   $(".bonus-wheel").rotate({
+                        angle:0,
+                        duration: dur,
+                        animateTo: 360 * i + angles[amount],
+                        callback:function(){
+                            if(amount!=0){
+                                showResultNotice("恭喜您抢得"+amount+"元红包！<br/>红包已自动派发至您的平台账户。");
+                                $(".result-notice-content").removeClass("result-notice-content1");
+                            }else{
+                                $(".result-notice-content").addClass("result-notice-content1");
+                                showResultNotice("本场红包已被抢光啦!");
+                            }
+                            getInfo();
+                        },
+                    });
+                }else{
+                    showNormalNotice(result['msg']);
+                }
+            }
+        });
+
+    });
+    
+    // 页面加载时开始执行。
+    getInfo();
+
+
+    setInterval(function(){
+        getInfo();
+    }, 5000);
+    
+})(jQuery);
+
+(function($){
+    $(".bonus-cancel").on("click", function() {
+        $(".mask").hide();
+        $(this).parent().hide();
+        //将请求状态设置为不继续向后台请求
+        bonusRequestStatus = 0;
+    })
+})(jQuery)
+</script>
+
+
+
+@stop
+
+
+
+
+
+
+
+
+
+
+
+
+
+

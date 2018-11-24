@@ -1,0 +1,80 @@
+@extends('l.admin', ['active' => $resource])
+@section('title')
+@parent
+{{ $sPageTitle }}
+@stop
+
+@section('container')
+    @include('w.breadcrumb')
+    @include('w.notification')
+    @include('w._function_title', ['id' => $data->id , 'parent_id' => $data->parent_id])
+
+    <div class="form-horizontal">
+        <div class="form-group">
+            <label for="id" class="col-sm-3 control-label">{{ __('Message Id') }}</label>
+            <div class="col-sm-5">
+                <input class="form-control" type="text" value="{{ isset($data) ? $data->id : '' }}" disabled>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="readed_at" class="col-sm-3 control-label">{{ __('Readed At') }}</label>
+            <div class="col-sm-5">
+                <input class="form-control" type="text" value="{{ isset($data) && $data->readed_at ? $aReadedStatus[(int)!!$data->readed_at] . ' ' . $data->readed_at : $aReadedStatus[(int)!!$data->readed_at] }}" disabled>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="deleted_at" class="col-sm-3 control-label">{{ __('Deleted At') }}</label>
+            <div class="col-sm-5">
+                <input class="form-control" type="text" value="{{ isset($data) && $data->deleted_at ? $aDeletedStatus[(int)!!$data->deleted_at] . ' ' . $data->deleted_at : $aDeletedStatus[(int)!!$data->deleted_at] }}" disabled>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="type_id" class="col-sm-3 control-label">{{ __('Message Type') }}</label>
+            <div class="col-sm-5">
+                <input class="form-control" type="text" value="{{ isset($data) ? $aMsgTypes[$data->type_id] : '' }}" disabled>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="sender" class="col-sm-3 control-label">{{ __('Sender') }}</label>
+            <div class="col-sm-5">
+                <input class="form-control" type="text" value="{{ isset($data) ? $data->sender : '' }}" disabled>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="receiver" class="col-sm-3 control-label">{{ __('Receiver') }}</label>
+            <div class="col-sm-5">
+                <input class="form-control" type="text" value="{{ isset($data) ? $data->receiver : '' }}" disabled>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="created_at" class="col-sm-3 control-label">{{ __('Created At') }}</label>
+            <div class="col-sm-5">
+                <input class="form-control" type="text" value="{{ isset($data) ? $data->created_at : '' }}" disabled>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="msg_title" class="col-sm-3 control-label">{{ __('Message Title') }}</label>
+            <div class="col-sm-5">
+                <input class="form-control" type="text" value="{{ isset($data) ? $data->msg_title : '' }}" disabled>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="msg_content" class="col-sm-3 control-label">{{ __('Message Content') }}</label>
+            <div class="col-sm-5">
+                <textarea class="form-control" disabled>{{ isset($data) ? $data->msg_content : '' }}" </textarea>
+            </div>
+        </div>
+    </div>
+
+@stop
+
+@section('end')
+    @parent
+    <script>
+        function modal(href)
+        {
+            $('#real-delete').attr('action', href);
+            $('#myModal').modal();
+        }
+    </script>
+@stop

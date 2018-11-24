@@ -1,0 +1,21 @@
+<?php
+return array (
+  'finished_issues' => 'Finished Issue Count',
+  'formatted_status' => 'status',
+  'generate-task-set-failed' => 'Generate Task Set Failed',
+  'generate-task-seted' => 'Generate Task Seted',
+  'id' => 'ID',
+  'ip' => 'IP',
+  'lottery_id' => 'Game',
+  'proxy_ip' => 'Proxy ip',
+  'serial_number' => 'no.',
+  'serial_number_short' => 'No.',
+  'single_amount' => 'Single Amount',
+  'start_issue' => 'Start Issue',
+  'stoped_at' => 'stoped at',
+  'stop_on_won' => 'Stop On Won',
+  'system-stoped' => 'Stoped by System',
+  'user-stoped' => 'Stoped by user',
+  'won_issue' => 'Won Issue',
+  'wrong-status' => 'Wrong Status',
+);

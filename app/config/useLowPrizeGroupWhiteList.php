@@ -1,0 +1,1 @@
+../../userapp/config/useLowPrizeGroupWhiteList.php

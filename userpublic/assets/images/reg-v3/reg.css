@@ -1,0 +1,83 @@
+
+
+
+
+
+.layout-login .s-1 {
+    height: 640px;
+}
+.layout-login .s-1 .left .inner {
+    background-position: 180px 150px;
+}
+.layout-login .s-1 .left {
+    width: 500px;
+}
+.layout-login .s-1 .right {
+    float: left;
+}
+.layout-login .s-1 .right .inner {
+    padding: 120px 0 0 100px;
+}
+.layout-login .s-1 .right .box {
+    width: 420px;
+}
+.layout-login .s-1 .right .box .title {
+    text-align: center;
+}
+.layout-login .s-1 .right .box .text-tip {
+    font-size: 12px;
+    color: red;
+    padding-top: 4px;
+    padding-left: 90px;
+    display: none;
+}
+.layout-login .s-1 .right .box .has-error .text-tip {
+    display: block;
+}
+.layout-login .s-1 .right .box .ipt {
+    width: 260px;
+}
+.layout-login .s-1 .right .box .row label {
+    display: inline-block;
+    vertical-align: middle;
+    width: 80px;
+    font-size: 14px;
+    text-align: right;
+}
+
+.layout-login .s-1 .right .box .submit {
+    width: 278px;
+    margin-left: 86px;
+}
+.layout-login .s-1 .right .box .tip {
+    padding-left: 86px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

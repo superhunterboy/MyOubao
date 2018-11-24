@@ -1,0 +1,3575 @@
+@charset "UTF-8";
+.lucky-main-panel {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1106px;
+    position: relative;
+}
+
+.lucky-main-panel:after {
+    content: "";
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
+
+.game {
+    width: 553px;
+    height: 428px;
+    background: url(game_bg.png) no-repeat;
+    float: left;
+    font-family: "Lantinghei SC", "微软雅黑";
+}
+
+.game:nth-child(odd) {
+    margin: 5px 0px 5px 0px;
+}
+
+.game:nth-child(even) {
+    margin: 5px 0px 5px 0px;
+}
+
+.game-panel {
+    width: 529px;
+    height: 404px;
+    position: relative;
+    top: 11px;
+    left: 12px;
+}
+
+.bet-history-panel {
+    width: 529px;
+    height: 231px;
+}
+
+.bet-history-panel .bet-history-nav > li {
+    display: inline-block;
+    float: left;
+    cursor: pointer;
+}
+
+.bet-history-panel .bet-history-nav > li > span {
+    height: 34px;
+    line-height: 34px;
+    text-align: left;
+    font-size: 13px;
+    float: left;
+}
+
+.bet-history-nav .tag-lab {
+    margin-left: 10px;
+    margin-right: 8px;
+    width: 60px;
+}
+
+.current-recompense .tag-lab {
+    width: 110px;
+}
+
+.bet-history-nav .prize-status-lab {
+    width: 50px;
+}
+
+.bet-history-nav .przie-left-time {
+    width: 45px;
+}
+
+.przie-left-time-hide {
+    display: none;
+}
+
+.przie-left-time-show {
+    display: inline-block;
+}
+
+.current-recompense {
+    width: 264px;
+    height: 34px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom: 0px;
+    margin-right: 1px;
+    margin-top: 2px;
+    background: url(prize_long_menu_bg.png) no-repeat;
+    color: #FFFFFF;
+}
+
+.play-choose {
+    display: inline-block;
+    list-style: none;
+    margin-left: -300px;
+    float: left;
+}
+
+.play-choose li {
+    display: inline-block;
+    float: left;
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    margin-top: 11px;
+    margin-right: 5px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.play-button-1 {
+    background: url(switch_play_button.png) no-repeat;
+}
+
+.play-button-2 {
+    background: url(switch_play_button_2.png) no-repeat;
+}
+
+.play-choose-select-0 li:nth-child(1) {
+    background-position: 0px -13px;
+}
+
+.play-choose-select-0 li:nth-child(2) {
+    background-position: 0px 0px;
+}
+
+.play-choose-select-1 li:nth-child(1) {
+    background-position: 0px 0px;
+}
+
+.play-choose-select-1 li:nth-child(2) {
+    background-position: 0px -13px;
+}
+
+.history-recompense {
+    width: 131px;
+    height: 34px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    margin-right: 1px;
+    margin-top: 2px;
+    background: url(prize_short_menu_bg.png) no-repeat;
+    color: #FFFFFF;
+}
+
+.his-r-2 {
+    width: 132px;
+    margin-right: 0px;
+    background: url(prize_short_menu_bg_2.png) no-repeat;
+}
+
+.recompense-selected {
+    background: none;
+    color: #2f736d;
+}
+
+.bet-history-panel .bet-history-content {
+    width: 529px;
+    height: 197px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.bet-history-content > div:nth-child(1) {
+    position: absolute;
+    height: 197px;
+    display: none;
+}
+
+.bet-history-content > div:nth-child(2) {
+    position: absolute;
+    height: 197px;
+    display: none;
+}
+
+.bet-history-content > div:nth-child(3) {
+    position: absolute;
+    height: 197px;
+    display: none;
+}
+
+.bet {
+    display: inline-block;
+    width: 264px;
+    height: 190px;
+    /*overflow: hidden;*/
+    position: absolute;
+    float: left;
+}
+
+.bet-over {
+    overflow: hidden;
+}
+
+.bet-panel {
+    position: absolute;
+    width: 264px;
+    height: 190px;
+    float: left;
+}
+
+.bet-panel-mask {
+    width: 264px;
+    height: 190px;
+    position: absolute;
+    background-color: #FFFFFF;
+    filter: alpha(opacity=0);
+    /* ie 有效*/
+    -moz-opacity: 0.0;
+    /* Firefox  有效*/
+    opacity: 0.0;
+    /* 通用，其他浏览器  有效*/
+    display: none;
+}
+
+.bet-panel-zuhe {
+    display: inline-block;
+}
+
+.bet-panel-zuhe > ul {
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.li-style {
+    display: inline-block;
+    width: 63px;
+    height: 61px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    border-radius: 5px;
+    background: url(zuhe_short_bt_bg.png) no-repeat;
+    cursor: pointer;
+    float: left;
+    overflow: hidden;
+}
+
+.li-style:hover {
+    color: #000000;
+    background-position: 0px -62px;
+}
+
+.li-style-1 {
+    width: 127px;
+    height: 61px;
+    margin-right: 1px;
+    background: url(zuhe_long_bt_bg.png) no-repeat;
+}
+
+.li-style-2 {
+    width: 127px;
+    height: 61px;
+    background: url(zuhe_long_bt_bg.png) no-repeat;
+}
+
+.li-style-3 {
+    margin-right: 0px;
+}
+
+.li-style-select {
+    color: #FFFFFF;
+    background-position: 0px -124px;
+}
+
+.li-style-select:hover {
+    color: #FFFFFF;
+    background-position: 0px -124px;
+}
+
+.li-style-select-bet {
+    color: #FFFFFF;
+    background-position: 0px -186px;
+}
+
+.li-style-select-bet:hover {
+    color: #FFFFFF;
+    background-position: 0px -248px;
+}
+
+.bet-name-label-normal {
+    display: inline-block;
+    width: 63px;
+    height: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    float: left;
+}
+
+.bet-name-label {
+    display: inline-block;
+    width: 63px;
+    height: 61px;
+    text-align: center;
+    line-height: 61px;
+    font-size: 20px;
+}
+
+.bet-name-labe-inbet {
+    height: 30px;
+    line-height: 40px;
+}
+
+.bet-value-label-normal {
+    display: inline-block;
+    float: left;
+    width: 63px;
+    height: 29px;
+    line-height: 29px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.bet-name-label-normal-inbet {
+    font-size: 11px;
+    text-align: right;
+    width: 26px;
+}
+
+.bet-value-label {
+    display: inline-block;
+    float: left;
+    width: 126px;
+    height: 29px;
+    line-height: 29px;
+    font-size: 22px;
+}
+
+.bet-odds-label-normal {
+    display: inline-block;
+    width: 63px;
+    height: 30px;
+    text-align: center;
+    line-height: 20px;
+    float: left;
+    font-size: 10px;
+}
+
+.bet-odds-label {
+    display: inline-block;
+    width: 63px;
+    height: 61px;
+    text-align: center;
+    line-height: 61px;
+    font-size: 16px;
+}
+
+.bet-odds-labe-inbet {
+    height: 30px;
+    line-height: 40px;
+}
+
+.bet-odds-label-normal-inbet {
+    font-size: 0.9em;
+    height: 30px;
+    line-height: 40px;
+    width: 35px;
+}
+
+.bet-panel-hezhi {
+    display: none;
+}
+
+.bet-panel-hezhi > ul {
+    display: inline-block;
+    margin-left: 7px;
+    margin-top: 7px;
+}
+
+.bet-panel-hezhi > ul > li {
+    display: inline-block;
+    float: left;
+}
+
+.bet-num {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 15px;
+    background: url(hezhi_ball.png) no-repeat;
+    background-position: 0px 0px;
+}
+
+.bet-num:hover {
+    color: #000000;
+    background-position: 0px -30px;
+}
+
+.hezhi-li-style-select {
+    color: #FFFFFF;
+    background-position: 0px -60px;
+}
+
+.hezhi-li-style-select:hover {
+    color: #FFFFFF;
+    background-position: 0px -60px;
+}
+
+.hezhi-li-style-select-bet {
+    color: #FFFFFF;
+    background-position: 0px -90px;
+}
+
+.hezhi-li-style-select-bet:hover {
+    color: #FFFFFF;
+    background-position: 0px -120px;
+}
+
+.zuhe-active-num {
+    background-position: 0px -310px;
+    background-color: #ffdda2;
+    color: #e68200;
+}
+
+.hezhi-active-num {
+    background-position: 0px -150px;
+    background-color: #ffdda2;
+    color: #e68200;
+}
+
+.hezhi-odds-tip {
+    display: inline-block;
+    width: auto;
+    height: 25px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #3D3C3C;
+    position: absolute;
+    float: right;
+    margin-top: 33px;
+    margin-left: -27px;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding-right: 3px;
+    filter: alpha(opacity=80);
+    /* ie 有效*/
+    -moz-opacity: 0.8;
+    /* Firefox  有效*/
+    opacity: 0.8;
+    /* 通用，其他浏览器  有效*/
+    display: none;
+}
+
+.hezhi-odds-tip-show {
+    display: inline-block;
+}
+
+.hezhi-random-box {
+    display: inline-block;
+    width: 257px;
+    height: 26px;
+}
+
+.hezhi-random-box > li > span {
+    display: inline-block;
+    height: 26px;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.odds-help-logo {
+    display: inline-block;
+    float: left;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #31867f;
+    border-radius: 8px;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 16px;
+    font-size: 11px;
+    color: #31867f;
+    font-weight: bold;
+}
+
+.odds-explain {
+    width: 100px;
+    cursor: pointer;
+    margin-left: 7px;
+    text-decoration: underline;
+}
+
+.odds-explain:hover {
+    color: #31867f;
+}
+
+.odds-explain-list {
+    position: absolute;
+    width: 388px;
+    height: 322px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    float: left;
+    top: 225px;
+    left: 10px;
+    z-index: 10;
+    box-shadow: -5px 0 5px #CCC, 5px 0 5px #CCC, 0 -5px 5px #CCC, 0 5px 5px #CCC;
+}
+
+.odds-list-normal {
+    display: none;
+}
+
+.odds-list-active {
+    display: block;
+}
+
+.odds-explain-list-menu {
+    display: block;
+    width: 360px;
+    height: 40px;
+    border-bottom: 1px solid green;
+    list-style: none;
+    font-size: 14px;
+    margin: auto;
+}
+
+.odds-menu {
+    float: left;
+    width: 59px;
+    height: 16px;
+    border-right: 1px solid #CCC;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.odds-menu:last-child {
+    width: 60px;
+    border-right: none;
+}
+
+.odds-list-box {
+    width: 360px;
+    margin: auto;
+}
+
+.odds-list-content {
+    display: inline-block;
+    width: 120px;
+    float: left;
+    margin-top: 15px;
+}
+
+.odds-list-content li {
+    display: inline-block;
+    width: 119px;
+    height: 25px;
+    border-right: 1px solid #CCC;
+    float: left;
+}
+
+.odds-list-content:last-child li {
+    width: 120px;
+    border-right: none;
+}
+
+.odds-content-num {
+    display: inline-block;
+    width: 40px;
+    height: 25px;
+    padding-left: 19px;
+    line-height: 25px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.odds-content {
+    display: inline-block;
+    width: 55px;
+    height: 25px;
+    line-height: 25px;
+    text-align: right;
+    font-size: 14px;
+    padding-right: 4px;
+}
+
+.random-box {
+    width: 74px;
+    margin-left: 67px;
+    float: left;
+    color: #FFFFFF;
+    text-align: center;
+    background: url(hezhi_button_bg.png) no-repeat;
+    cursor: pointer;
+}
+
+.random-box-active {
+    background-position: 0px -27px;
+}
+
+.bet-chip-img {
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    background: url(chip.png) no-repeat;
+    margin: -1px 10px;
+}
+
+.bet-chip-img-normal {
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    background: url(chip.png) no-repeat;
+    margin: -3px 2px;
+}
+
+.bet-value-label .bet-money-lab {
+    font-size: 16px;
+}
+
+.bet-money-lab {
+    width: auto;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.information-panel {
+    display: inline-block;
+    width: 264px;
+    height: 190px;
+    position: absolute;
+    margin-left: 265px;
+}
+
+.information-panel-timer,
+.information-panel-wait,
+.information-panel-result,
+.information-suspension {
+    position: absolute;
+}
+
+.information-panel .timer_ul {
+    display: block;
+    list-style: none;
+}
+
+.information-panel .timer_ul li {
+    display: inline-block;
+    float: left;
+}
+
+.prize_label {
+    display: inline-block;
+    width: 131px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    margin-right: 1px;
+    text-align: center;
+    color: #31867f;
+}
+
+.prize_number {
+    display: inline-block;
+    width: 132px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+    color: #31867f;
+}
+
+.prize_timer {
+    display: inline-block;
+    width: 264px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 48px;
+    text-align: center;
+    color: #666676;
+}
+
+.prize_tips {
+    display: inline-block;
+    width: 250px;
+    height: 20px;
+    line-height: 20px;
+    text-align: right;
+    visibility: hidden;
+    color: #31867f;
+}
+
+.prize_tips_show {
+    visibility: visible;
+}
+
+.prize_tips_hide {
+    visibility: hidden;
+}
+
+.prize_city {
+    width: 100px;
+    height: 42px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 30px;
+}
+
+.prize_city_lab {
+    display: inline-block;
+    width: 218px;
+    height: 42px;
+    line-height: 42px;
+    text-align: right;
+    color: #c6c6c6;
+    font-size: 23px;
+}
+
+.waiting_box {
+    width: 240px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 10px;
+    margin-top: 5px;
+    float: left;
+}
+
+.wait_icon {
+    width: 38px;
+    height: 38px;
+    background-color: #32EDEF;
+    display: inline-block;
+    margin-top: 6px;
+    margin-right: 5px;
+    background: url(cat_waiting.png) no-repeat;
+    float: left;
+}
+
+.wait_label {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    float: left;
+    color: #31867f;
+}
+
+.result_box {
+    width: 240px;
+    height: 70px;
+    margin-top: 5px;
+    margin-left: 10px;
+    float: left;
+    text-align: center;
+}
+
+.result_box .result_num {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    height: 44px;
+    line-height: 44px;
+}
+
+.result_box .result_num li {
+    display: inline-block;
+    float: left;
+}
+
+.result_box .number {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #31867f;
+    border-radius: 17px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    margin-top: 5px;
+    color: #31867f;
+}
+
+.num-total {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    border: 1px solid #31867f;
+    line-height: 44px;
+    border-radius: 22px;
+    background-color: #31867f;
+    color: #FFFFFF;
+    font-size: 26px;
+}
+
+.result_box .result_num li .sign {
+    display: inline-block;
+    width: 20px;
+    height: 44px;
+    line-height: 44px;
+    color: #31867f;
+}
+
+.result_box .result_lab {
+    font-size: 16px;
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    color: #6c6d6f;
+    width: 206px;
+}
+
+.change_tips {
+    display: block;
+    position: absolute;
+    width: 240px;
+    height: 20px;
+    text-align: right;
+    top: 125px;
+    float: left;
+    font-size: 14px;
+    color: #cccccc;
+}
+
+.res-lab-1 {
+    display: inline-block;
+    width: 16px;
+}
+
+.res-lab-2 {
+    display: inline-block;
+    width: 32px;
+}
+
+.res-lab-3 {
+    display: inline-block;
+    width: 48px;
+}
+
+.blank {
+    display: inline-block;
+    width: 65px;
+}
+
+.lab-total {
+    display: inline-block;
+    width: 20px;
+    height: 24px;
+    margin-left: 3px;
+    text-align: right;
+}
+
+.result_box .result_lab li {
+    display: inline-block;
+    float: left;
+}
+
+.result_money {
+    display: inline-block;
+    float: left;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.result_money ul {
+    list-style: none;
+}
+
+.result_money ul li {
+    margin-top: 2px;
+}
+
+.money-lab {
+    display: inline-block;
+    width: 36px;
+    height: 20px;
+    line-height: 20px;
+    background-color: #cccccc;
+    border-radius: 3px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.money-value {
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #cccccc;
+}
+
+.money-lab-win {
+    background-color: #de5145;
+}
+
+.money-value-win {
+    color: #de5145;
+}
+
+.suspension-lab {
+    display: inline-block;
+    float: left;
+    width: 214px;
+    margin: 5px 25px;
+}
+
+.suspension-lab-1 {
+    height: 50px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.suspension-lab-2 {
+    height: 30px;
+    line-height: 30px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.suspension-lab-3 {
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.hide-model {
+    visibility: hidden;
+}
+
+.show-model {
+    visibility: visible;
+}
+
+.lottering-box {
+    width: 240px;
+    height: 100px;
+    float: left;
+    position: absolute;
+    top: 50px;
+    left: 12px;
+}
+
+.current-ball {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #31867f;
+    border-radius: 17px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    position: absolute;
+    top: 5px;
+    left: 104px;
+}
+
+.current-total {
+    display: block;
+    width: 42px;
+    height: 42px;
+    border: 1px solid #31867f;
+    line-height: 44px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 22px;
+    background-color: #31867f;
+    color: #FFFFFF;
+    position: absolute;
+    top: 60px;
+    left: 99px;
+}
+
+.locked-button {
+    background-image: none;
+    background-color: #ebe9e8;
+    color: #989899;
+}
+
+.bet-locked-button {
+    color: #e68200;
+}
+
+.bet-chip-locked {
+    background-position: 0px -15px;
+}
+
+.panel-main-status-0 .bet-panel-mask {
+    display: none;
+}
+
+.panel-main-status-0 .information-panel-timer {
+    display: block;
+}
+
+.panel-main-status-0 .information-panel-wait {
+    display: none;
+}
+
+.panel-main-status-0 .information-panel-result {
+    display: none;
+}
+
+.panel-main-status-0 .information-panel-suspension {
+    display: none;
+}
+
+.panel-main-status-1 .bet-panel-mask {
+    display: block;
+}
+
+.panel-main-status-1 .information-panel-timer {
+    display: block;
+}
+
+.panel-main-status-1 .information-panel-wait {
+    display: none;
+}
+
+.panel-main-status-1 .information-panel-result {
+    display: none;
+}
+
+.panel-main-status-1 .information-panel-suspension {
+    display: none;
+}
+
+.panel-main-status-1 .li-style,
+.panel-main-status-1 .bet-num {
+    background-image: none;
+    background-color: #ebe9e8;
+    color: #989899;
+}
+
+.panel-main-status-1 .bet-money-lab {
+    color: #e68200;
+}
+
+.panel-main-status-1 .bet-chip-img-normal,
+.panel-main-status-1 .bet-chip-img {
+    background-position: 0px -15px;
+}
+
+.panel-main-status-1 .hezhi-li-style-select-bet {
+    color: #e68200;
+}
+
+.panel-main-status-1 .hezhi-random-box {
+    color: #CCC;
+}
+
+.panel-main-status-1 .odds-help-logo {
+    color: #CCC;
+    border-color: #CCC;
+}
+
+.panel-main-status-1 .random-box {
+    background-image: none;
+    background-color: #ebe9e8;
+    color: #989899;
+    border-radius: 2px;
+}
+
+.panel-main-status-2 .bet-panel-mask {
+    display: block;
+}
+
+.panel-main-status-2 .information-panel-timer {
+    display: none;
+}
+
+.panel-main-status-2 .information-panel-wait {
+    display: block;
+}
+
+.panel-main-status-2 .information-panel-result {
+    display: none;
+}
+
+.panel-main-status-2 .information-panel-suspension {
+    display: none;
+}
+
+.panel-main-status-2 .li-style,
+.panel-main-status-2 .bet-num {
+    background-image: none;
+    background-color: #ebe9e8;
+    color: #989899;
+}
+
+.panel-main-status-2 .bet-money-lab {
+    color: #e68200;
+}
+
+.panel-main-status-2 .bet-chip-img-normal,
+.panel-main-status-2 .bet-chip-img {
+    background-position: 0px -15px;
+}
+
+.panel-main-status-2 .hezhi-li-style-select-bet {
+    color: #e68200;
+}
+
+.panel-main-status-2 .hezhi-random-box {
+    color: #CCC;
+}
+
+.panel-main-status-2 .odds-help-logo {
+    color: #CCC;
+    border-color: #CCC;
+}
+
+.panel-main-status-2 .random-box {
+    background-image: none;
+    background-color: #ebe9e8;
+    color: #989899;
+    border-radius: 2px;
+}
+
+.panel-main-status-3 .bet-panel-mask {
+    display: block;
+}
+
+.panel-main-status-3 .information-panel-timer {
+    display: none;
+}
+
+.panel-main-status-3 .information-panel-wait {
+    display: none;
+}
+
+.panel-main-status-3 .information-panel-result {
+    display: block;
+}
+
+.panel-main-status-3 .information-panel-suspension {
+    display: none;
+}
+
+.panel-main-status-3 .hezhi-random-box {
+    color: #CCC;
+}
+
+.panel-main-status-3 .odds-help-logo {
+    color: #CCC;
+    border-color: #CCC;
+}
+
+.panel-main-status-3 .random-box {
+    background-image: none;
+    background-color: #ebe9e8;
+    color: #989899;
+    border-radius: 2px;
+}
+
+.panel-main-status-4 .bet-panel-mask {
+    display: block;
+}
+
+.panel-main-status-4 .information-panel-timer {
+    display: none;
+}
+
+.panel-main-status-4 .information-panel-wait {
+    display: none;
+}
+
+.panel-main-status-4 .information-panel-result {
+    display: block;
+}
+
+.panel-main-status-4 .information-panel-suspension {
+    display: none;
+}
+
+.panel-main-status-4 .bet-money-lab {
+    color: #e68200;
+}
+
+.panel-main-status-4 .bet-chip-img-normal,
+.panel-main-status-4 .bet-chip-img {
+    background-position: 0px -15px;
+}
+
+.panel-main-status-4 .hezhi-li-style-select-bet {
+    color: #e68200;
+}
+
+.panel-main-status-4 .information-panel-result .result_box {
+    visibility: visible;
+}
+
+.panel-main-status-4 .information-panel-result .result_lab {
+    visibility: visible;
+}
+
+.panel-main-status-4 .information-panel-result .result_money {
+    visibility: visible;
+}
+
+.panel-main-status-4 .hezhi-random-box {
+    color: #CCC;
+}
+
+.panel-main-status-4 .odds-help-logo {
+    color: #CCC;
+    border-color: #CCC;
+}
+
+.panel-main-status-4 .random-box {
+    background-image: none;
+    background-color: #ebe9e8;
+    color: #989899;
+    border-radius: 2px;
+}
+
+.panel-main-status-5 .bet-panel-mask {
+    display: block;
+}
+
+.panel-main-status-5 .information-panel-timer {
+    display: none;
+}
+
+.panel-main-status-5 .information-panel-wait {
+    display: none;
+}
+
+.panel-main-status-5 .information-panel-result {
+    display: none;
+}
+
+.panel-main-status-5 .information-panel-suspension {
+    display: block;
+}
+
+.panel-main-status-5 .li-style,
+.panel-main-status-5 .bet-num {
+    background-image: none;
+    background-color: #ebe9e8;
+    color: #989899;
+}
+
+.panel-main-status-5 .hezhi-random-box {
+    color: #CCC;
+}
+
+.panel-main-status-5 .odds-help-logo {
+    color: #CCC;
+    border-color: #CCC;
+}
+
+.panel-main-status-5 .random-box {
+    background-image: none;
+    background-color: #ebe9e8;
+    color: #989899;
+    border-radius: 2px;
+}
+
+.order-panel {
+    width: 270px;
+    height: 403px;
+    top: 150px;
+    /*background: url(order_window_bg.png) no-repeat;*/
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    float: left;
+    position: fixed;
+    box-shadow: -5px 0 20px #D5D6D2, 5px 0 20px #D5D6D2, 0 -5px 20px #D5D6D2, 0 5px 20px #D5D6D2;
+}
+
+.order-panel-show {
+    display: block;
+}
+
+.order-panel-hide {
+    display: none;
+}
+
+.order-menu-head {
+    width: 270px;
+    height: 44px;
+    cursor: move;
+    border-bottom: 1px solid #379f98;
+}
+
+.order-tag {
+    display: inline-block;
+    margin: 0px;
+    list-style: none;
+    font-size: 15px;
+    color: #8eb3b0;
+    margin-left: 15px;
+}
+
+.order-tag li {
+    float: left;
+    display: inline-block;
+    position: relative;
+}
+
+.tag-menu {
+    display: inline-block;
+    width: 80px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tag-menu-sign {
+    display: inline-block;
+    position: absolute;
+    width: 80px;
+    height: 0px;
+    border-radius: 2px;
+    background: #379f98;
+    left: 0px;
+    top: 42px;
+}
+
+.tag-menu-sign-active {
+    height: 4px;
+}
+
+.menu-active {
+    color: #2f736d;
+    font-size: 16px;
+}
+
+.close-order {
+    width: 25px;
+    height: 25px;
+    border-radius: 13px;
+    background: url(order_window_close.png) no-repeat;
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 10px;
+    box-shadow: 1px 2px 2px #CCC;
+}
+
+.order-content {
+    width: 270px;
+    margin-top: 30px;
+}
+
+.order-content > ul {
+    display: inline-block;
+    width: 210px;
+    margin-left: 30px;
+}
+
+.order-city {
+    display: inline-block;
+    width: 210px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 13px;
+    float: left;
+    color: #acacac;
+}
+
+.order-bet-information {
+    display: inline-block;
+    width: 105px;
+    height: 40px;
+    float: left;
+}
+
+.money-information {
+    display: inline-block;
+    width: 210px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 13px;
+    float: left;
+    color: #acacac;
+}
+
+.bet-details {
+    display: inline-block;
+    width: 210px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 22px;
+    list-style: none;
+}
+
+.bet-details > li {
+    position: relative;
+    display: inline-block;
+    margin-right: 3px;
+    float: left;
+}
+
+.bet-details > li:nth-child(3) {
+    margin-left: 10px;
+    line-height: 45px;
+    color: #acacac;
+    font-size: 15px;
+}
+
+.order-city-name-lab {
+    display: inline-block;
+    width: 90px;
+    height: 40px;
+    line-height: 50px;
+    position: absolute;
+    left: 145px;
+    top: 125px;
+    font-size: 18px;
+    text-align: right;
+    color: #acacac;
+}
+
+.bet-style {
+    width: 45px;
+    color: #686868;
+    font-size: 26px;
+}
+
+.details-panel {
+    width: 210px;
+    margin-left: 30px;
+}
+
+.order-details {
+    font-size: 14px;
+    display: none;
+}
+
+.order-details li:first-child {
+    margin-bottom: 6px;
+}
+
+.revocation-list {
+    width: 208px;
+    height: 128px;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    display: none;
+    padding: 8px 0px;
+}
+
+.order-list-content-box {
+    width: 213px;
+    height: 100px;
+    overflow-x: none;
+    overflow-y: auto;
+    margin-top: 3px;
+    font-size: 13px;
+}
+
+.order-list-content-box::-webkit-scrollbar {
+    width: 8px;
+    border: 1px solid #96c0bd;
+    border-radius: 4px;
+}
+
+.order-list-content-box::-webkit-scrollbar-thumb {
+    background: url(order_scroll_bt_bg.png) no-repeat;
+    border-radius: 6px;
+    background-color: #31867f;
+    background-position: 50%;
+}
+
+.order-list-head {
+    display: inline-block;
+    list-style: none;
+    color: #6c6d6f;
+    font-weight: 100;
+}
+
+.order-list-content {
+    display: inline-block;
+    list-style: none;
+    color: #afafb0;
+}
+
+.order-list-head-content {
+    display: inline-block;
+    float: left;
+    width: 65px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 13px;
+    text-align: left;
+}
+
+.order-list-bet-value {
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    text-align: right;
+}
+
+.order-list-win-value {
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    text-align: right;
+}
+
+.all-select-box {
+    width: 14px;
+    height: 14px;
+}
+
+.single-select-box {
+    width: 14px;
+    height: 14px;
+}
+
+.content-show {
+    display: block;
+}
+
+.money-box {
+    display: inline;
+    border: none;
+    width: 200px;
+    height: 29px;
+    padding-left: 7px;
+    background: url(order_input_bg.png) no-repeat;
+    background-color: #FFFFFF;
+    color: #CCC;
+}
+
+.money-box:focus {
+    outline: 1px solid #DEECEC;
+    color: #000000;
+}
+
+.money-list {
+    display: inline-block;
+    margin-top: 5px;
+    list-style: none;
+    height: 24px;
+}
+
+.money-list > li:first-child {
+    width: 20px;
+    margin-top: 2px;
+    margin-right: 13px;
+    background: url(order_window_money_sign.png) no-repeat;
+}
+
+.money-list > li {
+    display: inline-block;
+    float: left;
+    cursor: pointer;
+    margin-right: 10px;
+    width: auto;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 13px;
+}
+
+.normal-money-box span {
+    text-decoration: underline;
+}
+
+.money-list-box-active {
+    background-position: 0px -25px;
+}
+
+.bet-list-lab {
+    color: #acacac;
+    font-size: 13px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.button-box {
+    width: 270px;
+    height: 60px;
+    text-align: center;
+    float: left;
+    position: absolute;
+    top: 320px;
+}
+
+.order-submit {
+    display: inline-block;
+    width: 94px;
+    height: 26px;
+    line-height: 28px;
+    font-size: 14px;
+    margin-top: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    color: #FFFFFF;
+    background: url(order_bt_bg.png) no-repeat;
+}
+
+.order-cancel {
+    color: #4a9690;
+    font-size: 14px;
+    text-align: left;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.total-value {
+    font-size: 26px;
+    color: #686868;
+}
+
+.total-value-hide {
+    display: none;
+}
+
+.total-value-show {
+    display: inline-block;
+}
+
+.order-button-active {
+    background-position: 0px -27px;
+}
+
+
+/*倒计时列表样式*/
+
+#clockList {
+    width: 150px;
+    background-color: #328982;
+    display: none;
+    position: absolute;
+    top: 124px;
+}
+
+@media all and (min-width: 1280px) {
+    #clockList {
+        display: block;
+        -webkit-animation: leftMoveActionOne 1000ms linear;
+        animation: leftMoveActionOne 1000ms linear;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+    }
+    .lucky-main-panel {
+        left: 50px;
+    }
+    @-webkit-keyframes leftMoveActionOne {
+        from {
+            left: -150px;
+        }
+        to {
+            left: 0px;
+        }
+    }
+    @keyframes leftMoveActionOne {
+        from {
+            left: -150px;
+        }
+        to {
+            left: 0px;
+        }
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #clockList {
+        -webkit-animation: leftMoveActionTwo 1000ms linear;
+        animation: leftMoveActionTwo 1000ms linear;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+        left: -150px;/*IE无动画效果*/
+    }
+    @-webkit-keyframes leftMoveActionTwo {
+        from {
+            left: 0px;
+        }
+        to {
+            left: -150px;
+        }
+    }
+    @keyframes leftMoveActionTwo {
+        from {
+            left: 0px;
+        }
+        to {
+            left: -150px;
+        }
+    }
+}
+
+.clock-slider {
+    width: 150px;
+    height: auto;
+    position: absolute;
+}
+
+.clock-slider-active {
+    position: fixed;
+    top: 0px;
+}
+
+.logo {
+    width: 150px;
+    height: 70px;
+    background-color: #99F1BE;
+    margin-bottom: 5px;
+    background: url(logo.png) center no-repeat;
+    margin: 20px 0px;
+}
+
+.clock {
+    width: 150px;
+    height: 60px;
+    margin-bottom: 5px;
+}
+
+.clock-box {
+    width: 140px;
+    height: 60px;
+    margin-left: 5px;
+    border-bottom: 1px solid #3a968f;
+}
+
+.clock-city-name {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 16px;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.clock-city-time {
+    display: inline-block;
+    width: 80px;
+    height: 60px;
+    font-size: 16px;
+    float: left;
+    text-align: center;
+}
+
+.clock-time-txt {
+    display: inline-block;
+    width: 17px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 1px;
+    background-color: #3d4050;
+    border-radius: 3px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.clock-time-txt:nth-child(2) {
+    margin-right: 3px;
+}
+
+.informationList {
+    width: 45px;
+    height: 178px;
+    float: right;
+    margin: auto;
+    left: 100%;
+    position: absolute;
+    margin-left: -45px;
+    top: 200px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.informationList-active {
+    position: fixed;
+    top: 75px;
+}
+
+.resultButton {
+    width: 45px;
+    height: 88px;
+    background-color: #348e87;
+    border-top-left-radius: 6px;
+    margin-bottom: 2px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.result-logo {
+    display: inline-block;
+    width: 16px;
+    height: 9px;
+    margin: 15px 14px 5px 14px;
+    background: url(resultBtLogo.png) no-repeat;
+}
+
+.result-lab {
+    display: inline-block;
+    width: 30px;
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-left: 7px;
+}
+
+.historyButton {
+    width: 45px;
+    height: 88px;
+    background-color: #348e87;
+    margin-bottom: 2px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.history-logo {
+    display: inline-block;
+    width: 14px;
+    height: 13px;
+    margin: 12px 15px 3px 15px;
+    background: url(historyBtLogo.png) no-repeat;
+}
+
+.history-lab {
+    display: inline-block;
+    width: 30px;
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-left: 7px;
+}
+
+.introduce {
+    width: 45px;
+    height: 88px;
+    background-color: #348e87;
+    border-bottom-left-radius: 6px;
+    margin-bottom: 2px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.introduce-logo {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    margin: 10px 12px 0 15px;
+    background: url(wenhao.png) no-repeat;
+}
+
+.introduce-lab {
+    display: inline-block;
+    width: 30px;
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-left: 7px;
+}
+
+@media all and (min-width: 1240px) and (max-width: 1280px) {
+    .lucky-main-panel {
+        left: -20px;
+    }
+}
+
+@media all and (min-width: 1390px) {
+    .lucky-main-panel {
+        left: 0px;
+    }
+}
+
+
+/*.history-panel{*/
+
+
+/*width: 275px;*/
+
+
+/*height: 245px;*/
+
+
+/*border: 1px solid red;*/
+
+
+/*display: inline-block;*/
+
+
+/*float: right;*/
+
+
+/*}*/
+
+.trend-panel {
+    width: 530px;
+    height: 165px;
+    position: relative;
+}
+
+
+/*走势图样式开始*/
+
+.r {
+    width: 530px;
+    height: 165px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -265px;
+    margin-top: -82px;
+    font-size: 14px;
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+}
+.r .green{
+    color:#31867f;
+    font-size:12px;
+}
+.r .red{
+    color:#ff4b47;
+    font-size:12px;
+}
+/*.r .wh-bg{*/
+    /*background: url(zst-bg.png) no-repeat;*/
+/*}*/
+.r .wh{
+    background:#ffc96c;
+    font-size:16px;
+    color:white;
+
+}
+
+.r .r-a {
+    width: 500px;
+    height: 133px;
+    margin: 20px auto 0 auto;
+}
+
+.r .r-a .ul-1 {
+    width: 40px;
+    height: 100%;
+    float: left;
+}
+
+.r .r-a .ul-1 li {
+    width: 40px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+    color: #2f736d;
+    margin-left: -7px;
+}
+
+.r .r-a .ul-2 {
+    width: 426px;
+    height: 145px;
+    float: left;
+    position: relative;
+    cursor: pointer;
+    overflow-y: hidden;
+}
+
+.r .r-a .ul-2 .ul2-main .ul2-l {
+    background: url("/assets/images/lucky28/r-l.png") no-repeat;
+    width: 30px;
+    height: 125px;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+.r .r-a .ul-2 .ul2-main .ul2-r {
+    background: url("/assets/images/lucky28/r-r.png") no-repeat;
+    width: 30px;
+    height: 125px;
+    float: right;
+    margin-top: -125px;
+    display: none;
+}
+
+.r .r-a .ul-2::-webkit-scrollbar {
+    width: 10px;
+    height: 8px;
+}
+
+.r .r-a .ul-2::-webkit-scrollbar-button {
+    display: none;
+}
+
+.r .r-a .ul-2::-webkit-scrollbar-track {
+    display: none;
+}
+
+.r .r-a .ul-2::-webkit-scrollbar-thumb {
+    background: #96c0bd;
+    border-radius: 10px;
+}
+
+.r .r-a .ul-2::-webkit-scrollbar-corner {
+    background: #82AFFF;
+}
+
+.r .r-a .ul-2::-webkit-scrollbar-resizer {
+    background: #FF0BEE;
+}
+
+.r .r-a .ul-2 .ul2-main {
+    /*position: absolute;*/
+    /*right: 0;*/
+    /*width: 1600px;*/
+    border-left: 1px dashed #cacaca;
+    border-bottom: 1px dashed #cacaca;
+}
+
+.r .r-a .ul-2 .ul2-main ul {
+    width: 100%;
+    overflow: hidden;
+    height: 25px;
+}
+
+.r .r-a .ul-2 .ul2-main li {
+    float: left;
+    width: 24px;
+    height: 24px;
+    border-top: 1px dashed #cacaca;
+    border-right: 1px dashed #cacaca;
+    line-height: 24px;
+    text-align: center;
+    /*font-size: 12px;*/
+}
+
+.r .r-a .ul-3 {
+    width: 23px;
+    height: 100%;
+    float: right;
+}
+
+.r .r-a .ul-3 li {
+    width: 100%;
+    height: 25px;
+    cursor: pointer;
+}
+
+.r .r-a .ul-3 .ico1 {
+    background: url("/assets/images/lucky28/ico-1.png") no-repeat right;
+}
+
+.r .r-a .ul-3 .ico1-1 {
+    background: url("/assets/images/lucky28/ico-1-1.png") no-repeat right;
+}
+
+.r .r-a .ul-3 .ico2 {
+    background: url("/assets/images/lucky28/ico-2.png") no-repeat right;
+}
+
+.r .r-a .ul-3 .ico3 {
+    background: url("/assets/images/lucky28/ico-3.png") no-repeat right;
+}
+
+
+/*走势图样式结束*/
+
+.prize-left-move {
+    animation: leftMoveAction 300ms linear;
+    -moz-animation: leftMoveAction 300ms linear;
+    -webkit-animation: leftMoveAction 300ms linear;
+    -o-animation: leftMoveAction 300ms linear;
+}
+
+@keyframes leftMoveAction {
+    from {
+        left: 264px;
+    }
+    to {
+        left: 0px;
+    }
+}
+
+@-webkit-keyframes leftMoveAction {
+    from {
+        left: 264px;
+    }
+    to {
+        left: 0px;
+    }
+}
+
+.prize-left-move-miss {
+    animation: leftMoveMissAction 300ms linear;
+    -moz-animation: leftMoveMissAction 300ms linear;
+    -webkit-animation: leftMoveMissAction 300ms linear;
+    -o-animation: leftMoveMissAction 300ms linear;
+}
+
+@keyframes leftMoveMissAction {
+    from {
+        left: 0px;
+    }
+    to {
+        left: -264px;
+    }
+}
+
+@-webkit-keyframes leftMoveMissAction {
+    from {
+        left: 0px;
+    }
+    to {
+        left: -264px;
+    }
+}
+
+.prize-right-move {
+    animation: rightMoveAction 300ms linear;
+    -moz-animation: rightMoveAction 300ms linear;
+    -webkit-animation: rightMoveAction 300ms linear;
+    -o-animation: rightMoveAction 300ms linear;
+}
+
+@keyframes rightMoveAction {
+    from {
+        left: -264px;
+    }
+    to {
+        left: 0px;
+    }
+}
+
+@-webkit-keyframes rightMoveAction {
+    from {
+        left: -264px;
+    }
+    to {
+        left: 0px;
+    }
+}
+
+.prize-right-move-miss {
+    animation: rightMoveMissAction 300ms linear;
+    -moz-animation: rightMoveMissAction 300ms linear;
+    -webkit-animation: rightMoveMissAction 300ms linear;
+    -o-animation: rightMoveMissAction 300ms linear;
+}
+
+@keyframes rightMoveMissAction {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 264px;
+    }
+}
+
+@-webkit-keyframes rightMoveMissAction {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 264px;
+    }
+}
+
+
+/*开奖动画*/
+
+.bounceInLow {
+    -webkit-animation: bounceInLow 800ms;
+    animation: bounceInLow 800ms;
+}
+
+@-webkit-keyframes bounceInLow {
+    from,
+    5%,
+    10%,
+    15%,
+    30%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(1, 1, 1);
+        animation-timing-function: cubic-bezier(1, 1, 1);
+    }
+    0% {
+        opacity: 0.2;
+        -webkit-transform: scale3d(2.5, 2.5, 2.5);
+        transform: scale3d(2.5, 2.5, 2.5);
+    }
+    5% {
+        opacity: 0.4;
+        -webkit-transform: scale3d(2, 2, 2);
+        transform: scale3d(2, 2, 2);
+    }
+    10% {
+        opacity: 0.6;
+        -webkit-transform: scale3d(1.5, 1.5, 1.5);
+        transform: scale3d(1.5, 1.5, 1.5);
+    }
+    15% {
+        opacity: 0.8;
+        -webkit-transform: scale3d(1.2, 1.2, 1.2);
+        transform: scale3d(1.2, 1.2, 1.2);
+    }
+    30% {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        left: 104px;
+        top: 5px;
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        left: 15px;
+        top: -40px;
+    }
+}
+
+@keyframes bounceInLow {
+    from,
+    5%,
+    10%,
+    15%,
+    30%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(1, 1, 1);
+        animation-timing-function: cubic-bezier(1, 1, 1);
+    }
+    0% {
+        opacity: 0.2;
+        -webkit-transform: scale3d(2.5, 2.5, 2.5);
+        transform: scale3d(2.5, 2.5, 2.5);
+    }
+    5% {
+        opacity: 0.4;
+        -webkit-transform: scale3d(2, 2, 2);
+        transform: scale3d(2, 2, 2);
+    }
+    10% {
+        opacity: 0.6;
+        -webkit-transform: scale3d(1.5, 1.5, 1.5);
+        transform: scale3d(1.5, 1.5, 1.5);
+    }
+    15% {
+        opacity: 0.8;
+        -webkit-transform: scale3d(1.2, 1.2, 1.2);
+        transform: scale3d(1.2, 1.2, 1.2);
+    }
+    30% {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        left: 104px;
+        top: 5px;
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        left: 15px;
+        top: -40px;
+    }
+}
+
+.bounceInLowTwo {
+    -webkit-animation: bounceInLowTwo 800ms;
+    animation: bounceInLowTwo 800ms;
+}
+
+@-webkit-keyframes bounceInLowTwo {
+    from,
+    5%,
+    10%,
+    15%,
+    30%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(1, 1, 1);
+        animation-timing-function: cubic-bezier(1, 1, 1);
+    }
+    0% {
+        opacity: 0.2;
+        -webkit-transform: scale3d(2.5, 2.5, 2.5);
+        transform: scale3d(2.5, 2.5, 2.5);
+    }
+    5% {
+        opacity: 0.4;
+        -webkit-transform: scale3d(2, 2, 2);
+        transform: scale3d(2, 2, 2);
+    }
+    10% {
+        opacity: 0.6;
+        -webkit-transform: scale3d(1.5, 1.5, 1.5);
+        transform: scale3d(1.5, 1.5, 1.5);
+    }
+    15% {
+        opacity: 0.8;
+        -webkit-transform: scale3d(1.2, 1.2, 1.2);
+        transform: scale3d(1.2, 1.2, 1.2);
+    }
+    30% {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        left: 104px;
+        top: 5px;
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        left: 69px;
+        top: -40px;
+    }
+}
+
+@keyframes bounceInLowTwo {
+    from,
+    5%,
+    10%,
+    15%,
+    30%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(1, 1, 1);
+        animation-timing-function: cubic-bezier(1, 1, 1);
+    }
+    0% {
+        opacity: 0.2;
+        -webkit-transform: scale3d(2.5, 2.5, 2.5);
+        transform: scale3d(2.5, 2.5, 2.5);
+    }
+    5% {
+        opacity: 0.4;
+        -webkit-transform: scale3d(2, 2, 2);
+        transform: scale3d(2, 2, 2);
+    }
+    10% {
+        opacity: 0.6;
+        -webkit-transform: scale3d(1.5, 1.5, 1.5);
+        transform: scale3d(1.5, 1.5, 1.5);
+    }
+    15% {
+        opacity: 0.8;
+        -webkit-transform: scale3d(1.2, 1.2, 1.2);
+        transform: scale3d(1.2, 1.2, 1.2);
+    }
+    30% {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        left: 104px;
+        top: 5px;
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        left: 69px;
+        top: -40px;
+    }
+}
+
+.bounceInLowThree {
+    -webkit-animation: bounceInLowThree 800ms;
+    animation: bounceInLowThree 800ms;
+}
+
+@-webkit-keyframes bounceInLowThree {
+    from,
+    5%,
+    10%,
+    15%,
+    30%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(1, 1, 1);
+        animation-timing-function: cubic-bezier(1, 1, 1);
+    }
+    0% {
+        opacity: 0.2;
+        -webkit-transform: scale3d(2.5, 2.5, 2.5);
+        transform: scale3d(2.5, 2.5, 2.5);
+    }
+    5% {
+        opacity: 0.4;
+        -webkit-transform: scale3d(2, 2, 2);
+        transform: scale3d(2, 2, 2);
+    }
+    10% {
+        opacity: 0.66;
+        -webkit-transform: scale3d(1.5, 1.5, 1.5);
+        transform: scale3d(1.5, 1.5, 1.5);
+    }
+    15% {
+        opacity: 0.8;
+        -webkit-transform: scale3d(1.2, 1.2, 1.2);
+        transform: scale3d(1.2, 1.2, 1.2);
+    }
+    30% {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        left: 104px;
+        top: 5px;
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        left: 124px;
+        top: -40px;
+    }
+}
+
+@keyframes bounceInLowThree {
+    from,
+    5%,
+    10%,
+    15%,
+    30%,
+    to {
+        -webkit-animation-timing-function: cubic-bezier(1, 1, 1);
+        animation-timing-function: cubic-bezier(1, 1, 1);
+    }
+    0% {
+        opacity: 0.2;
+        -webkit-transform: scale3d(2.5, 2.5, 2.5);
+        transform: scale3d(2.5, 2.5, 2.5);
+    }
+    5% {
+        opacity: 0.4;
+        -webkit-transform: scale3d(2, 2, 2);
+        transform: scale3d(2, 2, 2);
+    }
+    10% {
+        opacity: 0.6;
+        -webkit-transform: scale3d(1.5, 1.5, 1.5);
+        transform: scale3d(1.5, 1.5, 1.5);
+    }
+    15% {
+        opacity: 0.8;
+        -webkit-transform: scale3d(1.2, 1.2, 1.2);
+        transform: scale3d(1.2, 1.2, 1.2);
+    }
+    30% {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        left: 104px;
+        top: 5px;
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+        left: 124px;
+        top: -40px;
+    }
+}
+
+
+/*.goPositionOne{
+  -webkit-animation: positionOne 1s;
+  animation: positionOne 1s;
+}
+@-webkit-keyframes positionOne {
+  form{left:104px; top:5px;}
+  to{left:15px; top:-40px;}
+}
+@keyframes positionOne {
+  form{left:104px; top:5px;}
+  to{left:15px; top:-40px;}
+}
+
+.goPositionTwo{
+  -webkit-animation: positionTwo 1s;
+  animation: positionTwo 1s;
+}
+@-webkit-keyframes positionTwo {
+  form{left:104px; top:5px;}
+  to{left:69px; top:-40px;}
+}
+@keyframes positionTwo {
+  form{left:104px; top:5px;}
+  to{left:69px; top:-40px;}
+}
+
+.goPositionThree{
+  -webkit-animation: positionThree 1s;
+  animation: positionThree 1s;
+}
+@-webkit-keyframes positionThree {
+  form{left:104px; top:5px;}
+  to{left:123px; top:-40px;}
+}
+@keyframes positionThree {
+  form{left:104px; top:5px;}
+  to{left:123px; top:-40px;}
+}*/
+
+
+/*切换奖期动画*/
+
+.prize-up-move {
+    animation: upMoveAction 300ms linear;
+    -moz-animation: upMoveAction 300ms linear;
+    -webkit-animation: upMoveAction 300ms linear;
+    -o-animation: upMoveAction 300ms linear;
+}
+
+@keyframes upMoveAction {
+    from {
+        top: 197px;
+    }
+    to {
+        top: 0px;
+    }
+}
+
+@-webkit-keyframes upMoveAction {
+    from {
+        top: 197px;
+    }
+    to {
+        top: 0px;
+    }
+}
+
+.prize-up-move-miss {
+    animation: upMoveMissAction 300ms linear;
+    -moz-animation: upMoveMissAction 300ms linear;
+    -webkit-animation: upMoveMissAction 300ms linear;
+    -o-animation: upMoveMissAction 300ms linear;
+}
+
+@keyframes upMoveMissAction {
+    from {
+        top: 0px;
+    }
+    to {
+        top: -197px;
+    }
+}
+
+@-webkit-keyframes upMoveMissAction {
+    from {
+        top: 0px;
+    }
+    to {
+        top: -197px;
+    }
+}
+
+.prize-down-move {
+    animation: downMoveAction 300ms linear;
+    -moz-animation: downMoveAction 300ms linear;
+    -webkit-animation: downMoveAction 300ms linear;
+    -o-animation: downMoveAction 300ms linear;
+}
+
+@keyframes downMoveAction {
+    from {
+        top: -197px;
+    }
+    to {
+        top: 0px;
+    }
+}
+
+@-webkit-keyframes downMoveAction {
+    from {
+        top: -197px;
+    }
+    to {
+        top: 0px;
+    }
+}
+
+.prize-down-move-miss {
+    animation: downMoveMissAction 300ms linear;
+    -moz-animation: downMoveMissAction 300ms linear;
+    -webkit-animation: downMoveMissAction 300ms linear;
+    -o-animation: downMoveMissAction 300ms linear;
+}
+
+@keyframes downMoveMissAction {
+    from {
+        top: 0px;
+    }
+    to {
+        top: 197px;
+    }
+}
+
+@-webkit-keyframes downMoveMissAction {
+    from {
+        top: 0px;
+    }
+    to {
+        top: 197px;
+    }
+}
+
+
+
+/*报表样式开始*/
+
+.r-zz {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    top: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.r-allday,
+.r-history,
+.r-kjjg,
+.r-introduce {
+    z-index: 1000;
+}
+
+.r-allday,
+.r-history,
+.r-kjjg,
+.r-introduce {
+    display: none;
+    border: 1px solid #96c0bd;
+    width: 980px;
+    height: 620px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: white;
+}
+
+.r-allday .r-error {
+    line-height: 100px;
+    text-align: center;
+    /* background-color: white; */
+    font-size: 14px;
+}
+
+.r-allday .r-main {
+    width: 908px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.r-allday .r-main .main-top {
+    font-size: 16px;
+    height: 70px;
+    line-height: 70px;
+    margin-top: 1px;
+}
+
+.r-allday .r-main .main-mid {
+    height: 40px;
+    /* line-height: 59px; */
+    padding-top: 4px;
+    margin-bottom: 10px;
+}
+
+.r-allday .r-main .main-mid h5 {
+    margin: 0;
+    padding: 0;
+    float: left;
+    margin-top: 8px;
+}
+
+.r-allday .r-main .main-mid li {
+    float: left;
+    text-align: center;
+    /* width: 13%; */
+    line-height: 28px;
+    display: inline-block;
+    margin-right: 12px;
+}
+
+/*.r-allday .r-main .main-mid .one {*/
+    /*width: 265px;*/
+    /*height: 34px;*/
+    /*position: relative;*/
+    /*margin-top: 7px;*/
+/*}*/
+
+/*.r-allday .r-main .main-mid .one input {*/
+    /*padding: 0 28px 0 10px;*/
+    /*width: 219px;*/
+    /*cursor: pointer;*/
+    /*border-radius: 5px;*/
+    /*border: 1px solid #96c0bd;*/
+    /*outline: none;*/
+/*}*/
+
+/*.r-allday .r-main .main-mid .one i {*/
+    /*position: absolute;*/
+    /*bottom: 10px;*/
+    /*right: 15px;*/
+    /*top: auto;*/
+    /*cursor: pointer;*/
+    /*background: url("/assets/images/lucky28/date-ico.png") no-repeat;*/
+    /*display: block;*/
+    /*width: 16px;*/
+    /*height: 16px;*/
+/*}*/
+.r-allday .r-main .main-mid .mid-1{
+
+}
+
+.r-allday .r-main .main-mid .mid-2{
+
+}
+.r-allday .r-main .main-mid .mid-2 input,.r-allday .r-main .main-mid .mid-4 input{
+    padding: 0 22px;
+    width: 160px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #96c0bd;
+    outline: none;
+    text-align: left;
+}
+
+.r-allday .r-main .main-mid .mid-3{
+
+}
+
+.r-allday .r-main .main-mid .mid-4{
+
+}
+
+.r-allday .r-main .main-mid .mid-5,.r-allday .r-main .main-mid .mid-6,.r-allday .r-main .main-mid .mid-7,.r-allday .r-main .main-mid .mid-8{
+    font-size:16px;
+    margin:0 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #a6a6a6;
+
+}
+.r-allday .r-main .main-mid .mid-5:hover,.r-allday .r-main .main-mid .mid-6:hover,.r-allday .r-main .main-mid .mid-7:hover,.r-allday .r-main .main-mid .mid-8:hover{
+    color:gray;
+    border-bottom: 1px solid gray;
+
+}
+
+.r-allday .r-main .main-mid .mid-6{
+
+}
+
+.r-allday .r-main .main-mid .mid-7{
+
+}
+
+.r-allday .r-main .main-mid .mid-8{
+
+}
+
+.r-allday .r-main .main-mid .six {
+    width: 108px;
+    height: 30px;
+    background: url("/assets/images/lucky28/r-search.png") no-repeat;
+    float: right;
+    cursor: pointer;
+}
+
+.r-allday .r-main .main-bot {
+    width: 100%;
+    height: 460px;
+}
+
+.r-allday .r-main .main-bot .bot-l {
+    height: 460px;
+    width: 100%;
+    border: 1px solid #96c0bd;
+    border-radius: 5px;
+}
+
+.r-allday .r-main .main-bot .bot-l .bottom {
+    overflow: auto;
+    height: 413px;
+    width: 100%;
+}
+.r-allday .r-main .main-bot .bot-l .bottom::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+}
+
+.r-allday .r-main .main-bot .bot-l .bottom::-webkit-scrollbar-button {
+    display: none;
+}
+
+.r-allday .r-main .main-bot .bot-l .bottom::-webkit-scrollbar-track {
+    display: none;
+}
+
+.r-allday .r-main .main-bot .bot-l .bottom::-webkit-scrollbar-thumb {
+    background: #96c0bd;
+    border-radius: 10px;
+}
+
+.r-allday .r-main .main-bot .bot-l .bottom::-webkit-scrollbar-corner {
+    background: #82AFFF;
+}
+
+.r-allday .r-main .main-bot .bot-l .bottom::-webkit-scrollbar-resizer {
+    background: #FF0BEE;
+}
+
+.r-allday .r-main .main-bot .bot-l .bottom ul{
+    float: left;
+}
+.r-allday .r-main .main-bot .bot-l .bottom .r-error{
+    line-height: 100px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.r-allday .r-main .main-bot .bot-l .bottom .num-1 {
+    width: 181px;
+}
+
+.r-allday .r-main .main-bot .bot-l .bottom .num-2 {
+    width: 181px;
+    text-align: right;
+    padding-right: 45px;
+}
+
+.r-allday .r-main .main-bot .bot-l .bottom .num-3 {
+    width: 181px;
+    text-align: right;
+    padding-right: 45px;
+}
+
+.r-allday .r-main .main-bot .bot-l .bottom .num-4 {
+    width: 181px;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.r-allday .r-main .main-bot .bot-l .bottom .num-5 {
+    /*width: 152px;*/
+}
+
+.r-allday .r-main .main-bot .bot-l .bottom li {
+    text-align: center;
+    float: left;
+    line-height: 40px;
+}
+
+.r-allday .r-main .main-bot .bot-l .title {
+    font-size: 14px;
+    height: 44px;
+}
+
+.r-allday .r-main .main-bot .bot-l .title .num-1 {
+    width: 181px;
+}
+
+.r-allday .r-main .main-bot .bot-l .title .num-2 {
+    width: 181px;
+}
+
+.r-allday .r-main .main-bot .bot-l .title .num-3 {
+    width: 181px;
+}
+
+.r-allday .r-main .main-bot .bot-l .title .num-4 {
+    width: 181px;
+}
+
+.r-allday .r-main .main-bot .bot-l .title .num-5 {
+    width: 181px;
+}
+
+.r-allday .r-main .main-bot .bot-l .title li {
+    text-align: center;
+    float: left;
+    line-height: 45px;
+}
+
+.r-allday .r-main .main-bot .bot-l ul .r-cz {
+    width: 90px;
+    float: right;
+}
+
+.r-allday .r-main .main-bot .bot-l ul .r-xq {
+    background: url("/assets/images/lucky28/r-xq.png") no-repeat center;
+    display: inline-block;
+    width: 65px;
+    height: 30px;
+    float: right;
+    margin-top: 5px;
+    margin-left: 58px;
+    cursor: pointer;
+}
+
+.r-history .r-error {
+    line-height: 100px;
+    text-align: center;
+}
+
+.r-history .all-cp {
+    background: white;
+    border-radius: 5px;
+    outline: none;
+    padding: 3px 13px;
+    cursor: pointer;
+    margin-top: 3px;
+    border:1px solid #96c0bd;
+}
+
+.r-history .l .num-3 {
+    text-align: left;
+}
+
+.r-history h1,
+.r-history h2,
+.r-history h3,
+.r-history h4,
+.r-history h5 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+.r-history .r-a {
+    width: 908px;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.r-history .r-a .a-1 {
+    height: 70px;
+    line-height: 70px;
+    margin-top: 1px;
+}
+
+.r-history .r-a .a-1 h5 {
+    float: left;
+    font-size: 16px;
+    line-height: 70px;
+    margin: 0;
+    padding: 0;
+}
+
+.r-history .r-a .a-1 span {
+    width: 78px;
+    height: 30px;
+    background: url("/assets/images/lucky28/return.png") no-repeat center;
+    float: left;
+    margin: 19px 0 0 19px;
+    cursor: pointer;
+}
+
+.r-history .r-a .a-2 {
+    height: 46px;
+    line-height: 46px;
+    margin-bottom: 9px;
+}
+
+.r-history .r-a .a-2 .r-cp {
+    margin-right: 0;
+}
+
+.r-history .r-a .a-2 label {
+    cursor: pointer;
+}
+
+.r-history .r-a .a-2 label input {
+    display: none;
+}
+
+.r-history .r-a .a-2 .check {
+    width: 14px;
+    height: 14px;
+    background: url(check.png) no-repeat;
+    float: left;
+    display: block;
+    margin-top: 15px;
+    margin-right: 4px;
+}
+
+.r-history .r-a .a-2 .checkin {
+    width: 14px;
+    height: 14px;
+    background: url(checkin.png) no-repeat;
+    float: left;
+    display: block;
+    margin-top: 15px;
+    margin-right: 4px;
+}
+
+.r-history .r-a .a-2 .last {
+    width: 108px;
+    z-index: 2;
+    height: 46px;
+    margin-right: 0;
+    background: url("/assets/images/lucky28/search.png") no-repeat center;
+    float: right;
+    cursor: pointer;
+}
+
+.r-history .r-a .a-2 li {
+    float: left;
+    margin-right: 20px;
+}
+
+.r-history .r-a .a-3 {
+    width: 100%;
+}
+
+.r-history .r-a .a-3 .num-1 {
+    width: 164px;
+}
+
+.r-history .r-a .a-3 .num-2 {
+    width: 50px;
+}
+
+.r-history .r-a .a-3 .num-3 {
+    width: 90px;
+}
+
+.r-history .r-a .a-3 .num-4 {
+    width: 121px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.r-history .r-a .a-3 .num-5 {
+    width: 90px;
+}
+
+.r-history .r-a .a-3 .num-6 {
+    width: 70px;
+}
+
+.r-history .r-a .a-3 .num-7 {
+    width: 84px;
+}
+
+.r-history .r-a .a-3 .num-8 {
+    width: 89px;
+}
+
+.r-history .r-a .a-3 .num-9 {
+    width: 66px;
+}
+
+.r-history .r-a .a-3 .num-10 {
+    width: 100px;
+}
+
+.r-history .r-a .a-3 .num-10 .cancel,
+.r-history .r-a .a-3 .num-10 .confirm {
+    width: 77px;
+    height: 30px;
+    margin-top: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.r-history .r-a .a-3 .num-10 .cancel {
+    background: url("/assets/images/lucky28/cancel.png") no-repeat center;
+    /*1*/
+}
+
+.r-history .r-a .a-3 .num-10 .confirm {
+    background: url("/assets/images/lucky28/confirm-cd.png") no-repeat center;
+}
+
+.r-history .r-a .a-3 li {
+    text-align: center;
+    float: left;
+}
+
+.r-history .r-a .a-3 .a3-1 {
+    width: 100%;
+    border: 1px solid #96c0bd;
+    overflow: hidden;
+    border-bottom: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 15px;
+}
+
+.r-history .r-a .a-3 .a3-1 li {
+    line-height: 48px;
+}
+
+.r-history .r-a .a-3 .a3-2 {
+    width: 100%;
+    height: 410px;
+    overflow-y: auto;
+    border: 1px solid #96c0bd;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.r-history .r-a .a-3 .a3-2 .l {
+    font-size: 13px;
+    width: 100%;
+    border-top: none;
+}
+
+.r-history .r-a .a-3 .a3-2 .l .num-3 {
+    text-align: left;
+}
+
+.r-history .r-a .a-3 .a3-2 .l .num-7,
+.r-history .r-a .a-3 .a3-2 .l .num-8 {
+    text-align: right;
+    padding-right: 6px;
+}
+
+.r-history .r-a .a-3 .a3-2 .l ul {
+    height: 40px;
+    overflow: hidden;
+}
+
+.r-history .r-a .a-3 .a3-2 .l ul li {
+    line-height: 40px;
+    height: 40px;
+}
+
+.record-panel .r-dateico {
+    cursor: pointer;
+    background: url("/assets/images/lucky28/date-ico.png") no-repeat;
+    display: block;
+    width: 16px;
+    height: 16px;
+}
+
+.r-kjjg .r-error {
+    text-align: center;
+    border-top: 1px solid #96c0bd;
+    line-height: 44px;
+}
+
+.r-kjjg h5 {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.r-kjjg input {
+    margin: 0;
+    padding: 0;
+}
+
+.r-kjjg .all-cp {
+    background: white;
+    border-radius: 5px;
+    outline: none;
+    padding: 3px 13px;
+    cursor: pointer;
+    margin-top: 3px;
+    border: 1px solid #96c0bd;
+}
+
+.r-kjjg .r-main {
+    width: 908px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.r-kjjg .r-main .main-top,
+.r-kjjg .r-main .main-mid {
+    width: 100%;
+    height: 45px;
+}
+
+.r-kjjg .r-main .main-top {
+    font-size: 16px;
+    height: 70px;
+    line-height: 70px;
+    margin-top: 1px;
+}
+
+.r-kjjg .r-main .main-mid {
+    height: 46px;
+    line-height: 46px;
+    margin-bottom: 9px;
+}
+
+.r-kjjg .r-main .main-mid h5 {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.r-kjjg .r-main .main-mid input {
+    height: 27px;
+    display: inline-block;
+}
+
+.r-kjjg .r-main .main-mid li {
+    float: left;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 34px;
+    height: 34px;
+}
+
+.r-kjjg .r-main .main-mid .r-kjjq {
+    background: white;
+    border-radius: 5px;
+    outline: none;
+    padding: 3px 13px;
+    cursor: pointer;
+    /* margin-top: 3px; */
+    line-height: 24px;
+    border: 1px solid #96c0bd;
+}
+
+.r-kjjg .r-main .main-mid .one {
+    width: 265px;
+    height: 34px;
+    position: relative;
+    line-height: 35px;
+}
+
+.r-kjjg .r-main .main-mid .one input {
+    padding: 0 28px 0 10px;
+    width: 160px;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    outline: none;
+    line-height: 24px;
+    border: 1px solid #96c0bd;
+}
+
+.r-kjjg .r-main .main-mid .one i {
+    position: absolute;
+    bottom: 8px;
+    right: 37px;
+    top: auto;
+    cursor: pointer;
+    background: url("/assets/images/lucky28/date-ico.png") no-repeat;
+    display: block;
+    width: 16px;
+    height: 16px;
+}
+
+.r-kjjg .r-main .main-mid .six {
+    width: 108px;
+    height: 30px;
+    background: url("/assets/images/lucky28/r-search.png") no-repeat;
+    float: right;
+    cursor: pointer;
+    margin-right: 0;
+    margin-top: 8px;
+}
+
+.r-kjjg .r-main .main-bot {
+    width: 100%;
+    height: 460px;
+}
+
+.r-kjjg .r-main .main-bot .bot-l {
+    height: 460px;
+    width: 100%;
+    border: 1px solid #96c0bd;
+    border-radius: 5px;
+}
+
+.r-kjjg .r-main .main-bot .bot-l .bottom {
+    overflow: auto;
+    height: 400px;
+}
+.r-kjjg .r-main .main-bot .bot-l .bottom .hezhi{
+    text-align: right;
+    padding-right: 56px;
+}
+
+.r-kjjg .r-main .main-bot .bot-l .bottom::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+}
+
+.r-kjjg .r-main .main-bot .bot-l .bottom::-webkit-scrollbar-button {
+    display: none;
+}
+
+.r-kjjg .r-main .main-bot .bot-l .bottom::-webkit-scrollbar-track {
+    display: none;
+}
+
+.r-kjjg .r-main .main-bot .bot-l .bottom::-webkit-scrollbar-thumb {
+    background: #96c0bd;
+    border-radius: 10px;
+}
+
+.r-kjjg .r-main .main-bot .bot-l .bottom::-webkit-scrollbar-corner {
+    background: #82AFFF;
+}
+
+.r-kjjg .r-main .main-bot .bot-l .bottom::-webkit-scrollbar-resizer {
+    background: #FF0BEE;
+}
+
+
+.r-kjjg .r-main .main-bot .bot-l .title {
+    font-size: 15px;
+}
+
+.r-kjjg .r-main .main-bot .bot-l ul {
+    width: 100%;
+    height: 40px;
+}
+
+.r-kjjg .r-main .main-bot .bot-l ul .r-cz {
+    width: 90px;
+    float: right;
+}
+
+.r-kjjg .r-main .main-bot .bot-l ul .r-xq {
+    background: url("/assets/images/lucky28/r-xq.png") no-repeat center;
+    display: inline-block;
+    width: 90px;
+    height: 30px;
+    float: right;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.r-kjjg .r-main .main-bot .bot-l ul li {
+    width: 126px;
+    text-align: center;
+    float: left;
+    line-height: 40px;
+}
+
+.r-introduce .title {
+    font-size: 16px;
+    font-weight: normal;
+    color: #676767;
+    height: 52px;
+    line-height: 32px;
+    background: url(/assets/images/help/row-title-bg.gif) 0 bottom no-repeat;
+    padding: 15px 0 10px 0;
+    width: 863px;
+    margin: 0 auto 15px auto;
+}
+
+.r-introduce .row-text {
+    margin: 0 auto;
+    height: 505px;
+    width: 863px;
+    overflow: auto;
+    padding-right: 30px;
+}
+.r-introduce .row-text p{
+    margin: 0;
+}
+
+.r-introduce .row-text::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+
+}
+
+.r-introduce .row-text::-webkit-scrollbar-button {
+    display: none;
+}
+
+.r-introduce .row-text::-webkit-scrollbar-track {
+    display: none;
+}
+
+.r-introduce .row-text::-webkit-scrollbar-thumb {
+    background: #96c0bd;
+    border-radius: 10px;
+}
+
+.r-introduce .row-text::-webkit-scrollbar-corner {
+    background: #82AFFF;
+}
+
+.r-introduce .row-text::-webkit-scrollbar-resizer {
+    background: #FF0BEE;
+}
+
+
+.r-introduce ul {
+    margin-bottom: 0 !important;
+    /*3*/
+}
+
+.r-introduce h5 {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.r-introduce input {
+    margin: 0;
+    padding: 0;
+}
+
+.r-introduce .r-main {
+    width: 865px;
+    height: 550px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.r-introduce .r-main .main-top,
+.r-introduce .r-main .main-mid {
+    width: 845px;
+    height: 45px;
+}
+
+.r-introduce .r-main .main-mid h5 {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.r-introduce .r-main .main-mid input {
+    height: 27px;
+    display: inline-block;
+}
+
+.r-introduce .r-main .main-mid li {
+    float: left;
+    text-align: center;
+    margin: 0 10px;
+    line-height: 34px;
+    height: 34px;
+}
+
+.r-introduce .r-main .main-mid .one {
+    width: 265px;
+    height: 34px;
+    position: relative;
+    line-height: 35px;
+}
+
+.r-introduce .r-main .main-mid .one input {
+    padding: 0 28px 0 10px;
+    width: 160px;
+    cursor: pointer;
+}
+
+.r-introduce .r-main .main-mid .one i {
+    position: absolute;
+    bottom: 8px;
+    right: 37px;
+    top: auto;
+    cursor: pointer;
+    background: url("/assets/images/lucky28/date-ico.png") no-repeat;
+    display: block;
+    width: 16px;
+    height: 16px;
+}
+
+.r-introduce .r-main .main-mid .six {
+    width: 108px;
+    height: 30px;
+    background: url("/assets/images/lucky28/r-search.png") no-repeat;
+    float: right;
+    cursor: pointer;
+}
+
+.r-introduce .r-main .main-bot {
+    width: 100%;
+    height: 460px;
+    overflow-y: auto;
+}
+
+.r-introduce .r-main .main-bot .bot-l {
+    width: 843px;
+    border: 1px solid #96c0bd;
+}
+
+.r-introduce .r-main .main-bot .bot-l ul {
+    width: 100%;
+    height: 44px;
+}
+
+.r-introduce .r-main .main-bot .bot-l ul .r-cz {
+    width: 90px;
+    float: right;
+}
+
+.r-introduce .r-main .main-bot .bot-l ul .r-xq {
+    background: url("/assets/images/lucky28/r-xq.png") no-repeat center;
+    display: inline-block;
+    width: 90px;
+    height: 30px;
+    float: right;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.r-introduce .r-main .main-bot .bot-l ul li {
+    width: 14%;
+    text-align: center;
+    float: left;
+    line-height: 44px;
+}
+
+
+/*报表样式结束*/
+
+.ie-tips{
+    width: 100%;
+    height: 100%;
+    display: none;
+    margin: 0 auto;
+}
+
+.up-ie-panel{
+    width: 100%;
+    height: 765px;
+    background-color: #3890d3;
+}
+
+.down-ie-panel{
+    width: 100%;
+    height: auto;
+}
+
+.browser-box{
+    margin: 0 auto;
+    width: 1100px;
+    height: 765px;
+    background: url('browser-img.png') no-repeat;
+}
+
+.browser-box ul{
+    display: inline-block;
+    margin-top: 195px;
+    margin-left: 395px;
+}
+
+.browser-box span{
+    display: inline-block;
+    margin-bottom: 2px;
+    height: 45px;
+    line-height: 45px;
+    width: 900px;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    color: #9a603b;
+    cursor: pointer;
+}
+
+.browser-box span:hover{
+    font-size: 18px;
+}
+

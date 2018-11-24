@@ -1,0 +1,1 @@
+../../../app/lang/zh-CN/_sys_model_columns.php

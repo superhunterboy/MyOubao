@@ -1,0 +1,158 @@
+
+
+body{
+    background: url(/assets/images/lucky28-ad/bg.jpg);
+}
+.r-main{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.a{
+    background:url(/assets/images/lucky28-ad/1.jpg)  center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:870px;
+    position: relative;
+}
+.a .a1{
+    display: block;
+    width: 100%;
+    height: 64px;
+    position: absolute;
+    bottom: 162px;
+}
+.a .a1 a{
+    width: 205px;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    outline: none;
+}
+.b{
+    background:url(/assets/images/lucky28-ad/2.jpg)  center center no-repeat;
+    background-size: cover;
+    width: 992px;
+    height:805px;
+    margin:0 auto;
+    position: relative;
+
+}
+.b .b1{
+    display: block;
+    width: 100%;
+    height: 52px;
+    position: absolute;
+    bottom: 0;
+}
+.b .b1 a{
+    width: 152px;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    outline: none;
+}
+.c{
+    background:url(/assets/images/lucky28-ad/3.jpg)  center center no-repeat;
+    background-size: cover;
+    width: 992px;
+    height:749px;
+    margin:0 auto;
+    position: relative;
+
+}
+.c .c1{
+    display: block;
+    width: 100%;
+    height: 52px;
+    position: absolute;
+    bottom: 2px;
+}
+.c .c1 a{
+    width: 152px;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    outline: none;
+}
+.d{
+    background:url(/assets/images/lucky28-ad/4.jpg)  center center no-repeat;
+    background-size: cover;
+    width: 992px;
+    height:564px;
+    margin:0 auto;
+    position: relative;
+
+}
+.d .d1{
+    display: block;
+    width: 100%;
+    height: 52px;
+    position: absolute;
+    bottom: 52px;
+}
+.d .d1 a{
+    width: 152px;
+    height: 100%;
+    /* margin: 0 auto; */
+    display: block;
+    cursor: pointer;
+    margin-left: 569px;
+    outline: none;
+}
+.e {
+    background: url(/assets/images/lucky28-ad/5.jpg)  center center no-repeat;
+    background-size: cover;
+    width: 992px;
+    height: 634px;
+    margin:0 auto;
+    position: relative;
+}
+.e .e1{
+    display: block;
+    width: 100%;
+    height: 52px;
+    position: absolute;
+    bottom: 68px;
+}
+.e .e1 a{
+    width: 152px;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    outline: none;
+}
+.f{
+    background:url(/assets/images/lucky28-ad/6.jpg)  center center no-repeat;
+    background-size: cover;
+    width: 992px;
+    height:601px;
+    margin:0 auto;
+}
+.g{
+    background:url(/assets/images/lucky28-ad/7.jpg)  center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:549px;
+    position: relative;
+
+}
+.g .g1{
+    display: block;
+    width: 100%;
+    height: 64px;
+    position: absolute;
+    bottom: 269px;
+}
+.g .g1 a{
+    width: 205px;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    outline: none;
+}

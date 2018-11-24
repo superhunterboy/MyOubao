@@ -1,0 +1,33 @@
+<?php
+return array (
+
+    'user_id' => '用户名',
+    'parent_project_id'=>'主注单ID',
+    'lottery_id' => '游戏名',
+    'table_id' => '桌号',
+    'stage_id'=>'台号',
+    'method_id' => '玩法',
+    'way_id' => '投注方式',
+    'player_number' => '闲家牌',
+    'banker_number' => '庄家牌',
+    'prize' => '奖金',
+    'amount'=> '投注额',
+    'serial_number' => '注单编号',
+    'status' => '状态',
+    'status_commission'=>'返点状态',
+    'status_prize'=>'派奖状态',
+    'created_at' => '创建时间',
+    'updated_at' => '更新时间',
+    'username' => '用户名',
+    'auto_finished'=>'自动完成',
+    'canceled' => '取消',
+    'finished' => '完成',
+    'normal' => '等待中',
+    'lost' => '输牌',
+    'counted' => '赢牌',
+    'waiting'=>'等待中',
+    'sending'=>'进行中',
+    'done' => '完成',
+    'is_tester'=>'测试帐号',
+
+);
